@@ -49,7 +49,7 @@ python scripts/download_data.py    # downloads KuaiRec (~430 MB zip) into data/r
 
 | Name | Owns |
 | --- | --- |
-| @Selmane | |
+| Imad Eddine Djehlane| |
 | | |
 | | |
 | | |

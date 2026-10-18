@@ -81,7 +81,7 @@ We only load three columns: `user_id`, `video_id`, `watch_ratio`, stored as comp
 
 - **Why:** 12.5 M rows is too slow to tune on a laptop. **Downsampling** means working on a smaller, representative slice. Target: about **1 M training rows**.
 - **What we do (spec, with the fix below):**
-  1. Keep only the 3,327 videos that appear in the small matrix. The model only needs to know videos we can test on.
+  1. ~~Keep only the 3,327 videos that appear in the small matrix.~~ Replaced by spec fix #3 below.
   2. Sample **whole users, not random rows**, so each user's viewing history stays intact. (Sampling random rows would give the model scattered fragments of each person's taste.)
   3. Fixed **random seed** (`random_state=42`): the "random" draw is the same every time anyone runs it, so results are reproducible.
   4. Save to `data/processed/` as **Parquet** files (a compressed, fast table format; think "CSV, but 5–10× smaller and faster to load").
@@ -103,8 +103,14 @@ We only load three columns: `user_id`, `video_id`, `watch_ratio`, stored as comp
 > - **Test** (~500 users) → `test.parquet`. Touched **once**, at the end, for the numbers in the report.
 > Both groups' big-matrix histories go into training (fix #1). No extra compute: it's the same data, just labelled differently.
 
-- **Output:** `data/processed/train.parquet`, `val.parquet`, `test.parquet`.
-- **Done when:** train ≈ 1 M rows; every val/test user appears in train; zero overlapping (user, video) pairs.
+> **⚠ Spec fix #3: training keeps all videos, not just the 3,327.**
+> Found while testing `src/sample.py`. The small matrix is 99.6% filled, so whenever an evaluation user watched a small-matrix video in the big matrix, that same (user, video) pair is almost certainly a test pair too, and the leakage check removes it. If training also kept only small-matrix videos, evaluation users would end up with **no training history at all**.
+>
+> **Fix:** training keeps every video. Evaluation users' taste is learned from the *other* videos they watched. The small-matrix videos are learned from the other training users, who always get at least half of the row budget. Recommendations, grading, the simulation and the re-ranker still use only the 3,327 small-matrix videos.
+
+- **Run it:** `python src/sample.py` (options: `--train-rows`, `--n-test`, `--n-val`, `--seed`). The script also removes broken rows (infinite watch ratios) and merges repeat watches of the same video into one row (their average).
+- **Output:** `data/processed/train.parquet`, `val.parquet`, `test.parquet`, plus a printed summary comparing the sample with the full data.
+- **Done when:** the script finishes. It checks automatically that every val/test user appears in train, that there are zero overlapping (user, video) pairs, and how many small-matrix videos appear in train.
 
 ### Step 1.2 Check the sample is representative
 
@@ -259,6 +265,7 @@ This creates the **feedback loop** we want to study: you watch cooking → profi
 | 2 | Downsampling | ~1 M train rows, whole users, seed 42 | Spec |
 | 3 | Test users in training data | Yes: their big-matrix history goes into train | **Spec fix #1** |
 | 4 | Separate validation users | Yes: ~300 val + ~500 test small-matrix users | **Spec fix #2** |
+| 4b | Training videos | All videos (only users are sampled) | **Spec fix #3** |
 | 5 | Simulated user | Fold-in, 20–30 rounds, 50–100 starting videos averaged | Spec + plan |
 | 6 | Engagement objective in Act 3 | Actual watch ratio (not predicted) | **Plan proposal** |
 | 7 | Category definition | First-level category | Phase 1 |

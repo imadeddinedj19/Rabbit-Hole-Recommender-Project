@@ -1,0 +1,15 @@
+{
+  "starts": 100,
+  "rounds": 30,
+  "unique_categories_round_1": 6.29,
+  "unique_categories_round_30": 5.82,
+  "drop": 0.47,
+  "overlap_between_users_round_1": 0.953,
+  "overlap_between_users_round_30": 0.646,
+  "overlap_with_anonymous_feed_round_1": 0.97,
+  "overlap_with_anonymous_feed_round_30": 0.0,
+  "distinct_videos_in_all_feeds": 59,
+  "random_top10_categories": 7.6,
+  "verdict": "flat",
+  "rule": "narrows: drop >= 2 categories and users' feeds overlap < 50% at the end; flat: |drop| < 1 and overlap >= 50%; otherwise mixed"
+}

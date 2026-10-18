@@ -1,6 +1,6 @@
 # Act 1 Findings: The Model Doesn't Beat Popularity (Yet)
 
-**Status:** Phase 2 is paused before step 2.5 (the final test). The test users have not been used. **The team needs to make a decision** before we continue.
+**Status:** decided. The Act 2 pilot showed a flat feed, so we chose **option A** (keep the metric, report the tie honestly, change the story). Step 2.5 is done: final test results are [at the end of this document](#final-test-results-step-25). The pilot is in [`04_act2_pilot.md`](04_act2_pilot.md).
 
 ---
 
@@ -117,6 +117,25 @@ We don't know yet which it is. That's why the first step below is a quick test.
 - **If the feed is flat from the start:** choose **A**. The story becomes "the watch-time recommender gives everyone the same short clips", and Act 3 is about restoring variety for the whole platform.
 
 ---
+
+## Final test results (step 2.5)
+
+**What we found:** on the 500 test users, used once, the result is the same as on validation. The model and popularity tie.
+
+| Approach | Prediction error (RMSE) | Liked videos in the top 10 (Precision@10) | Ranking quality (nDCG@10) |
+| --- | --- | --- | --- |
+| Our model (SVD) | **0.50** | 0.668 → **6.7 of 10** | 0.681 |
+| Popularity (same list for everyone) | 0.52 | 0.657 → **6.6 of 10** | 0.675 |
+| Guess the average for every video | 0.62 | 0.045 → 0.4 of 10 | 0.043 |
+
+**How to read it:**
+
+- **Liked videos in the top 10:** the model finds about 0.1 more liked video per list than popularity. That's roughly one extra liked video for every ten users. Too small to call a win.
+- **Ranking quality (0 to 1, higher is better):** 0.681 vs 0.675, a tie.
+- **Prediction error (lower is better):** the model's typical guess is off by 0.50 of a video, against 0.52 for popularity and 0.62 for guessing the average. The model is better at predicting *how much* someone will watch, but that doesn't change *which* videos make the top 10.
+- **Validation vs. test:** the numbers are almost the same on both groups of users. That's a good sign: our choice of settings on validation didn't "overfit" (it didn't only work for those particular users).
+
+**What it means for the report:** Act 1 now says "a personalized model trained on watch time ends up recommending what's popular", instead of "the model beats popularity". All numbers are in `results/act1_metrics.csv`.
 
 ## How to reproduce these numbers
 

@@ -145,7 +145,7 @@ We only load three columns: `user_id`, `video_id`, `watch_ratio`, stored as comp
 
 ## Phase 2: Act 1, the model works (weeks 2–3)
 
-> **Status:** steps 2.1–2.4 done. SVD ties popularity on the planned metric, so step 2.5 is on hold for a team decision. See [`03_act1_findings.md`](03_act1_findings.md).
+> **Status:** done. SVD ties popularity (6.7 vs 6.6 liked videos out of 10 on test users). We kept the metric and changed the story (option A). See [`03_act1_findings.md`](03_act1_findings.md).
 
 ### Step 2.1 Calibrate the timing
 
@@ -194,6 +194,8 @@ For each test user: score all ~3,300 videos, take the top 10 (excluding videos t
 ---
 
 ## Phase 3: Act 2, the rabbit hole appears (weeks 3–4)
+
+> **Status:** pilot done (`src/simulate.py`). The feed stays flat at ~6 categories and everyone gets a similar feed, so the story is homogenization rather than a personal rabbit hole. Next: a topic-loyal simulated user. See [`04_act2_pilot.md`](04_act2_pilot.md).
 
 ### Step 3.1 The simulated user (`src/simulate.py`)
 

@@ -12,7 +12,8 @@ We build a simplified TikTok-style recommender on the public [KuaiRec](https://g
 2. [`docs/PROJECT_SPEC.md`](docs/PROJECT_SPEC.md): the technical spec (sampling, compute budget, layout).
 3. [`docs/01_project_plan.md`](docs/01_project_plan.md): the step-by-step plan, written for non-specialists.
 4. [`docs/02_decisions_log.md`](docs/02_decisions_log.md): every cutoff and choice we make, with the reason.
-5. [`docs/03_act1_findings.md`](docs/03_act1_findings.md): Act 1 results so far, and the open decision on the relevance definition.
+5. [`docs/03_act1_findings.md`](docs/03_act1_findings.md): Act 1 results: the model ties with popularity, and why.
+6. [`docs/04_act2_pilot.md`](docs/04_act2_pilot.md): Act 2 pilot: the feed doesn't narrow, everyone gets a similar feed.
 
 ## Folder structure
 

@@ -3,6 +3,7 @@
 Usage (from the repo root, after src/sample.py):
     python src/model.py time        # step 2.1: time one fit, check the budget
     python src/model.py tune        # step 2.4: Optuna on the VALIDATION users
+    python src/model.py fit         # final fit only, saves the factors (no test users)
     python src/model.py evaluate    # step 2.5: final fit, graded ONCE on test
 
 What it does (see docs/01_project_plan.md, Phase 2):
@@ -279,12 +280,19 @@ def cmd_tune(train, val, test, n_trials):
     print(table.head().to_string(index=False))
 
 
-def cmd_evaluate(train, val, test):
-    """Step 2.5: final model with the best params, graded once on the test users."""
+def cmd_fit(train, val, test):
+    """Final model with the best params, saved for Acts 2 and 3. Doesn't use test users."""
     params = json.loads((RESULTS_DIR / "act1_best_params.json").read_text())
     print(f"Final fit with {params}")
     factors = Factors.from_surprise(fit_svd(train, params))
     factors.save(PROC_DIR / "svd_factors.npz")
+    print(f"Saved {(PROC_DIR / 'svd_factors.npz').relative_to(ROOT)}")
+    return factors
+
+
+def cmd_evaluate(train, val, test):
+    """Step 2.5: final model with the best params, graded once on the test users."""
+    factors = cmd_fit(train, val, test)
 
     models = {"SVD (matrix factorization)": svd_model(factors), **baseline_models(train)}
     tables = []
@@ -299,7 +307,7 @@ def cmd_evaluate(train, val, test):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawTextHelpFormatter)
-    parser.add_argument("command", choices=["time", "tune", "evaluate"])
+    parser.add_argument("command", choices=["time", "tune", "fit", "evaluate"])
     parser.add_argument("--trials", type=int, default=20, help="Optuna trials for `tune`")
     args = parser.parse_args()
 
@@ -309,6 +317,8 @@ def main():
         cmd_time(*splits)
     elif args.command == "tune":
         cmd_tune(*splits, n_trials=args.trials)
+    elif args.command == "fit":
+        cmd_fit(*splits)
     else:
         cmd_evaluate(*splits)
 

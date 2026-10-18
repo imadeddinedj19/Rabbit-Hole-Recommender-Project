@@ -6,4 +6,4 @@ matplotlib>=3.7
 seaborn>=0.13
 jupyter
 tqdm
-pyarrow       # parquet files
+pyarrow<26    # parquet files; 26+ needs numpy 2, which surprise can't use

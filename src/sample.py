@@ -14,12 +14,13 @@ What it does (see docs/01_project_plan.md, Phase 1):
        validation or test, so the model never sees the answers (no leakage).
     4. Save train.parquet, val.parquet, test.parquet in data/processed/.
 
-Why training keeps ALL videos (spec fix #3): the small matrix is almost
-full, so nearly every time an evaluation user watched a small-matrix video
-in the big matrix, that pair is also a test pair and step 3 removes it.
-Their taste can only be learned from the OTHER videos they watched. The
-small-matrix videos themselves are learned from the other training users.
-Recommendations and grading still use only the small-matrix videos.
+Why training keeps ALL videos (spec fix #3): KuaiRec's big matrix contains
+no rows at all for small-matrix users on small-matrix videos (the dataset
+holds them out by construction), so step 3 finds nothing to remove and
+stays only as a safety net. Evaluation users' taste can only be learned
+from the OTHER videos they watched. The small-matrix videos themselves are
+learned from the other training users. Recommendations and grading still
+use only the small-matrix videos.
 
 The watch ratio is NOT capped here. The cap is a modelling choice, applied
 in src/model.py once we have looked at the distribution.

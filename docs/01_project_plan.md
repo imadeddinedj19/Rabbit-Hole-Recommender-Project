@@ -104,7 +104,7 @@ We only load three columns: `user_id`, `video_id`, `watch_ratio`, stored as comp
 > Both groups' big-matrix histories go into training (fix #1). No extra compute: it's the same data, just labelled differently.
 
 > **⚠ Spec fix #3: training keeps all videos, not just the 3,327.**
-> Found while testing `src/sample.py`. The small matrix is 99.6% filled, so whenever an evaluation user watched a small-matrix video in the big matrix, that same (user, video) pair is almost certainly a test pair too, and the leakage check removes it. If training also kept only small-matrix videos, evaluation users would end up with **no training history at all**.
+> Found while testing `src/sample.py`, and confirmed on the real data in `notebooks/01_data.ipynb`. KuaiRec's authors already removed the small-matrix pairs from the big matrix: for the 1,411 small-matrix users, the big matrix has **zero** rows on the 3,327 small-matrix videos. (The first version of this note guessed that our leakage check would be what removes them. On the real data it removes nothing, because the dataset is built that way.) So if training kept only small-matrix videos, evaluation users would have **no training history at all**.
 >
 > **Fix:** training keeps every video. Evaluation users' taste is learned from the *other* videos they watched. The small-matrix videos are learned from the other training users, who always get at least half of the row budget. Recommendations, grading, the simulation and the re-ranker still use only the 3,327 small-matrix videos.
 
@@ -213,7 +213,7 @@ This creates the **feedback loop** we want to study: you watch cooking → profi
 
 ### Step 3.2 Run and plot
 
-- **Output:** line chart. X: round (1–30). Y: unique categories in the top 10.
+- **Output:** line chart. X: round (1–30). Y: unique categories in the top 10. Two reference lines: the maximum (10) and a random top 10 (≈7.6 categories, from `notebooks/01_data.ipynb`).
 - **Expected:** the line drops. **If it doesn't**, that's a real finding, and we report it honestly with an explanation.
 
 ---

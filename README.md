@@ -9,8 +9,9 @@ We build a simplified TikTok-style recommender on the public [KuaiRec](https://g
 ## Start here
 
 1. [`docs/00_project_proposal.md`](docs/00_project_proposal.md): the idea and the three-act story.
-2. [`docs/01_project_plan.md`](docs/01_project_plan.md): the step-by-step plan, written for non-specialists.
-3. [`docs/02_decisions_log.md`](docs/02_decisions_log.md): every cutoff and choice we make, with the reason.
+2. [`docs/PROJECT_SPEC.md`](docs/PROJECT_SPEC.md): the technical spec (sampling, compute budget, layout).
+3. [`docs/01_project_plan.md`](docs/01_project_plan.md): the step-by-step plan, written for non-specialists.
+4. [`docs/02_decisions_log.md`](docs/02_decisions_log.md): every cutoff and choice we make, with the reason.
 
 ## Folder structure
 
@@ -18,9 +19,13 @@ We build a simplified TikTok-style recommender on the public [KuaiRec](https://g
 ├── docs/            proposal, plan, decisions log
 ├── data/
 │   ├── raw/         KuaiRec files (downloaded, NOT on GitHub)
-│   └── processed/   cleaned data we create (NOT on GitHub)
-├── notebooks/       exploration and charts (01_eda, 02_model, 03_simulation, 04_optimization)
-├── src/             reusable Python code (loading, model, simulation, re-ranker)
+│   └── processed/   downsampled train/val/test parquet (NOT on GitHub)
+├── notebooks/       charts for the slides (01_data, 02_model, 03_simulation, 04_optimization)
+├── src/
+│   ├── sample.py    downsampling → train / val / test parquet files
+│   ├── model.py     SVD, tuning, evaluation
+│   ├── simulate.py  Act 2 fold-in simulation
+│   └── rerank.py    MMR re-ranker + Optuna
 ├── scripts/         one-off helpers, e.g. downloading the data
 ├── results/         final numbers (csv) and figures/ for the report and slides
 ├── report/          written report

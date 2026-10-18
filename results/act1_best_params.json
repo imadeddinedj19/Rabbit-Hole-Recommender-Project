@@ -1,0 +1,6 @@
+{
+  "n_factors": 20,
+  "lr_all": 0.00427,
+  "reg_all": 0.0446,
+  "n_epochs": 35
+}

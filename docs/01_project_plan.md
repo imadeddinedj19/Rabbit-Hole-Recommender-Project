@@ -145,6 +145,8 @@ We only load three columns: `user_id`, `video_id`, `watch_ratio`, stored as comp
 
 ## Phase 2: Act 1, the model works (weeks 2–3)
 
+> **Status:** steps 2.1–2.4 done. SVD ties popularity on the planned metric, so step 2.5 is on hold for a team decision. See [`03_act1_findings.md`](03_act1_findings.md).
+
 ### Step 2.1 Calibrate the timing
 
 - Before any real run, time **one** model fit on 100k rows (spec). Multiply up to check the 15–30 min budget holds. If not, reduce the training users.

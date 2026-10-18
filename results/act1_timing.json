@@ -1,0 +1,13 @@
+{
+  "params": {
+    "n_factors": 100,
+    "n_epochs": 50,
+    "lr_all": 0.005,
+    "reg_all": 0.02
+  },
+  "fit_seconds_100k": 1.2,
+  "rows_100k": 98794,
+  "fit_seconds_full": 12.7,
+  "rows_full": 997794,
+  "tuning_20_trials_upper_bound_min": 4.2
+}

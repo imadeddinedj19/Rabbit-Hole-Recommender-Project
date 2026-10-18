@@ -1,0 +1,8 @@
+pandas>=2.0
+numpy<2          # scikit-surprise wheels are built against numpy 1.x
+scikit-surprise>=1.1.3
+optuna>=3.5
+matplotlib>=3.7
+seaborn>=0.13
+jupyter
+tqdm

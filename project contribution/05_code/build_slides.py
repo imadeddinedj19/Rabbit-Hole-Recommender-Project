@@ -24,7 +24,7 @@ data = json.load(open(RES / "labels_shared_users.json", encoding="utf-8"))
 pop = json.load(open(RES / "population_summary.json", encoding="utf-8"))
 users = {u["persona"]: u for u in data["users"] if u["persona"]}
 narrow, broad, heavy = users["The narrow diet"], users["The broad diet"], users["The heavy viewer"]
-COLORS = ["#e85d26", "#1aa3ad", "#b8860b", "#8b72d6", "#d95f8f", "#5c5c54"]   # validated for CVD on #111
+COLORS = ["#e85d26", "#3987e5", "#199e70", "#c98500", "#9085e9", "#5c5c54"]   # same as the prototype; [5] = grey "rest"
 PRESENTER = "Imad eddine Djehlane"
 pct = lambda x: f"{round(x * 100)}%"
 
@@ -122,7 +122,7 @@ def moment(num, title, body, mock):
 top = narrow["ingredients"][0]
 chip = (f'<div class="caption" style="border:1px solid var(--c-accent);border-radius:0.8vw;padding:1vh 1vw;color:var(--c-fg)">'
         f'<b style="color:var(--c-accent)">{round(narrow["videos_per_day"])}</b> videos today · mostly {top["name"]} ({pct(top["share"])})</div>')
-stack = "".join(f'<span style="flex:{g["share"]};background:{COLORS[i]}"></span>' for i, g in enumerate(narrow["ingredients"]))
+stack = "".join(f'<span style="flex:{share};background:{color}"></span>' for _, share, color in merged(narrow))
 pause = (f'<div class="caption" style="background:var(--c-fg);color:#111;border-radius:0.8vw;padding:1.2vh 1vw;width:100%">'
          f'<b>You reached your limit.</b> Today\'s mix:<div style="display:flex;gap:2px;height:1.2vh;margin:0.8vh 0">{stack}</div>'
          f'<span style="font-weight:700">Stop here</span> &nbsp;·&nbsp; 10 more</div>')

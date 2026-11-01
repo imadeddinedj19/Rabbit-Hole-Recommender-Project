@@ -32,7 +32,7 @@ N_USERS = 100             # same shared sample as Roles 2 and 3
 SESSION_GAP_MIN = 30      # a pause of 30+ minutes starts a new "sitting" (common web-analytics convention)
 NIGHT_HOURS = range(0, 6) # 00:00-05:59, platform clock in the data
 SKIP_RATIO = 0.25         # "quick swipe" = less than a quarter of the video watched
-TOP_INGREDIENTS = 5       # categories shown by name on the label, the rest is "Other"
+TOP_INGREDIENTS = 8       # categories shown by name on the label (8 = most colours a reader can tell apart)
 
 USE_GEMINI = True         # <<< EDIT: False = skip Gemini and keep the summaries already saved in ai_summaries.json
 # The key is NEVER written in this notebook: you paste it when asked (or set the GEMINI_API_KEY environment variable).
@@ -82,7 +82,7 @@ ENGLISH = {1: "Dance", 2: "Music", 3: "Gaming", 4: "Beauty & makeup", 5: "Fashio
            13: "Rural life", 14: "Education", 15: "Arts", 16: "Health", 17: "Pets", 18: "Cars",
            19: "Relationships", 20: "Anime & manga", 21: "Culture & history", 22: "Finance", 23: "Politics",
            24: "Astrology", 25: "Parenting", 26: "Photography", 27: "Tech & gadgets", 28: "Local news",
-           29: "Science & law", 31: "Fitness", 32: "Short drama", 33: "Selfies", 34: "Other topics",
+           29: "Science & law", 31: "Fitness", 32: "Short drama", 33: "Selfies", 34: "Miscellaneous",   # the platform's own "Other" (其他)
            35: "Military", 36: "Home & real estate", 37: "Oddities", 38: "Books", 39: "Film & TV",
            -124: "Unknown"}
 cap = pd.read_csv(CAP, usecols=["video_id", "first_level_category_id"], dtype=str, engine="python")
@@ -316,7 +316,9 @@ def label_dict(uid):
     ing = [{"name": c, "share": round(float(v), 4)} for c, v in top.items()]
     rest = 1 - float(top.sum())
     if rest > 0.0005:
-        ing.append({"name": f"Other ({len(share) - len(top)} categories)", "share": round(rest, 4)})
+        tail = share.iloc[TOP_INGREDIENTS:]
+        ing.append({"name": f"All other topics ({len(tail)} categories, each under {np.ceil(tail.max() * 100):.0f}%)",
+                    "share": round(rest, 4)})
     d = {"user_id": int(uid), "persona": DEMO.get(uid, ""), "days": int(r.days),
          "videos_per_day": round(float(r.videos_per_day), 1), "minutes_per_day": round(float(r.minutes_per_day), 1),
          "shared_sample": int(uid) in shared_set, "complete": bool(r.complete),

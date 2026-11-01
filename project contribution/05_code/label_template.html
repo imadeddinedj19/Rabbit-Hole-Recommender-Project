@@ -179,7 +179,11 @@
 
 <script>
 const DATA = /*__DATA__*/null;
-const COLORS = ["#e85d26", "#1aa3ad", "#b8860b", "#8b72d6", "#d95f8f", "#5c5c54"]; // validated for CVD on #111
+// 8 category colours + grey for "all other topics". Validated (lightness, chroma, colour-blind separation,
+// contrast) on the #111 background with the dataviz palette checker.
+const COLORS = ["#e85d26", "#3987e5", "#199e70", "#c98500", "#9085e9", "#d55181", "#008300", "#e66767"];
+const REST = "#5c5c54";
+const colorOf = (g, i) => g.name.startsWith("All other topics") ? REST : COLORS[i];
 const P = DATA.pop, N = DATA.n_users;
 const pct = x => Math.round(x * 100) + "%";
 const fmt = x => (x >= 10 ? Math.round(x) : x.toFixed(1));
@@ -197,7 +201,7 @@ function bottle(u) {
   u.ingredients.forEach((g, i) => {
     const h = g.share * H;
     y -= h;
-    rects += `<rect class="layer" data-t="${esc(g.name)}: ${pct(g.share)} of watch time" x="0" y="${y.toFixed(1)}" width="200" height="${h.toFixed(1)}" fill="${COLORS[i]}" stroke="#111" stroke-width="2"/>`;
+    rects += `<rect class="layer" data-t="${esc(g.name)}: ${pct(g.share)} of watch time" x="0" y="${y.toFixed(1)}" width="200" height="${h.toFixed(1)}" fill="${colorOf(g, i)}" stroke="#111" stroke-width="2"/>`;
   });
   const path = "M80 20 H120 V70 Q120 90 150 105 Q170 115 170 140 V320 Q170 340 150 340 H50 Q30 340 30 320 V140 Q30 115 50 105 Q80 90 80 70 Z";
   document.getElementById("bottle").innerHTML =
@@ -206,7 +210,7 @@ function bottle(u) {
      <path d="${path}" fill="none" stroke="#f0ece5" stroke-width="3"/>
      <rect x="76" y="10" width="48" height="12" rx="2" fill="#f0ece5"/></svg>`;
   document.getElementById("legend").innerHTML = u.ingredients.map((g, i) =>
-    `<div><i style="background:${COLORS[i]}"></i><span>${esc(g.name)}</span><b>${pct(g.share)}</b></div>`).join("");
+    `<div><i style="background:${colorOf(g, i)}"></i><span>${esc(g.name)}</span><b>${pct(g.share)}</b></div>`).join("");
   document.querySelectorAll(".layer").forEach(el => {
     el.addEventListener("mousemove", e => { tip.style.display = "block"; tip.textContent = el.dataset.t; tip.style.left = e.clientX + 12 + "px"; tip.style.top = e.clientY + 12 + "px"; });
     el.addEventListener("mouseleave", () => tip.style.display = "none");
@@ -242,7 +246,7 @@ function moments(u) {
   const perSit = Math.max(1, Math.round(u.videos_per_day / Math.max(u.sittings_per_day, 1)));
   const top = u.ingredients[0];
   document.getElementById("m1").innerHTML = `<b>${perSit}</b> videos this sitting · <b>${fmt(u.videos_per_day)}</b> a day on average<br>mostly ${esc(top.name)} (${pct(top.share)})`;
-  const stack = u.ingredients.map((g, i) => `<span title="${esc(g.name)}" style="flex:${g.share};background:${COLORS[i]}"></span>`).join("");
+  const stack = u.ingredients.map((g, i) => `<span title="${esc(g.name)}" style="flex:${g.share};background:${colorOf(g, i)}"></span>`).join("");
   document.getElementById("m2").innerHTML = `<h5>You reached your limit</h5>You set ${Math.max(10, Math.round(u.videos_per_day / 10) * 10)} videos a day. Today's mix:
     <div class="stack">${stack}</div>${esc(top.name)} ${pct(top.share)} · replays ${pct(u.replay_share)}
     <div class="btns"><div class="p">Stop here</div><div>10 more</div></div>`;

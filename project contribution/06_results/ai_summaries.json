@@ -1,516 +1,506 @@
 {
  "4701": {
-  "text": "Your feed is mostly made of local news at 39%, celebrities at 6%, and parenting at 5%. You spend 39% of your time on local news, which is much higher than the typical 19% and higher than 96% of users. You could try exploring a new category or taking a short break away from the screen whenever you feel ready.",
+  "text": "You spend 39% of your time on local news and 6% on celebrities. Your devotion to local news is 39% of your watch time, which is higher than 96% of users compared to the typical 19%. You could choose to explore a brand new topic or set a soft timer to remind yourself to step away from the screen.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "3452": {
-  "text": "Your feed is mostly made up of Local news 10%, Good looks 8%, and Food 8%. You spend only 10% of your time on Local news, which is lower than 99% of users compared to the typical 19%. You might want to try exploring a completely new category or taking a short break from the app when you feel like skipping through videos quickly.",
+  "text": "You mostly watch local news at 10%, good looks at 8%, and food at 8%. Your focus on local news is only 10%, which is lower than 99% of users compared to the typical 19%. You might want to choose between setting a reminder for a quick break or exploring a new category for a change of pace.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "4102": {
-  "text": "Your viewing is mostly made of local news at 19%, good looks at 11%, and celebrities at 8%. You watch 137 videos per day, which is higher than 82 and higher than 95% of users. You might choose to set a daily time limit for yourself or simply try stepping away after a few videos to see how you feel.",
-  "source": "Gemini (gemini-3.1-flash-lite), free API",
+  "text": "Your viewing is mostly made of Local news at 19%, Good looks at 11%, and Celebrities at 8%. You watch 137 videos per day, which is higher than 95% of users and more than the typical 82. You could choose to set a notification or take a break for fresh air.",
+  "source": "Gemini (gemini-3-flash-preview), free API",
   "number_check": "ok"
  },
  "1836": {
-  "text": "Your feed consists primarily of Good looks at 12% and Fashion at 8%. You skip only 6% of videos early, which is significantly lower than 21% for the typical user and lower than 97% of users. You might choose to set a timer to signal the end of your session, or perhaps explore a category you have never watched before.",
-  "source": "Gemini (gemini-3.1-flash-lite), free API",
+  "text": "Your viewing is mostly made of Good looks 12%, Fashion 8%, and Relationships 8%. You make quick swipes on 6% of videos, which is lower than 97% of users and a typical value of 21%. You could choose to set a reminder for a break or explore a brand new topic.",
+  "source": "Gemini (gemini-3-flash-preview), free API",
   "number_check": "ok"
  },
  "4505": {
-  "text": "Your watch time consists mainly of Fashion at 14% and Good looks at 14%. You perform quick swipes on 4% of videos, which is much lower than the typical 21% and lower than almost all users. You might choose to explore a completely new topic or set a personal reminder to step away whenever you feel ready for a change.",
+  "text": "Your viewing is primarily made up of fashion (14%) and good looks (14%). You only perform quick swipes on 4% of videos, which is lower than almost all users compared to the typical value of 21%. You might prefer to set a casual timer for your sessions or occasionally explore a new topic when you feel ready for a change.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "6634": {
-  "text": "Your viewing is mostly made of Good looks at 17% and Other topics at 10%. You only perform quick swipes on 2% of videos, while the typical value is 21%, which is lower than almost all users. You might enjoy stepping away for a short walk after finishing a few videos, or perhaps you would prefer to explore a new category instead.",
+  "text": "Your viewing is mostly made of Good looks at 17% and Miscellaneous at 10%. You perform quick swipes on only 2% of videos, which is lower than almost all users compared to the typical 21%. You might prefer to set a gentle time limit for your sessions or perhaps explore a completely new topic to refresh your feed.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "1050": {
-  "text": "Your viewing is mostly made of local news at 14%, good looks at 9%, and fashion at 8%. You spend 14% of your time on local news, while the typical value is 19%, which is lower than 93% of users. You could choose to put your phone away after a few videos or try exploring a brand new topic.",
-  "source": "Gemini (gemini-3.1-flash-lite), free API",
+  "text": "Your viewing is mostly made of Local news 14%, Good looks 9%, and Fashion 8%. Your share of time in Local news is 14% (typical: 19%), which is lower than 93% of users. You might choose to set a break reminder or try exploring a different topic.",
+  "source": "Gemini (gemini-3-flash-preview), free API",
   "number_check": "ok"
  },
  "4088": {
-  "text": "You spend most of your time watching Local news (17%) and Food (10%). Your night viewing (00:00-05:59) is 0% of watch time, which is lower than 94% of users compared to the typical 11%. You might enjoy stepping away for a short walk after a few videos, or perhaps you would prefer to explore a completely new category instead.",
+  "text": "Your feed is mostly made of Local news at 17% and Food at 10%. You have 0% of watch time during night viewing (00:00-05:59), which is the typical value of 11% and lower than 94% of users. You might choose to explore a completely new topic or set a daily time limit for your app visits.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "2696": {
-  "text": "You spend most of your time watching Good looks at 13%, Local news at 13%, and Fashion at 11%. Your share of time in the top category is 14%, which is lower than the typical 19% and lower than 93% of users. You could choose to set a daily time limit or explore a new topic when you decide to open the app.",
-  "source": "Gemini (gemini-3.1-flash-lite), free API",
+  "text": "Your viewing is mostly made of Good looks 13%, Local news 13%, and Fashion 11%. Your share of time in the top category is 14%, which is lower than 93% of users compared to the typical 19%. You could choose to set a reminder for a break or explore a completely different topic.",
+  "source": "Gemini (gemini-3-flash-preview), free API",
   "number_check": "ok"
  },
  "1438": {
-  "text": "Your feed is mainly filled with Fashion at 14%, Good looks at 12%, and Local news at 10%. Your top category share is 14%, which is lower than the typical 19% and lower than 92% of users. You might want to consider setting a bedtime reminder or trying a different category to refresh your experience.",
-  "source": "Gemini (gemini-3.1-flash-lite), free API",
+  "text": "Your watch time is mostly made of Fashion 14%, Good looks 12%, and Local news 10%.\nYour share of time in the top category is 14% (typical: 19%), which is lower than 92% of users.\nYou might consider exploring a different topic or choosing to put your phone away earlier in the evening.",
+  "source": "Gemini (gemini-3-flash-preview), free API",
   "number_check": "ok"
  },
  "385": {
-  "text": "Your viewing is mostly made of Local news at 24% and Good looks at 11%. You only swipe away before a quarter of a video 8% of the time, which is lower than 84% of users (typical: 21%). You could choose to explore a new interest or simply close the app whenever you feel ready for a change.",
-  "source": "Gemini (gemini-3.1-flash-lite), free API",
+  "text": "Your viewing is mostly made of Local news 24%, Good looks 11%, and Comedy 7%. Your quick swipes account for 8% of videos, which is lower than 84% of users compared to the typical 21%. You could try exploring a new category or choosing to set a break reminder.",
+  "source": "Gemini (gemini-3-flash-preview), free API",
   "number_check": "ok"
  },
  "5450": {
-  "text": "Your watch time consists mostly of Local news at 37% and Good looks at 11%. You spend 37% of your time on Local news, which is higher than the typical 19% and higher than 95% of users. You might choose to explore a new interest or step away for a quick break to refresh your feed.",
-  "source": "Gemini (gemini-3.1-flash-lite), free API",
+  "text": "Your watch time is mostly made of Local news 37%, Good looks 11%, and Miscellaneous 8%. Your share of time in Local news is 37%, which is higher than 95% of users compared to the typical 19%. You might choose to explore a different topic or step away for a while.",
+  "source": "Gemini (gemini-3-flash-preview), free API",
   "number_check": "ok"
  },
  "297": {
-  "text": "You mostly watch Sports at 16% and Local news at 12%. Your top category share is 16%, which is lower than the typical 19% and lower than 86% of users. You might choose to explore a brand new topic or simply close the app when you feel ready to move on to your next activity.",
-  "source": "Gemini (gemini-3.1-flash-lite), free API",
+  "text": "Your viewing is mostly made of Sports 16%, Local news 12%, and Miscellaneous 10%. Your 16% share of time in your top category, Sports, is lower than 86% of users, while 19% is typical. You could choose to set a reminder for a quick break or perhaps try exploring a new topic.",
+  "source": "Gemini (gemini-3-flash-preview), free API",
   "number_check": "ok"
  },
  "1226": {
-  "text": "Your watch time consists mostly of Fashion (14%) and Local news (13%). You perform quick swipes on only 6% of videos, which is much lower than the typical 21% and lower than 95% of users. You might consider setting a timer before you start watching or choosing to close the app once your late-night session reaches a certain point.",
-  "source": "Gemini (gemini-3.1-flash-lite), free API",
+  "text": "Your viewing is mostly made of Fashion 14%, Local news 13%, and Miscellaneous 11%. You quick swipe only 6% of videos, which is lower than 95% of users while the typical value is 21%. You might choose to set a reminder for a break or explore a new topic.",
+  "source": "Gemini (gemini-3-flash-preview), free API",
   "number_check": "ok"
  },
  "1665": {
-  "text": "Your watch time is mostly made of local news at 18%, other topics at 11%, and good looks at 10%. You rarely skip videos quickly, with quick swipes at 5% of videos, which is lower than the typical 21% and lower than 98% of users. You might consider setting a timer for your night sessions or exploring a new category to see how it shifts your routine.",
-  "source": "Gemini (gemini-3.1-flash-lite), free API",
+  "text": "Your viewing is mostly made of Local news 18%, Miscellaneous 11%, and Good looks 10%. You quick swipe 5% of videos, which is lower than 98% of users compared to the typical 21%. You could choose to set a sleep timer or explore a new topic.",
+  "source": "Gemini (gemini-3-flash-preview), free API",
   "number_check": "ok"
  },
  "5366": {
-  "text": "You spend most of your time watching local news at 16%, fashion at 11%, and good looks at 9%. Your share of time in the top category is 16% (typical: 19%), which is lower than 84% of users. You might prefer to set a casual timer for your night sessions or explore a completely different topic to keep things fresh.",
+  "text": "You mostly watch Local news at 16%, Fashion at 11%, and Good looks at 9%. You spend 16% of your time on Local news, which is lower than 84% of users. You might choose to set a daily time limit for your sessions or try exploring a brand new category the next time you open the app.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "5508": {
-  "text": "Your viewing is mostly made of short drama at 10%, local news at 8%, and comedy at 8%. You spend only 10% of your time on short drama, which is lower than 99% of users and quite unusual compared to the typical 19%. You could try exploring a brand new category of videos or simply closing the app after finishing your next clip.",
+  "text": "Your viewing is primarily made up of short drama at 10%, local news at 8%, and comedy at 8%. You spend only 10% of your time on short drama, which is lower than 99% of users and quite unusual. You might enjoy checking the settings to set a daily reminder for a screen break, or you could explore a brand new interest.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "2439": {
-  "text": "Your viewing is mostly made of Anime & manga 19% and Local news 13%. Only 1% of your watch time is during the night (00:00-05:59), which is lower than 76% of users. You might choose to explore a new category or simply set the app aside when you feel like stepping away.",
+  "text": "You spend the most time watching Anime & manga (19%) and Local news (13%). Your night viewing (00:00-05:59) is 1% of your watch time, which is lower than 76% of users. You could choose to put your phone away earlier in the evening or perhaps explore a category you have never watched before.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "4446": {
-  "text": "Your viewing is mostly made of local news at 18%, fashion at 9%, and good looks at 8%. Only 8% of your videos are quick swipes, which is lower than 84% of users compared to the typical 21%. You might prefer to set a timer for your sessions or explore a completely different category to keep your experience fresh.",
+  "text": "Your viewing is mostly made of local news at 18%, fashion at 9%, and good looks at 8%. You have quick swipes on 8% of videos, which is lower than 21% typical and lower than 84% of users. You might choose to set a time limit for your app or try exploring a brand new topic during your next session.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "4306": {
-  "text": "Your feed is primarily composed of Local news 12%, Fashion 10%, and Good looks 9%. You have an unusually diverse taste, with your top category accounting for only 12% of your time, compared to 19% for a typical user, which is lower than 97% of users. You might prefer to close the app after a few clips or explore a fresh topic instead of scrolling late at night.",
+  "text": "You mostly watch Local news at 12% and Fashion at 10%. Your top category share is 12%, which is lower than the typical 19% and lower than 97% of users. You might choose to explore a new category or set a quiet time to wind down before bed.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "2506": {
-  "text": "Your watch time is primarily made up of Good looks (16%) and Fashion (14%). Only 5% of your videos are quick swipes, which is lower than 99% of users compared to the typical 21%. You might prefer to set a daily time limit for your sessions or occasionally explore a completely new category to refresh your feed.",
-  "source": "Gemini (gemini-3.1-flash-lite), free API",
+  "text": "Your viewing is mostly made of Good looks at 16%, Fashion at 14%, and Miscellaneous at 9%. You quick swipe 5% of videos, which is lower than 99% of users, compared to a typical 21%. You could choose to explore a new topic or take a break from the screen.",
+  "source": "Gemini (gemini-3-flash-preview), free API",
   "number_check": "ok"
  },
  "6301": {
-  "text": "Your feed is mostly made up of Local news at 19%, Comedy at 12%, and Good looks at 9%. You spend 48% of your watch time replaying videos, which is higher than 92% of users and significantly above the typical value of 26%. You might choose to explore a brand new category or set a timer to help you decide when to wrap up your session.",
-  "source": "Gemini (gemini-3.1-flash-lite), free API",
-  "number_check": "ok"
- },
- "3083": {
-  "text": "Your viewing is primarily made up of Local news at 12%, Good looks at 11%, and Fashion at 11%. You have quick swipes on only 4% of videos, which is lower than 21% of videos and lower than almost all users. You might choose to explore a completely new category or simply close the app whenever you feel satisfied with your current session.",
-  "source": "Gemini (gemini-3.1-flash-lite), free API",
+  "text": "Your viewing is mostly made of Local news 19%, Comedy 12%, and Good looks 9%.\nYou spend 48% of watch time replaying videos, which is higher than 92% of users when the typical value is 26%.\nYou could choose to explore a new category or take a break.",
+  "source": "Gemini (gemini-3-flash-preview), free API",
   "number_check": "ok"
  },
  "2339": {
-  "text": "Your viewing is primarily composed of Good looks at 10% and Fashion at 10%. You spend only 10% of your time on your top category, which is much lower than the typical 19% seen by 99% of users. You might choose to explore a completely new category or step away for a fresh perspective.",
-  "source": "Gemini (gemini-3.1-flash-lite), free API",
+  "text": "Your viewing is mostly made of Good looks at 10%, Fashion at 10%, and Miscellaneous at 8%. You spend 10% of your watch time in your top category, Good looks, which is lower than 99% of users while the typical is 19%. You could choose to take a break or try exploring a new topic.",
+  "source": "Gemini (gemini-3-flash-preview), free API",
   "number_check": "ok"
  },
  "4307": {
-  "text": "Your watch time is mainly focused on fashion at 13% and good looks at 11%. You spend 13% of your time on fashion, which is lower than 94% of users compared to the typical 19%. You might enjoy keeping your late-night viewing brief or switching to a new topic to see if it changes your feed.",
-  "source": "Gemini (gemini-3.1-flash-lite), free API",
+  "text": "You mainly watch Fashion 13%, Good looks 11%, and Miscellaneous 8%. Your share of time in the top category (Fashion) is 13%, which is lower than 94% of users while the typical value is 19%. You could choose to put your screen away a little earlier tonight or take a short break between videos.",
+  "source": "Gemini (gemini-3-flash-preview), free API",
   "number_check": "ok"
  },
  "2463": {
-  "text": "Your viewing is mostly made of local news at 20% and other topics at 11%. You have a high rate of replays at 60% of watch time, which is higher than 99% of users compared to the typical 26%. You might choose to explore a new category or close the app when you feel like repeating the same video.",
-  "source": "Gemini (gemini-3.1-flash-lite), free API",
+  "text": "Your viewing is mostly made of Local news 20%, Miscellaneous 11%, and Fitness 7%.\nYou spend 60% of watch time on replays (typical: 26%), which is higher than 99% of users.\nYou could choose to explore a new topic or simply take a break from the app.",
+  "source": "Gemini (gemini-3-flash-preview), free API",
   "number_check": "ok"
  },
  "407": {
-  "text": "Your viewing is primarily focused on local news at 12%, celebrities at 8%, and fashion at 8%. You are quite diverse in your interests, as your share of time in the top category, local news, is only 12% compared to 19% for the typical user, which is lower than 97% of users. You might want to try setting a quiet phone alert to help you step away for a while, or you could explore a new topic when you feel like a change of pace.",
-  "source": "Gemini (gemini-3.1-flash-lite), free API",
+  "text": "Your viewing is mostly made of Local news 12%, Celebrities 8%, and Fashion 8%. Your 12% share of time in your top category is lower than 97% of users, while 19% is typical. You could choose to set a sleep timer or try a fresh topic to explore.",
+  "source": "Gemini (gemini-3-flash-preview), free API",
   "number_check": "ok"
  },
  "6208": {
-  "text": "You spend 22% of your time on Lifestyle and 16% on Local news. You only swipe away before a quarter of a video 8% of the time, which is lower than 85% of users (typical: 21%). You might enjoy exploring a new topic or closing the app after your next video.",
-  "source": "Gemini (gemini-3.1-flash-lite), free API",
+  "text": "Your viewing is mostly Lifestyle at 22%, Local news at 16%, and Good looks at 10%. You quickly swipe past only 8% of videos, which is lower than 85% of users compared to the typical 21%. You could choose to set a reminder for a break or explore a new topic.",
+  "source": "Gemini (gemini-3-flash-preview), free API",
   "number_check": "ok"
  },
  "4186": {
-  "text": "Your viewing is primarily made of Good looks at 14% and Local news at 14%. You only skip past a video early 6% of the time, compared to the typical 21%, which is lower than 96% of users. You might choose to set a timer for your late-night sessions or explore a completely different topic to keep your experience fresh.",
-  "source": "Gemini (gemini-3.1-flash-lite), free API",
+  "text": "Your viewing is mostly made of Good looks 14%, Local news 14%, and Miscellaneous 10%. You quick swipe 6% of videos while the typical is 21%, which is lower than 96% of users. You could choose to set a reminder for a break or explore a fresh topic.",
+  "source": "Gemini (gemini-3-flash-preview), free API",
   "number_check": "ok"
  },
  "5598": {
-  "text": "Your viewing is mostly made up of Local news at 22% and Good looks at 10%. You have quick swipes on 5% of videos, which is the typical 21% value but lower than 99% of users. You might choose to set a timer for your late-night sessions or explore a new topic to freshen your feed.",
-  "source": "Gemini (gemini-3.1-flash-lite), free API",
+  "text": "Your viewing is mostly made of Local news 22%, Good looks 10%, and Miscellaneous 8%. You perform quick swipes for 5% of videos, which is lower than 99% of users while the typical value is 21%. You could choose to take a break or try exploring a new topic.",
+  "source": "Gemini (gemini-3-flash-preview), free API",
   "number_check": "ok"
  },
  "4821": {
-  "text": "Your viewing is mostly made of local news at 17% and good looks at 13%. You only perform quick swipes on 9% of videos, which is lower than the typical 21% and lower than 82% of users. You might choose to set a timer for your sessions or try exploring a brand new category next time you open the app.",
-  "source": "Gemini (gemini-3.1-flash-lite), free API",
+  "text": "Your watch time is mostly made of Local news 17%, Good looks 13%, and Fashion 7%. You make quick swipes for 9% of videos, which is lower than the typical 21% and lower than 82% of users. You might choose to take a short break or look for a completely new topic.",
+  "source": "Gemini (gemini-3-flash-preview), free API",
   "number_check": "ok"
  },
  "2511": {
-  "text": "You spend most of your time watching Fashion at 15%, Other topics at 12%, and Good looks at 10%. Your night viewing (00:00-05:59) is 44% of watch time, which is higher than 88% of users (typical: 11%). You might want to consider switching to a different hobby before bed or simply closing the app once you feel tired.",
+  "text": "Your viewing is primarily composed of Fashion at 15%, Miscellaneous at 12%, and Good looks at 10%. You spend 44% of your watch time viewing at night (00:00-05:59), which is higher than 88% of users compared to the 11% typical for others. You might choose to set a bedtime reminder or explore a brand new topic during the day to refresh your routine.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "3070": {
-  "text": "Your top interests are Good looks at 17% and Local news at 10%. You rarely skip early, with quick swipes at 2% of videos compared to the typical 21%, which is lower than almost all users. You might choose to set a timer for your sessions or explore a category you have never watched before.",
+  "text": "Your viewing is mostly made up of Good looks at 17% and Local news at 10%. You only perform quick swipes on 2% of videos, which is lower than almost all users compared to the typical 21%. You could choose to set a timer for your sessions or perhaps explore a completely new category to see what else is out there.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "2224": {
-  "text": "Your viewing is mostly made of Good looks at 15% and Local news at 14%. Your share of time in the top category is 15%, compared to 19% for typical users, which is lower than 90% of users. You might choose to explore a completely new category or set a reminder to step away from your screen when you feel ready for a change.",
-  "source": "Gemini (gemini-3.1-flash-lite), free API",
+  "text": "Your viewing is mostly made of Good looks 15%, Local news 14%, and Fashion 12%. Your 15% share of time in the top category is lower than 90% of users, while the typical value is 19%. You could choose to set a bedtime reminder or try a different topic for variety.",
+  "source": "Gemini (gemini-3-flash-preview), free API",
   "number_check": "ok"
  },
  "6826": {
-  "text": "Your feed is mostly made of Local news at 18%, Good looks at 14%, and Fashion at 14%. You watch 0% of your content between 00:00-05:59, which is typical for 11% of watch time and lower than 94% of users. You could choose to explore a new category or simply set the phone aside when you feel ready for a break.",
+  "text": "You spend 18% of your time on Local news, 14% on Good looks, and 14% on Fashion. You have 0% of watch time during night viewing (00:00-05:59), which is lower than 94% of users. You might prefer to set a daily time limit for your sessions or choose to explore a completely new category next time.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "4891": {
-  "text": "You spend most of your time watching Good looks (15%) and Fashion (12%). Only 5% of your videos are quick swipes, which is lower than 99% of users. You might choose to set a timer for your late-night sessions or explore a fresh topic if you feel like a change.",
+  "text": "Your viewing is mostly made of Good looks at 15% and Fashion at 12%. You only swipe away before a quarter of a video in 5% of videos, which is lower than 99% of users and represents your most unusual habit. Would you like to set a recurring reminder to step away from your screen or perhaps explore a completely different category next time you log on?",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "5910": {
-  "text": "Your viewing is mainly composed of Good looks at 15% and Fashion at 14%. You spent 15% of your time on Good looks, which is lower than 19% for the typical user and lower than 87% of users. You might want to explore a new category when you open the app or simply step away for a quick break.",
-  "source": "Gemini (gemini-3.1-flash-lite), free API",
-  "number_check": "ok"
- },
- "475": {
-  "text": "Your watch time consists mostly of local news at 16%, celebrities at 9%, and good looks at 9%. You spend 61% of your watch time viewing between 00:00-05:59, which is higher than 95% of users compared to the typical 11%. You might choose to set a bedtime reminder or simply put your phone away to see how it affects your sleep.",
+  "text": "Your viewing is mostly made of Good looks at 15% and Fashion at 14%. Your share of time in the top category is 15%, which is lower than the typical 19% and lower than 87% of users. You might choose to explore a new category or close the app when you feel ready for a change.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "3481": {
-  "text": "Your feed is primarily composed of Local news at 15%, Good looks at 9%, and Food at 7%. You spend 61% of your watch time viewing at night (00:00-05:59), which is higher than 95% of users compared to the typical 11%. You might prefer to set a wind-down timer before bed or simply try closing the app once you finish your current video.",
-  "source": "Gemini (gemini-3.1-flash-lite), free API",
+  "text": "Your viewing is mostly made of Local news 15%, Good looks 9%, and Food 7%. You spend 61% of your watch time between 00:00-05:59, which is higher than 95% of users compared to the typical 11%. You might choose to set a reminder for a screen break or explore a new daytime interest.",
+  "source": "Gemini (gemini-3-flash-preview), free API",
   "number_check": "ok"
  },
  "3464": {
-  "text": "You mostly watch Fashion at 13%, Good looks at 12%, and Local news at 12%. Only 3% of your videos are quick swipes, which is lower than 94% of users compared to the typical 21%. You might prefer to set a gentle alarm for your nightly routine or simply pick a new category to explore when you feel ready for a change.",
+  "text": "Your feed is primarily shaped by Fashion at 13%, Good looks at 12%, and Local news at 12%. You have a very patient viewing style, with only 3% of your videos being quick swipes before a quarter of the video, which is lower than 99% of users compared to the typical 21%. You might want to consider setting a notification for bedtime or exploring a new topic if you feel ready for a change.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "2839": {
-  "text": "You mostly watch local news at 13%, good looks at 12%, and fashion at 10%. Your share of time in the top category is 13% (typical: 19%), which is lower than 94% of users. You might choose to set a timer for your sessions or put your phone away after watching a few videos to help you step back.",
+  "text": "Your viewing is mostly made of local news at 13%, good looks at 12%, and fashion at 10%. You spend only 13% of your time on local news, which is typical for 19% of users and lower than 94% of users. You might enjoy your experience more by setting a daily time limit or by choosing to explore a brand new topic.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "1266": {
-  "text": "Your viewing is mostly made of local news at 14% and fashion at 13%. Your focus on local news is only 14%, which is lower than 92% of users compared to the typical 19%. You might choose to explore a different topic or simply close the app whenever you feel ready to move on to other activities.",
+  "text": "You primarily watch Local news at 14%, Fashion at 13%, and Good looks at 10%. Your top category share is 14%, which is lower than the typical 19% and lower than 92% of users. You might enjoy trying a new interest or setting a gentle reminder to take a break when you feel ready.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "172": {
-  "text": "Your viewing is primarily focused on Good looks at 14% and Local news at 14%. You perform quick swipes on only 5% of videos, which is the typical value of 21% and is lower than 98% of users. You might choose to set a time limit for your late-night sessions or explore a new topic when you decide to log on.",
+  "text": "Your viewing is mostly made of Good looks at 14% and Local news at 14%. You only skip 5% of videos early, which is lower than 98% of users compared to the typical 21%. You might prefer to set a daily time limit for your sessions or choose a new topic to explore instead of continuing your current flow.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "6374": {
-  "text": "Your feed is mostly made up of Relationships at 15% and Good looks at 14%. You only skip past 4% of videos before a quarter of the way through, which is lower than almost all users compared to the typical 21%. You might enjoy trying a new interest or setting a gentle reminder to pause whenever you feel ready for a change.",
+  "text": "Your viewing is primarily made up of Relationships at 15% and Good looks at 14%. You only perform quick swipes on 4% of videos, while the typical value is 21%, which is lower than almost all users. You might choose to set a recurring screen timer or explore a category you have never watched before to refresh your experience.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "6211": {
-  "text": "Your viewing is mostly made of Fashion at 12% and Good looks at 11%. You spend 12% of your time in your top category, Fashion, which is typical 19%; lower than 96% of users. You might want to consider shifting some of your late-night scrolling toward daytime hours or putting the phone down a bit earlier to see how it feels.",
+  "text": "You mostly spend your time watching Fashion at 12%, Good looks at 11%, and Local news at 10%. Your share of time in the top category is 12%, which is lower than the typical 19% and lower than 96% of users. You might choose to put your phone down before bed or explore a new topic when you feel like a change.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "5369": {
-  "text": "You mostly watch Local news (15%) and Anime & manga (14%). Your replays account for 52% of your watch time, which is higher than 96% of users compared to the 26% typical value. You might choose to set a timer for your late-night sessions or explore a brand new topic during the day.",
+  "text": "Your viewing is mostly made of local news at 15% and anime & manga at 14%. You replay 52% of your watch time, which is higher than 96% of users compared to the typical 26%. You could choose to put your phone away after a few clips or perhaps explore a different interest if you prefer.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "1691": {
-  "text": "Your feed is primarily composed of Local news at 17%, Dance at 8%, and Good looks at 7%. You spend 74% of your watch time viewing at night (00:00-05:59), which is higher than 98% of users compared to the typical 11%. You might prefer setting a bedtime reminder or simply closing the app once you feel tired.",
+  "text": "Your viewing time is primarily made up of Local news at 17% and Dance at 8%. You spend 74% of your watch time viewing between 00:00-05:59, which is higher than 98% of users compared to the typical 11%. You could choose to set a bedtime reminder or switch to a fresh topic if you want to change up your nightly routine.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "6278": {
-  "text": "Your viewing is mostly made of Good looks at 12% and Other topics at 10%. Your share of time in the top category is 12%, while the typical value is 19%, which is lower than 96% of users. You might choose to explore a new hobby outside of the app or simply set the device aside when you start feeling sleepy.",
+  "text": "Your viewing is mostly made of Good looks at 12%, Miscellaneous at 10%, and Local news at 10%. You spent 12% of your time on Good looks, which is lower than the typical 19% and lower than 96% of users. You might want to switch to a fresh category or simply put your device down when you feel ready for a change.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "1911": {
-  "text": "Your viewing is mostly made of Fashion at 14% and Local news at 12%. You spend 65% of your watch time viewing between 00:00-05:59, which is higher than 96% of users compared to the typical 11%. You might prefer to set a gentle reminder to help you wind down for the night or explore a fresh topic instead.",
+  "text": "Your viewing is mostly made up of Fashion at 14% and Local news at 12%. You spend 65% of your watch time viewing between 00:00-05:59, which is higher than 96% of users compared to the typical 11%. You might prefer to set a nightly wind-down reminder or switch to a different hobby before you head to bed.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "279": {
-  "text": "Your viewing is primarily made up of Local news at 15% and Fashion at 11%. You have a low replay rate of 8% of watch time, which is much lower than the typical value of 26% and lower than 94% of users. You might choose to set a time limit for your app sessions or simply enjoy a quiet break away from the screen when you feel ready.",
+  "text": "You mostly watch local news (15%) and fashion (11%). You rarely re-watch videos, with only 8% of your time spent on replays compared to the typical 26%, which is lower than 94% of users. You might consider setting a timer to help you decide when to stop, or perhaps explore a completely new category next time you open the app.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "6306": {
-  "text": "Your viewing is mostly made of local news at 15% and fashion at 12%. You have a unique style, as only 3% of your videos are quick swipes compared to the typical 21%, a rate lower than almost all users. You might prefer to set a gentle app timer for your late-night sessions or explore a completely different category to refresh your feed.",
+  "text": "You spend most of your time watching Local news at 15%, Fashion at 12%, and Good looks at 8%. You only quick swipe away from 3% of videos, which is lower than almost all users compared to the typical 21%. You might prefer to set a casual timer for your sessions or choose a specific time to close the app each night.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "4659": {
-  "text": "Your viewing consists mostly of local news at 14%, good looks at 12%, and fashion at 9%. You rarely re-watch videos, with replays making up 8% of your watch time compared to 26% for the typical user, which is lower than 93% of users. You might enjoy setting a quiet reminder to step away for a while or exploring a completely different topic when you feel ready for a change.",
+  "text": "Your viewing consists mostly of local news at 14%, good looks at 12%, and fashion at 9%. You rarely re-watch videos, as your replays account for 8% of your watch time, which is lower than 93% of users compared to the typical 26%. You might prefer to set a daily timer for yourself or simply close the app whenever you feel like refreshing your mind.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "2541": {
-  "text": "Your feed is primarily composed of Local news at 14% and Good looks at 14%. You spend only 14% of your time on your top category, which is lower than 19% for typical users and lower than 92% of users. You might prefer to explore a completely new topic or set a quiet timer to help you decide when to step away from the screen.",
+  "text": "You mostly watch Local news at 14%, Good looks at 14%, and Fashion at 11%. Your share of time in the top category is 14%, which is lower than the typical 19% and lower than 92% of users. You might want to try refreshing your feed with a new topic or simply closing the app after a few videos to see how it feels.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "5949": {
-  "text": "You spend your time mostly watching Fashion at 13%, Local news at 11%, and Good looks at 11%. You almost never swipe away early, with quick swipes at 2% of videos, which is lower than 99% of users compared to the typical 21%. You might enjoy trying a new topic or setting a bedtime reminder if you find yourself scrolling late at night.",
+  "text": "You spend most of your time watching Fashion at 13%, Local news at 11%, and Good looks at 11%. Only 2% of your videos are quick swipes, which is lower than almost all users compared to the typical 21%. You might enjoy trying a fresh category or stepping away for a short walk if you want to switch up your routine.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "4305": {
-  "text": "Your feed is primarily shaped by Fashion at 16% and Local news at 13%. You skip 43% of videos before a quarter is finished, which is higher than 88% of users compared to the typical 21%. You might prefer to set a daily time limit for the app or explore a brand new topic instead of watching your usual feed.",
+  "text": "Your watch time is primarily made up of Fashion at 16% and Local news at 13%. You skip 43% of videos before a quarter is finished, which is higher than 88% of users compared to the typical 21%. You might prefer to set a casual timer for yourself or try exploring a brand new category next time you open the app.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "5034": {
-  "text": "Your viewing is mostly made up of Fashion at 17% and Good looks at 14%. You do 47% of your watch time during night viewing (00:00-05:59), which is higher than 89% of users compared to the typical 11%. You might enjoy resting your eyes by choosing to set a nightly reminder to close the app or by exploring a new topic during the day.",
+  "text": "Your feed is dominated by Fashion at 17% and Good looks at 14%. You spend 47% of your watch time viewing between 00:00-05:59, which is higher than 89% of users (typical: 11%). You might choose to set a timer before starting your late-night sessions or explore a completely different category to refresh your feed.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "1823": {
-  "text": "You primarily watch Fashion and Good looks, which each make up 12% of your viewing time. Only 4% of your videos are quick swipes, compared to 21% for the typical user, which is lower than almost all users. You might want to consider stepping away for a walk or perhaps exploring a completely different topic during your next session.",
+  "text": "You primarily spend your time watching Fashion at 12% and Good looks at 12%. Only 4% of your videos are quick swipes, which is lower than almost all users compared to the typical 21%. You might prefer to explore a new hobby or simply step away from your screen to enjoy the quiet of the night.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "458": {
-  "text": "Your viewing is led by Good looks at 15% and Fashion at 14%. You perform quick swipes on only 3% of videos, which is lower than almost all users compared to the typical 21%. You might choose to set a timer for your next session or explore a new topic entirely.",
+  "text": "Your feed is mostly made of Good looks at 15% and Fashion at 14%. You only skip 3% of videos before a quarter of the playback, which is lower than almost all users compared to the typical 21%. You might enjoy trying a new topic or simply closing the app once you feel satisfied with your current session.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "4317": {
-  "text": "Your viewing is mostly made up of Good looks at 14%, Local news at 14%, and Fashion at 12%. You spend only 14% of your time on Good looks, which is lower than 91% of users. You might enjoy switching to a different category or setting your device aside when you feel ready for a change.",
+  "text": "Your viewing time is mostly spent on Good looks at 14%, Local news at 14%, and Fashion at 12%. You spend 14% of your time in your top category, which is lower than 91% of users compared to the typical 19%. You might consider setting a timer to help you drift off to sleep or exploring a new topic during your late-night sessions.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "5096": {
-  "text": "Your viewing is primarily focused on fashion at 12% and local news at 11%. Your share of time in your top category, fashion, is 12%, which is lower than 19% for typical users and lower than 97% of users. You might choose to explore a new category during your next session or simply close the app whenever you feel satisfied.",
+  "text": "Your viewing time is mostly made up of Fashion 12%, Local news 11%, and Good looks 10%. Your share of time in the top category is 12%, which is lower than the typical 19% and lower than 97% of users. You could choose to put your phone down after a few videos or explore a completely different topic when you open the app next time.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "4137": {
-  "text": "Your viewing is mostly made of local news at 19% and good looks at 16%. You have the lowest amount of replays at 21% of watch time, which is lower than 63% of users compared to the typical 26%. You might choose to set a timer for your late-night sessions or explore a completely different category to keep things fresh.",
+  "text": "Your viewing is mostly made of local news at 19% and good looks at 16%. You spend 21% of your watch time on replays, which is lower than 63% of users compared to the typical 26%. You might choose to set a daily time reminder or explore a brand new topic if you want to change up your routine.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "4037": {
-  "text": "You mostly watch local news at 12%, good looks at 10%, and fashion at 9%. Your share of time in local news is 12%, while the typical value is 19%, which is lower than 97% of users. You could choose to put the phone down after a short session or explore a new topic to keep your feed feeling fresh.",
+  "text": "Your watch time is mainly focused on Local news at 12%, Good looks at 10%, and Fashion at 9%. You spend 12% of your time on Local news, which is lower than 97% of users compared to the typical 19%. You might choose to set a screen time reminder or simply switch to a new category if you feel like refreshing your feed.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "4498": {
-  "text": "Your viewing is primarily made up of Fashion (18%), Other topics (15%), and Good looks (13%). You perform quick swipes on 5% of videos, which is lower than 99% of users and significantly less than the typical 21%. You might prefer to set a gentle reminder to close the app after a while, or perhaps you would like to explore a fresh category instead.",
+  "text": "You mostly watch Fashion at 18%, Miscellaneous at 15%, and Good looks at 13%. Only 5% of your videos are quick swipes, which is lower than 99% of users compared to the typical 21%. You might prefer to set a casual screen time reminder or close the app once you finish your current video.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "3291": {
-  "text": "Your viewing is mostly made of Local news 14%, Fashion 14%, and Good looks 9%. You quick swipe just 4% of videos, which is lower than almost all users compared to a typical 21%. You might choose to set a break reminder or try a new topic.",
-  "source": "Gemini (gemini-3-flash-preview), free API",
+  "text": "Your viewing is primarily made up of Local news at 14% and Fashion at 14%. You have a 4% rate of quick swipes, which is lower than almost all users compared to the typical 21%. You might prefer to set a daily reminder to close the app, or you could simply choose to explore a brand new topic.",
+  "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "242": {
-  "text": "Your feed consists primarily of Good looks at 14%, Local news at 12%, and Fashion at 10%. You spend only 14% of your time on your top category, which is lower than 92% of users compared to the typical 19%. You might consider setting a timer to step away for a while, or perhaps you would prefer to explore a completely new category today?",
+  "text": "You spend most of your time watching Good looks at 14%, Local news at 12%, and Fashion at 10%. Your share of time in the top category is 14%, compared to the typical 19%, which is lower than 92% of users. You might want to try exploring a new category or simply close the app whenever you feel satisfied.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "7132": {
-  "text": "Your viewing is primarily made up of Local news at 21% and Fashion at 13%. You rarely skip videos early, with quick swipes at 8% of videos, which is lower than the typical 21% and lower than 90% of users. You might choose to set a recurring reminder to step away from your screen or perhaps explore a different interest.",
+  "text": "Your viewing is mostly made of local news at 21% and fashion at 13%. You have quick swipes on 8% of videos, which is much lower than the typical 21% and lower than 90% of users. You might want to try setting a notification to remind yourself to step away or perhaps explore a brand new topic.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "5505": {
-  "text": "Your viewing is mostly made of local news at 16%, good looks at 12%, and fashion at 10%. You perform quick swipes on 7% of videos, which is lower than 93% of users compared to the typical 21%. You might prefer to set a daily time limit for your sessions or choose to close the app after finishing a few videos.",
+  "text": "Your viewing is mostly made of local news at 16%, good looks at 12%, and fashion at 10%. You perform quick swipes on only 7% of videos, which is lower than 93% of users compared to the typical 21%. You might prefer to set a daily reminder to step away or explore a fresh topic whenever you feel ready for a change.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "5600": {
-  "text": "Your viewing is primarily made of local news at 20% and other topics at 15%. You swipe away from 44% of videos before a quarter is finished, which is higher than 89% of users and significantly more frequent than the typical 21%. You could try setting a time limit or choosing to step away from your phone whenever you feel restless.",
+  "text": "You mostly watch local news at 20% and miscellaneous content at 15%. You swipe away before a quarter of a video finishes 44% of the time, which is higher than 89% of users and higher than the typical 21%. You might enjoy trying a new topic or putting the phone down for a while to see if you prefer a different pace.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "2392": {
-  "text": "Your viewing is mainly composed of Local news at 15%, Good looks at 13%, and Other topics at 11%. You only leave 4% of videos early, which is lower than 99% of users and quite unusual compared to the typical 21%. You might prefer to watch fewer videos in a row or choose to set a stopping point before you start your next session.",
+  "text": "Your feed is primarily composed of Local news at 15% and Good looks at 13%. Only 4% of your videos are quick swipes, which is lower than 99% of users and significantly less than the typical 21%. You might prefer to explore a new category during your next session or simply set your device aside once you feel satisfied.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "1277": {
-  "text": "Your feed is primarily composed of Local news at 16%, Fashion at 10%, and Good looks at 9%. You have a lower share of time in your top category of Local news at 16% compared to the typical 19%, which is lower than 80% of users. You might enjoy setting a quiet alarm for when you start your late-night sessions or exploring a completely new category to refresh your feed.",
+  "text": "Your viewing is mostly made of local news at 16%, fashion at 10%, and good looks at 9%. You spend 16% of your time on local news, which is lower than 80% of users and quite a unique share compared to the typical 19%. You might consider trying a new category or setting a timer for when you watch late at night to see if it helps you rest better.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "1318": {
-  "text": "Your viewing is primarily made up of Local news at 21% and Fashion at 12%. You re-watch 40% of your total viewing time, which is higher than 26% (typical: 26%) and higher than 81% of users. You might choose to set a quiet time limit for your late-night sessions or explore a new category during the day.",
+  "text": "You spend most of your time watching Local news at 21% and Fashion at 12%. Your replays account for 40% of watch time, which is higher than 81% of users compared to the typical 26%. You might choose to set a timer for your late-night sessions or explore a new topic to freshen up your feed.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "3414": {
-  "text": "You spend most of your time watching Local news (11%), Sports (8%), and Fashion (8%). Your focus on your top category, Local news, is just 11%, which is lower than the typical 19% seen by other viewers and lower than 98% of users. Would you like to try searching for a new topic, or perhaps close the app after finishing your current video?",
+  "text": "You mostly watch Local news (11%), Sports (8%), and Fashion (8%). Your focus on Local news accounts for 11% of your time, which is lower than 19% for the typical user and lower than 98% of users. You might choose to explore a new interest or set a reminder to step away when you feel ready to pause.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "2817": {
-  "text": "Your top interests are Local news at 17% and Fashion at 13%. You re-watch 52% of your total viewing time, which is higher than 96% of users compared to the typical 26%. You might enjoy trying a new category to explore different topics or simply closing the app after finishing your current video.",
+  "text": "Your watch time is mainly focused on local news at 17% and fashion at 13%. You spend 52% of your watch time replaying videos, which is higher than 96% of users compared to the typical 26%. You might choose to set a daily time limit or explore a completely new topic if you want a change of pace.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "4438": {
-  "text": "Your feed is mostly made up of local news at 17%, good looks at 10%, and other topics at 9%. You spend 84% of your watch time viewing between 00:00-05:59, which is higher than 99% of users and significantly above the typical 11%. You might enjoy experimenting with setting a wind-down timer for your late-night sessions or exploring a completely different category to refresh your feed.",
+  "text": "Your watch time consists mainly of Local news at 17% and Good looks at 10%. You do 84% of your viewing between 00:00-05:59, which is higher than 99% of users and significantly above the typical 11%. You might want to try setting a bedtime reminder or exploring a new video category to see if you prefer a different pace.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "1643": {
-  "text": "Your feed is primarily shaped by local news at 16% and fashion at 13%. You rarely skip videos early, with quick swipes at 8% of videos compared to the 21% typical, which is lower than 89% of users. You might choose to set a timer for your late-night sessions or perhaps explore a completely different category to see what else is out there.",
+  "text": "Your viewing consists mostly of Local news at 16%, Fashion at 13%, and Good looks at 10%. You perform quick swipes on 8% of videos, which is lower than the typical 21% and lower than 89% of users. You might choose to set a timer for your late-night sessions or simply switch to a new category when you feel ready to pause.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "1094": {
-  "text": "You mostly spend your time watching local news at 18% and fashion at 12%. Your night viewing (00:00-05:59) accounts for 36% of your watch time, which is higher than 82% of users compared to the typical 11%. You could try setting a bedtime reminder or switching to a new topic to help you wind down for the night.",
+  "text": "You spend most of your time watching Local news (18%) and Fashion (12%). Your night viewing (00:00-05:59) accounts for 36% of your watch time, which is higher than 82% of users compared to the typical 11%. You might want to consider setting an app timer before you start or switching to a different hobby before bed.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "5458": {
-  "text": "Your feed is mainly filled with Politics at 13%, Local news at 10%, and Fashion at 8%. You spend only 13% of your time on your top category, which is lower than 95% of users and quite different from the typical 19%. You might enjoy exploring a completely new category or closing the app whenever you feel satisfied with your current session.",
+  "text": "Your feed is mostly made of Politics at 13%, Local news at 10%, and Fashion at 8%. You spend only 13% of your time on your top category, which is lower than 95% of users. You might choose to set a timer for your sessions or explore a new topic to keep your experience fresh.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "2141": {
-  "text": "You mostly watch Fashion at 14% and Local news at 13%. Only 6% of your videos are quick swipes, which is lower than 96% of users. You could choose to explore a brand new category or set a reminder to step away whenever you feel ready.",
+  "text": "Your viewing is mainly composed of Fashion at 14% and Local news at 13%. You have quick swipes on 6% of videos, while the typical value is 21%, which is lower than 96% of users. You might choose to set a timer for your sessions or explore a new topic to keep your experience fresh.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "4349": {
-  "text": "Your viewing consists mostly of local news at 14%, good looks at 12%, and fashion at 10%. You perform quick swipes on only 6% of videos, which is lower than 98% of users compared to the typical value of 21%. You could choose to explore a brand new topic or put your phone down whenever you feel ready for a change of pace.",
+  "text": "Your viewing is mostly made of local news at 14%, good looks at 12%, and fashion at 10%. You rarely skip videos early, with quick swipes at 6% compared to the typical 21%, which is lower than 98% of users. You might choose to set a timer for your sessions or try exploring a new category to keep things fresh.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "1898": {
-  "text": "Your watch time is mainly focused on fashion at 18%, local news at 13%, and anime & manga at 11%. You have 0% of watch time during night viewing (00:00-05:59), which is lower than 94% of users compared to the typical 11%. You might enjoy choosing to explore a brand new category or setting a brief stopping point for your next session.",
+  "text": "You mostly watch Fashion at 18%, Local news at 13%, and Anime & manga at 11%. Your night viewing (00:00-05:59) is 0% of watch time, which is lower than 94% of users compared to the typical 11%. You might prefer to set a daily time limit for your app or simply choose to close the app after finishing your next video.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "1245": {
-  "text": "Your viewing is mostly made of Food at 12%, Fashion at 8%, and Good looks at 8%. You spend only 12% of your time on Food, which is lower than 19% for the typical user and lower than 96% of users. You could either continue your current viewing pace or try exploring a new category to see what else you enjoy.",
+  "text": "You mostly watch Food at 12%, Fashion at 8%, and Good looks at 8%. Your share of time in Food is 12%, which is lower than 19% for typical users and lower than 96% of users. You could try putting your device down after a few videos or explore a new topic to see if it changes your experience.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "4764": {
-  "text": "Your viewing is mostly made of local news at 26%, good looks at 7%, and anime & manga at 7%. You rarely skip videos early, as your quick swipes of 7% are lower than 92% of users compared to the typical 21%. You might prefer to set a casual timer for your sessions or explore a new topic when you feel like a change.",
+  "text": "You spend 26% of your time on Local news, 7% on Good looks, and 7% on Anime & manga. Your rate of quick swipes is 7% of videos, which is lower than 92% of users compared to the typical 21%. You might prefer to explore a new category when you open the app, or simply close it once you finish your current video.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "3132": {
-  "text": "Your watch time consists mainly of Good looks at 14% and Local news at 11%. Your focus on Good looks is 14%, which is lower than 93% of users compared to the typical 19%. You could choose to set a time limit for your late-night sessions or explore a completely different category to see what else you enjoy.",
+  "text": "You spend most of your time watching Good looks (14%), Local news (11%), and Fashion (8%). Your focus on your top category is 14%, which is lower than the typical 19% and lower than 93% of users. You might prefer to set a gentle alarm for bedtime or explore a fresh topic whenever you feel ready for a change.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "2784": {
-  "text": "You spend most of your time watching Local news at 18% and Good looks at 12%. You do 67% of your viewing during the night, which is higher than 97% of users compared to the typical 11%. You might want to consider setting a bedtime reminder or trying a different activity to help you wind down before sleep.",
+  "text": "Your viewing is mainly composed of Local news at 18% and Good looks at 12%. You watch 67% of your content between 00:00-05:59, which is higher than 97% of users compared to the typical 11%. You might prefer to set a screen time reminder or try reading a book before bed to see if it improves your sleep.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "4310": {
-  "text": "Your feed consists mainly of Local news at 15%, Fashion at 11%, and Good looks at 10%. You spend 65% of your watch time viewing between 00:00-05:59, which is higher than 96% of users compared to the typical 11%. You might enjoy trying a fresh topic or setting a screen time reminder for your late-night sessions if you find them cutting into your rest.",
+  "text": "You spend the most time watching Local news at 15% and Fashion at 11%. Your night viewing (00:00-05:59) is 65% of watch time, which is higher than 96% of users compared to the typical 11%. You could try setting a nightly reminder to close the app or explore a brand new topic during the daylight hours instead.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "1490": {
-  "text": "Your viewing is primarily focused on Good looks at 16% and Local news at 11%. You have quick swipes on only 4% of videos, while the typical user is at 21%, which is lower than almost all users. You might choose to set a timer for your late-night sessions or explore a brand new topic instead.",
+  "text": "You spend your time mostly on Good looks (16%), Local news (11%), and Fashion (7%). You skip only 4% of videos, which is lower than almost all users (typical: 21%). You could try setting a nightly cutoff to help you sleep, or perhaps you might enjoy exploring a topic you have never watched before.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "1431": {
-  "text": "Your viewing is primarily made up of Good looks at 12% and Fashion at 11%. You only perform quick swipes on 4% of videos, while the typical user does this on 21%, which is lower than almost all users. You might choose to explore a completely new category or set a timer for your next session to keep your viewing experience fresh.",
+  "text": "Your viewing is mostly made up of Good looks at 12% and Fashion at 11%. You have quick swipes in 4% of videos, which is lower than 21% for the typical user and lower than almost all users. You might choose to set a timer for your next session or explore a completely different topic to see if your interests shift.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "241": {
-  "text": "Your watch time is mainly focused on Local news at 16%, Good looks at 9%, and Sports at 8%. You skip less than 7% of videos, which is much better than the typical 21% and lower than 90% of users. You might choose to set a timer for your late-night sessions or explore a completely different category to refresh your feed.",
+  "text": "Your feed consists mostly of Local news at 16%, Good looks at 9%, and Sports at 8%. You skip less than a quarter of a video only 7% of the time, which is much lower than the typical 21% and lower than 90% of users. You might prefer to set a daily timer for your sessions or choose to step away when you feel ready to move on.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "5332": {
-  "text": "You spend most of your time watching Good looks (16%) and Local news (10%). You do no night viewing (00:00-05:59) at all, which is 0% of watch time compared to the typical 11%, a habit lower than 94% of users. You might enjoy setting a quiet timer for your sessions or perhaps exploring a completely new category to refresh your feed.",
+  "text": "Your viewing consists primarily of Good looks at 16% and Local news at 10%. You spend 0% of your time watching at night, which is lower than 94% of users compared to the typical 11%. You might prefer to explore a fresh category or simply close the app whenever you feel ready for a change.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "4855": {
-  "text": "You mostly watch local news at 12%, good looks at 12%, and fashion at 10%. You rarely swipe away early, with quick swipes at 5% of videos, which is much lower than the typical 21% and lower than 98% of users. You might want to consider putting your phone down before bed or exploring a different category of content.",
+  "text": "Your feed is mostly made up of local news at 12% and good looks at 12%. You only perform quick swipes on 5% of videos, which is lower than 98% of users compared to the typical 21%. You might want to consider closing the app before your late-night viewing begins or explore a new topic to keep your experience fresh.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "6942": {
-  "text": "Your viewing is mostly made of Good looks at 13%, Local news at 12%, and Fashion at 12%. You have quick swipes on 1% of videos, which is lower than the typical value of 21% and lower than almost all users. You might enjoy occasionally refreshing your feed by searching for a new topic or simply stepping away for a breath of fresh air.",
+  "text": "Your viewing is mostly made of Good looks at 13%, Local news at 12%, and Fashion at 12%. You only perform quick swipes on 1% of videos, which is lower than almost all users compared to the typical 21%. You might prefer to set a casual timer for your sessions or explore a new topic when you feel like a change.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "1773": {
-  "text": "Your viewing is primarily composed of Local news at 19%, Good looks at 10%, and Dance at 7%. You skip only 6% of videos before a quarter of the way through, which is lower than 98% of users (typical: 21%). You might choose to explore a new category or step away for a breath of fresh air when you finish your next video.",
+  "text": "You mostly watch Local news at 19%, Good looks at 10%, and Dance at 7%. You rarely swipe away early, with quick swipes at 6% of videos compared to the 21% typical, which is lower than 98% of users. You might prefer to close the app after a few videos or try exploring a brand new topic for a change.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "1928": {
-  "text": "You mostly watch Local news at 16%, Fashion at 10%, and Good looks at 9%. Your replays account for 12% of watch time, which is lower than 84% of users compared to the typical 26%. You might prefer to set a casual timer for yourself or simply close the app whenever you feel ready to move on to something else.",
+  "text": "You mostly spend your time watching Local news (16%), Fashion (10%), and Good looks (9%). Your replayed content makes up 12% of your watch time, while the typical value is 26%, which is lower than 84% of users. You might prefer to set a notification to step away from your screen or switch to a completely different interest when you feel ready for a change.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "3322": {
-  "text": "Your watch time is primarily made up of Local news at 20%, Fashion at 9%, and Good looks at 8%. You have 0% of watch time during night viewing (00:00-05:59), which is the typical 11% and lower than 94% of users. You could choose to explore a brand new topic or simply step away from your phone for a refreshing break.",
+  "text": "You spend most of your time watching Local news at 20%, Fashion at 9%, and Good looks at 8%. You do zero percent of your viewing between 00:00-05:59, which is typical for 11% of users and lower than 94% of users. You might choose to explore a different hobby outside the app or simply close it whenever you feel ready for a change.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "3504": {
-  "text": "You spend most of your time watching Local news at 18%, Fashion at 10%, and Lifestyle at 8%. You have a unique habit of replaying content, with 44% of your watch time spent on re-watched segments, which is higher than 88% of users compared to the typical 26%. You might choose to set a timer for your sessions or simply close the app whenever you feel ready for a change.",
+  "text": "Your viewing is mostly made of local news at 18%, fashion at 10%, and lifestyle at 8%. You spend 44% of your time replaying videos, which is higher than 88% of users compared to the typical 26%. You might choose to explore a brand new topic or simply step away for a break whenever you feel ready.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "2212": {
-  "text": "Your viewing is mostly made of local news at 22% and good looks at 11%. You spent 0% of your time watching at night, which is lower than 94% of users compared to the typical 11%. You might want to try watching a new topic or closing the app after finishing your next video, depending on how you feel.",
+  "text": "You spend most of your time watching local news at 22% and good looks at 11%. You have 0% of your watch time during night viewing (00:00-05:59), which is lower than 94% of users compared to the typical 11%. You might prefer to explore a new category of content or simply close the app whenever you feel satisfied with your current session.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "2486": {
-  "text": "Your watch time is mainly focused on local news at 12%, good looks at 9%, and other topics at 9%. You spend 12% of your time on local news, while the typical value is 19%, which is lower than 97% of users. You might choose to explore a completely new category or simply step away to enjoy the world offline.",
+  "text": "Your viewing is mostly made of local news at 12%, good looks at 9%, and miscellaneous at 9%. Your share of time in your top category is 12%, which is lower than the typical 19% and lower than 97% of users. You might want to explore a new category during your next session or perhaps close the app after finishing your current video.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "5709": {
-  "text": "You spend most of your time watching local news at 17%, good looks at 12%, and fashion at 11%. Your focus on local news is only 17%, which is lower than 77% of users compared to the typical 19%. You might enjoy experimenting with new topics or stepping away from your feed whenever you feel like a change of scenery.",
+  "text": "You spend most of your time watching local news at 17%, good looks at 12%, and fashion at 11%. Your share of time in the top category is 17%, which is lower than the typical 19% and lower than 77% of users. You might choose to set a timer for your night sessions or explore a new topic to keep your experience fresh.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "3948": {
-  "text": "Your viewing is mostly made of local news at 19% and good looks at 13%. You only skip 3% of videos before a quarter is played, which is lower than almost all users compared to the typical 21%. You might prefer to explore a fresh category or simply pause for a moment when you feel like stepping away.",
+  "text": "Your viewing is primarily composed of Local news at 19%, Good looks at 13%, and Miscellaneous at 11%. You have quick swipes on 3% of videos, which is lower than almost all users compared to the typical 21%. You could choose to set a daily time limit for the app or perhaps explore a completely new category to refresh your feed.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "597": {
-  "text": "You spend most of your time watching Local news (19%), Fashion (10%), and Good looks (8%). You re-watch only 7% of videos, which is much lower than the 26% typical for others and lower than 95% of users. You could choose to set a timer for your viewing sessions or perhaps explore a completely new category instead.",
+  "text": "Your viewing is mostly made up of Local news at 19% and Fashion at 10%. You re-watched 7% of your total viewing time, which is much lower than the typical 26% and lower than 95% of users. You might choose to set a timer for your sessions or put your device down after a few videos if you prefer to disconnect.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "1712": {
-  "text": "Your viewing is mostly made of local news at 20%, good looks at 10%, and fashion at 8%. You spend 42% of your watch time viewing at night (00:00-05:59), which is higher than 87% of users compared to the typical 11%. You might want to choose to put your phone down earlier or explore a new topic when you are looking for a change.",
+  "text": "Your viewing is mostly made of local news at 20%, good looks at 10%, and fashion at 8%. You spend 42% of your watch time viewing between 00:00-05:59, which is typical of 11% and higher than 87% of users. You might prefer setting a bedtime reminder or simply closing the app once you feel tired.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "370": {
-  "text": "You spend most of your time watching Fashion at 15% and Good looks at 15%. You do 47% of your viewing between 00:00-05:59, which is higher than 90% of users compared to the 11% typical. You might enjoy setting a reminder to switch off for the night or exploring a different category to mix up your routine.",
+  "text": "Your feed is primarily shaped by fashion at 15% and good looks at 15%. You spend 47% of your watch time viewing at night, which is higher than 90% of users compared to the typical 11%. You might prefer to set a notification to step away from the app before bed or explore a fresh topic instead.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  },
  "1828": {
-  "text": "You mostly watch Local news at 12%, Good looks at 11%, and Anime & manga at 8%. Your share of time in the top category is 12%, which is lower than the 19% typical value and lower than 97% of users. You might choose to explore a new category during the day or simply put your phone down once you finish a video.",
+  "text": "You spend most of your time watching local news at 12%, good looks at 11%, and anime & manga at 8%. Your top category share is 12% (typical: 19%), which is lower than 97% of users. You might consider setting a bedtime reminder or switching to a new topic if you want to explore different interests during your night sessions.",
   "source": "Gemini (gemini-3.1-flash-lite), free API",
   "number_check": "ok"
  }

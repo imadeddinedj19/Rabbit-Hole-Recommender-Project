@@ -17,7 +17,7 @@ One label = one user, "serving size" = one average day over the 28 logging days 
 | Line on the label | What it measures | How to read it |
 | --- | --- | --- |
 | **Videos per day** | Logged videos watched per active day | The main "calories" line. A count, so it is reliable even though the data is incomplete (see section 5) |
-| **Ingredients** | Share of watch time per category (top 5 + "Other") | 39% Local news = about 4 of every 10 seconds watched were local news |
+| **Ingredients** | Share of watch time per category (top 8 + "All other topics") | 39% Local news = about 4 of every 10 seconds watched were local news |
 | **Variety** | How many of the 39 categories it takes to reach 80% of the user's time | 0 to 39, higher = more varied |
 | **Replays** ("added sugar") | Seconds watched beyond one full play of a video, as a share of all watch time | A 10-second clip watched for 25 seconds adds 15 replay seconds |
 | **Night viewing** | Share of watch time between 00:00 and 05:59 | Uses the clock stored in the data (see the caveat in section 5) |
@@ -28,9 +28,9 @@ One label = one user, "serving size" = one average day over the 28 logging days 
 
 **The AI summary.** A language model, Google Gemini (`gemini-3.1-flash-lite`, free API tier, the same set-up as Role 3), receives only the numbers on the label, never the raw watch history. The prompt asks for exactly three sentences: what the viewing is mostly made of, the one thing that stands out compared with other users, and one optional suggestion that helps the user notice or limit their viewing. It must copy the numbers as given, make no medical claims, not moralise, and never suggest watching more. Example (user 4701):
 
-> "Your feed is mostly made of local news at 39%, celebrities at 6%, and parenting at 5%. You spend 39% of your time on local news, which is much higher than the typical 19% and higher than 96% of users. You could try exploring a new category or taking a short break away from the screen whenever you feel ready."
+> "You spend 39% of your time on local news and 6% on celebrities. Your devotion to local news is 39% of your watch time, which is higher than 96% of users compared to the typical 19%. You could choose to explore a brand new topic or set a soft timer to remind yourself to step away from the screen."
 
-Gemini wrote summaries for 103 users: the 3 demo users and the 100 users shared with Roles 2 and 3. Every summary then goes through an automatic **fact check**, a simple guardrail. Any number in the summary that is not among the facts the model was given gets flagged, and the result is shown on screen. Without an API key, the notebook keeps the saved summaries, and users without one get a rule-based text, which the page says.
+Gemini wrote summaries for the 3 demo users and 98 of the 100 users shared with Roles 2 and 3. Every summary then goes through an automatic **fact check**, a simple guardrail. Any number in the summary that is not among the facts the model was given gets flagged, and the result is shown on screen. Without an API key, the notebook keeps the saved summaries, and users without one get a rule-based text, which the page says.
 
 ## 3. Data and method
 
@@ -96,13 +96,13 @@ Gemini wrote summaries for 103 users: the 3 demo users and the 100 users shared 
 
 **Why it happens.** A bare number has no unit and no meaning attached, so the model fills the gap with a plausible guess. That's the same mechanism behind the "invented video IDs" Role 3 saw.
 
-**What we did.** Prompt version 2 sends every fact as a labelled line with its unit and a ready-made comparison ("Longest sitting: 133 videos in a row (typical: 200 videos); lower than 67% of users"). It marks the most unusual fact so the model doesn't have to choose. It bans numbers in the suggestion and any nudge to watch more. We added the automatic fact check: with prompt v2, **all 103 summaries passed** (every number they contain is on the label), and the three demo summaries read correctly. 102 were written by `gemini-3.1-flash-lite`; one call hit a temporary "high demand" error, and the notebook fell back to `gemini-3-flash-preview`. The fact check catches invented numbers, not every misleading sentence, so a person should still read summaries before they reach real users. The first attempt's outputs are kept in `06_results/gemini_prompt_v1_examples.json`.
+**What we did.** Prompt version 2 sends every fact as a labelled line with its unit and a ready-made comparison ("Longest sitting: 133 videos in a row (typical: 200 videos); lower than 67% of users"). It marks the most unusual fact so the model doesn't have to choose. It bans numbers in the suggestion and any nudge to watch more. We added the automatic fact check: with prompt v2, **all 101 summaries Gemini wrote passed** (every number they contain is on the label), and the three demo summaries read correctly. Google's free tier was overloaded during the final run ("high demand" and rate-limit errors), so the notebook waited, retried, and fell back from `gemini-3.1-flash-lite` (79 summaries) to `gemini-3-flash-preview` (22). Two of the 100 shared users got no answer at all and show the rule-based text instead, which the page says. The fact check catches invented numbers, not every misleading sentence, so a person should still read summaries before they reach real users. The first attempt's outputs are kept in `06_results/gemini_prompt_v1_examples.json`.
 
 ## 5. Limits
 
 - **Incomplete viewing log** (finding 2): minutes are understated. The method is the point; on real platform data the same label works with real minutes.
 - **The clock.** Viewing in the data peaks at 10:00 and is lowest at 23:00, an unusual pattern for an entertainment app. We could not confirm the time zone of the stored clock, so the night line is illustrative.
-- **Categories are the platform's own.** "Other topics" and "Local news" are broad buckets. A real label might need finer topics, which an AI model could tag from the video titles.
+- **Categories are the platform's own.** "Miscellaneous" (the platform's own "Other" label) and "Local news" are broad buckets. The catch-all "All other topics" holds about 30 small categories, each under a few percent of a user's time. A real label might need finer topics, which an AI model could tag from the video titles.
 - **Offline, 2020, one platform, no user feedback.** We did not test whether people find the label useful or change their behaviour. That would need a user study.
 - **Comparisons are relative.** "Higher than 90% of users" says nothing about whether that amount is harmful. No accepted threshold exists, and we did not invent one.
 

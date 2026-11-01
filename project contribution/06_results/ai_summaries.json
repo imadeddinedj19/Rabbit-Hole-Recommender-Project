@@ -1,0 +1,14 @@
+{
+ "4701": {
+  "text": "About 39% of your viewing time goes to Local news, followed by Celebrities (6%) and Parenting (5%). What stands out most is how much one topic leads: your top category takes a bigger share of your time than for 97% of users. If you like, you could follow one or two new topics this week and see whether your mix changes.",
+  "source": "AI model: Claude (Anthropic), same prompt as the notebook, written while building the prototype"
+ },
+ "3452": {
+  "text": "Your viewing is spread out: Local news (10%), Good looks (8%) and Food (8%) lead, but no single topic dominates. What stands out is variety: 80% of your time spans 16 categories, more than for about 92% of users. If you want to keep this balance, you could check the label now and then to see whether it holds.",
+  "source": "AI model: Claude (Anthropic), same prompt as the notebook, written while building the prototype"
+ },
+ "4102": {
+  "text": "Local news makes up 19% of your viewing time, followed by Good looks (11%) and Celebrities (8%), across about 137 videos a day. What stands out is volume: you watch more videos a day than 95% of users, and your longest sitting was 341 videos. If you want, you could try a daily video budget for a week and see how it feels.",
+  "source": "AI model: Claude (Anthropic), same prompt as the notebook, written while building the prototype"
+ }
+}

@@ -14,6 +14,7 @@ We build a simplified TikTok-style recommender on the public [KuaiRec](https://g
 4. [`docs/02_decisions_log.md`](docs/02_decisions_log.md): every cutoff and choice we make, with the reason.
 5. [`docs/03_act1_findings.md`](docs/03_act1_findings.md): Act 1 results: the model ties with popularity, and why.
 6. [`docs/04_act2_pilot.md`](docs/04_act2_pilot.md): Act 2 pilot: the feed doesn't narrow, everyone gets a similar feed.
+7. [`project contribution/`](project%20contribution/00_READ_ME_FIRST.md): Part 4 of the team presentation, the video nutrition label. Self-contained folder to forward to teammates who don't use GitHub.
 
 ## Folder structure
 

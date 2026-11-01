@@ -2,129 +2,105 @@
 
 **Presenter:** Imad eddine Djehlane · **Length:** about 4 minutes · **Order:** slide 21 → live app → slide 22
 
-## The three hooks to remember
+## Structure in one line
 
-If you forget everything else, remember these three phrases. The whole speech hangs on them.
-
-1. **"Same calories, different diet"** (slide 21)
-2. **"The numbers are counted, the AI only talks"** (the app)
-3. **"Now, at your limit, tomorrow morning"** (slide 22)
+**Problem → data → features → benchmark → AI layer (and its failure) → deployment → feasibility**
 
 ---
 
-## Opening (on Lu's slide 20, "we'll give users one")
+## Opening (on Lu's slide 20)
 
-> Lu just told you the casino has no clocks. So let me ask you something simpler.
+> Parts 2 and 3 looked at the platform side: how the recommender decides what you see. Part 4 looks at the user side.
 >
-> *(pick up a snack or a bottle, or just mime holding one)*
->
-> When you buy a bottle of juice, you can turn it around and read exactly what's inside: calories, ingredients, sugar. By law.
->
-> You probably watched an hour of short videos yesterday. Can you turn *that* around and read what was inside?
->
-> *(pause)*
->
-> No. Nobody can. So we built the label.
+> Today the only feedback a user gets is a single number: screen time. That number tells you *how much* you watched, not *what*. Our proposal is a **video nutrition label**: a per-user summary of viewing behaviour, built from the same interaction logs the platform already collects.
 
-## Slide 21: "same calories, different diet" (about 1 minute)
+## Slide 21: "same calories, different diet"
 
-*(click to slide 21)*
+> **The data.** We used the KuaiRec interaction log from Kuaishou: 12.5 million viewing events, about 7,000 users, 28 days. Each row is one user, one video, the seconds watched, the video length, and a timestamp. Every video has one of 39 platform categories.
+>
+> **The features.** For each user we computed a small set of indicators, the same way you would engineer features before training any model:
+> - volume: videos per day;
+> - composition: the share of watch time per category;
+> - concentration: how many categories make up 80% of the time;
+> - replays: seconds watched after the clip already played once in full;
+> - night viewing, quick swipes, and the longest session without a 30-minute break.
+>
+> Think of it as the label on a bottle: volume is the calories, categories are the ingredients, replays are the added sugar.
+>
+> **Why composition matters.** These two users watch **76** and **77** videos a day. On screen-time alone they are identical. But the first spends **39%** of their time in one category, more concentrated than **96%** of users. The second's largest category is **10%**, spread over 16 categories. Same volume, completely different consumption profile. A screen-time metric cannot see that difference; the label can.
 
-> These are two real people from the Kuaishou data. Real viewing logs, anonymous.
->
-> The person on the left watches **76 videos a day**. The person on the right, **77**. Practically identical.
->
-> If you're the phone's screen-time counter, these two people are the same person. Same "calories".
->
-> But look inside the bottles.
->
-> *(point left)* This person spends **39%** of their time on one single topic, local news. That's more concentrated than **96%** of all users.
->
-> *(point right)* This person's biggest topic is only **10%**. Their time is spread over 16 topics.
->
-> **Same calories. Completely different diet.** A clock tells you *how much*. A label tells you *what*. That's the difference, and that's our proposal.
+## Live app: the prototype
 
-## Live app: the fake app (about 1.5 minutes)
+*(switch to `01_label_prototype.html`, already on "The narrow diet")*
 
-*(switch to the browser with `01_label_prototype.html` already open on "The narrow diet")*
+> This is the prototype, running on the real data.
+>
+> **Benchmarking.** There is no clinical threshold for a "healthy" amount of short video, so we don't invent one. Every line is benchmarked against the population instead, as a percentile. For example: "replays: 49% of time, higher than 93% of users." Across the whole population, replays are **28%** of all watch time. A quarter of the time goes to content the user has already seen.
+>
+> *(click "The heavy viewer")* This user is at the 95th percentile: **137 videos a day**, with one session of **341 videos** without a 30-minute break.
+>
+> **One data-quality decision.** The reference population is **5,765 users**, not 7,000. KuaiRec holds out part of the history of its 1,411 test users to prevent leakage in recommender evaluation. That's correct for Parts 2 and 3, but it makes those users look artificially light. So we excluded them from the benchmark.
+>
+> *(point at the AI box)* **The AI layer.** We used Google Gemini, a large language model, for one narrow task: turning the label into a three-sentence plain-language summary. The model never sees the viewing history, only the computed numbers. **The numbers are computed; the AI only explains them.**
+>
+> **What went wrong.** In the first version we sent raw numbers without units. The model hallucinated meaning. "10 videos" became "10 minutes". "Higher than 90% of users" became "90% more than other users".
+>
+> **The fix had two parts:**
+> - **Structured prompting:** every fact is sent pre-labelled, with its unit and its comparison.
+> - **An automated fact check:** every number in the output must exist in the input.
+>
+> Result: **101 of 101** summaries passed. Same lesson as Part 3: the LLM is useful as an explainer, but only with controlled input and a validation step.
 
-> This is the prototype. Think of it as the back of the juice bottle, but for video.
->
-> *(point at the white label, top to bottom)*
->
-> - **Videos per day:** the calories.
-> - **Ingredients:** what the time was made of, topic by topic.
-> - **Replays:** our "added sugar". That's time spent watching a clip that already finished and is looping. Across all users, **more than a quarter** of all watch time is replays. For this person it's almost half.
-> - **Longest sitting:** how many videos in a row without a real break.
->
-> And under every line: how you compare with **5,765 real users**. We don't say "this is too much", because no doctor has ever defined a healthy amount of TikTok. We just show you where you stand.
->
-> *(click "The heavy viewer")*
->
-> This user watches **137 videos a day**, more than 95% of people. Once, **341 videos in a row** without a 30-minute break.
->
-> *(point at the AI box on the right)*
->
-> Now the AI part, because this is an AI course. The AI does **not** decide anything here. The numbers are counted by simple code. **The numbers are counted, the AI only talks.** It reads the label and explains it in three human sentences, with one gentle suggestion.
->
-> And we learned something the hard way. In our first version, the AI got creative. It turned "10 videos" into "10 minutes". It said "90% more" when the data said "more than 90% of people". So we changed two things. We give it pre-explained facts, and every sentence it writes is now checked automatically against the label. 101 summaries, all passed.
->
-> The business lesson: **AI is a great explainer, but you have to check its homework.**
+## Slide 22: "three moments, one clock"
 
-## Slide 22: "three moments, one clock" (about 1 minute)
+> **Deployment.** The label is only useful at the right touchpoint. We designed three:
+> 1. **In-session:** a passive counter. Videos so far, dominant category. No blocking.
+> 2. **At a user-defined limit:** the feed pauses and shows the composition of that session. One tap continues. The user sets the threshold, not the platform.
+> 3. **Next morning:** the full label with the AI summary, outside the feed.
+>
+> **Feasibility.** The platform could ship all three immediately: every metric we used is already in its logs, and the computation is simple aggregation, no new model needed. A third party is limited. It can build the morning report from the user's data export (GDPR right of access, Art. 15, and data portability, Art. 20). It cannot run inside the mobile app, and it cannot change the ranking.
+>
+> So the barrier is not technical. It's the incentive: a label adds friction to a business model that is optimised for watch time.
 
-*(back to the slides, slide 22)*
+## Closing
 
-> A label only works if you see it at the right moment. The juice label is useless if it's inside the bottle. So we designed three moments: **now, at your limit, tomorrow morning.**
+> To sum up: we didn't build a better recommender. We built a measurement layer on the user's side: engineered features from interaction logs, benchmarked against the population, explained by an LLM with guardrails.
 >
-> - **Now:** while you scroll, a tiny counter in the corner. "76 videos today, mostly local news." It blocks nothing. It just puts the clock back on the casino wall.
-> - **At your limit:** you choose a limit. When you hit it, the feed pauses and shows you what that session was made of. Stop, or ten more. **Your** choice.
-> - **Tomorrow morning:** the full label, with the AI summary, when you're not in the feed.
->
-> *(point at the bottom row)*
->
-> Now the business reality. Who can actually build this?
->
-> The platform could build all three **tomorrow**. It already has every number we used. An outside company can only do the morning report, from the data you're legally allowed to download under GDPR. It can't get inside the app.
->
-> So the platform can do it, and doesn't. That's exactly the gap Lu showed in the law.
-
-## Closing (about 15 seconds)
-
-> We didn't build a better recommender. We built a **mirror**.
->
-> The platform knows exactly what you consumed, to the second, and never shows you. Food companies had to print the label. We think video platforms should too.
->
-> **If the casino won't hang a clock, we just built one.** Thank you.
+> The platform already has the bottle and every ingredient. It just doesn't print the label.
 
 ---
 
-## Cheat card (print this, keep it in your hand)
+## Cheat card (print this)
 
 ```
-OPEN    juice bottle → "can you read what was in your scrolling?"
-S21     76 vs 77 videos → 39% one topic vs 10%  → SAME CALORIES, DIFFERENT DIET
-APP     calories / ingredients / sugar (replays ¼ of all time) / longest sitting
-        heavy viewer: 137 a day, 341 in a row
-        AI: COUNTED BY CODE, AI ONLY TALKS → it made mistakes → fixed + fact check (101/101)
-S22     NOW · AT YOUR LIMIT · TOMORROW MORNING
-        platform could do it tomorrow; outsiders only the morning report (GDPR)
-CLOSE   "not a better recommender, a mirror" → "we just built the clock"
+PROBLEM   screen time = only "how much", never "what"
+DATA      KuaiRec: 12.5M events · ~7k users · 28 days · 39 categories
+FEATURES  volume · category share · concentration (80%) · replays · night · swipes · longest session
+S21       76 vs 77 videos/day → 39% one category (>96% of users) vs 10% over 16 → same volume, different profile
+APP       benchmark = percentiles, no invented threshold · replays = 28% of all time
+          heavy viewer: 137/day (95th pct), 341 in one session
+          reference = 5,765 users (1,411 test users excluded: held-out history)
+AI        Gemini, input = label numbers only → v1 hallucinated units/percentiles
+          → v2 structured prompt + automated fact check → 101/101 passed
+S22       in-session · at user-set limit · next morning
+          platform: can ship now (simple aggregation) · third party: export only (GDPR Art. 15/20)
+          barrier = incentive, not technology
+CLOSE     "measurement layer on the user side" · "has every ingredient, doesn't print the label"
 ```
 
-## Before you start (30-second checklist)
+## Before you start
 
-- Open `01_label_prototype.html` in a browser tab **before** the talk, on "The narrow diet".
-- Don't use the dropdown of shared users (their data is incomplete).
-- The app works offline, so there's no Wi-Fi risk.
+- Open `01_label_prototype.html` in a browser tab, on "The narrow diet".
+- Don't use the dropdown of shared users (incomplete data).
+- The app works offline.
 
-## Three likely questions, with short answers
+## Likely questions
 
-**"Is the data reliable?"**
-> It's real Kuaishou data published for research. One limit: the dataset only logs part of each person's viewing, so we trust the counts and percentages, not the minutes. That's why the label shows videos per day, not hours.
+**"How reliable is the data?"**
+> KuaiRec logs only part of each user's viewing: logged play time is about 4% of session time. So we rely on counts and shares, not minutes. That's why the main unit is videos per day.
 
-**"Why would a platform ever do this? It would lose watch time."**
-> Maybe a little. But regulation is moving that way: the EU is already investigating addictive design. Food companies also didn't print labels voluntarily. And trust is a business asset too.
+**"Why use an LLM at all, if the numbers are computed?"**
+> For accessibility. A table of percentiles isn't readable for most users; three sentences are. The LLM is deliberately restricted to explanation, and every output is validated.
 
-**"Couldn't the AI give wrong advice?"**
-> It did, at first. That's why it only sees the label numbers, never your history, and why every summary is automatically checked. The AI explains; it never decides.
+**"Why would a platform adopt this?"**
+> Regulatory pressure: the DSA already covers recommender transparency, and the EU is investigating addictive design. The implementation cost is low; the real cost is potential lost watch time, which is a business decision, not a technical one.

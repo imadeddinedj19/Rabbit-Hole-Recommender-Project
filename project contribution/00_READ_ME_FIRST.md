@@ -11,7 +11,7 @@ Everything for Part 4 of "No clocks in the casino" is in this folder. You don't 
 | `02_slides/deck_with_part4_filled.html` | Lu's full deck with my two slides already in slots 21 and 22, plus one backup slide at the end | Double-click, then use the arrow keys |
 | `02_slides/part4_sections_to_paste.html` | **For Lu:** the HTML code of my slides, ready to paste into the master deck | Open with a text editor (see "For Lu" below) |
 | `03_report_part4.docx` / `.md` | My report section (Word, and the same text as plain text) | Word / any text editor |
-| `04_notebook_video_nutrition_label.ipynb` | The full analysis, re-runnable | Google Colab: colab.research.google.com, then File, then Upload notebook. Run the cells top to bottom |
+| `04_notebook_video_nutrition_label.ipynb` | The full analysis, re-runnable. The AI summaries are written by Google Gemini (free tier) | Google Colab: colab.research.google.com, then File, then Upload notebook. Run the cells top to bottom. When it asks for a Gemini key, paste your own free key from aistudio.google.com/apikey, or just press Enter to keep the saved summaries. The key is never stored in the notebook |
 | `06_results/` | All numbers (CSV/JSON files) and the four charts used in the report | Excel / any image viewer |
 | `05_code/` | The source code that produces everything above | Only needed to change something |
 

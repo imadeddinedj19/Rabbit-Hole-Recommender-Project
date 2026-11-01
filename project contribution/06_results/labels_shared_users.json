@@ -7,6 +7,7 @@
    "videos_per_day": 76.2,
    "minutes_per_day": 15.2,
    "shared_sample": false,
+   "complete": true,
    "top_category": "Local news",
    "top_share": 0.393,
    "cats_for_80": 14,
@@ -53,8 +54,8 @@
     "skip_share": 0.589,
     "longest_sitting": 0.33
    },
-   "summary": "About 39% of your viewing time goes to Local news, followed by Celebrities (6%) and Parenting (5%). What stands out most is how much one topic leads: your top category takes a bigger share of your time than for 97% of users. If you like, you could follow one or two new topics this week and see whether your mix changes.",
-   "summary_source": "AI model: Claude (Anthropic), same prompt as the notebook, written while building the prototype"
+   "summary": "Your feed is mostly made of local news at 39%, celebrities at 6%, and parenting at 5%. You spend 39% of your time on local news, which is much higher than the typical 19% and higher than 96% of users. You could try exploring a new category or taking a short break away from the screen whenever you feel ready.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 3452,
@@ -63,6 +64,7 @@
    "videos_per_day": 77.0,
    "minutes_per_day": 8.9,
    "shared_sample": false,
+   "complete": true,
    "top_category": "Local news",
    "top_share": 0.095,
    "cats_for_80": 16,
@@ -109,8 +111,8 @@
     "skip_share": 0.642,
     "longest_sitting": 0.42
    },
-   "summary": "Your viewing is spread out: Local news (10%), Good looks (8%) and Food (8%) lead, but no single topic dominates. What stands out is variety: 80% of your time spans 16 categories, more than for about 92% of users. If you want to keep this balance, you could check the label now and then to see whether it holds.",
-   "summary_source": "AI model: Claude (Anthropic), same prompt as the notebook, written while building the prototype"
+   "summary": "Your feed is mostly made up of Local news 10%, Good looks 8%, and Food 8%. You spend only 10% of your time on Local news, which is lower than 99% of users compared to the typical 19%. You might want to try exploring a completely new category or taking a short break from the app when you feel like skipping through videos quickly.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 4102,
@@ -119,6 +121,7 @@
    "videos_per_day": 136.6,
    "minutes_per_day": 17.6,
    "shared_sample": false,
+   "complete": true,
    "top_category": "Local news",
    "top_share": 0.187,
    "cats_for_80": 15,
@@ -165,8 +168,8 @@
     "skip_share": 0.14,
     "longest_sitting": 0.794
    },
-   "summary": "Local news makes up 19% of your viewing time, followed by Good looks (11%) and Celebrities (8%), across about 137 videos a day. What stands out is volume: you watch more videos a day than 95% of users, and your longest sitting was 341 videos. If you want, you could try a daily video budget for a week and see how it feels.",
-   "summary_source": "AI model: Claude (Anthropic), same prompt as the notebook, written while building the prototype"
+   "summary": "Your viewing is mostly made of local news at 19%, good looks at 11%, and celebrities at 8%. You watch 137 videos per day, which is higher than 82 and higher than 95% of users. You might choose to set a daily time limit for yourself or simply try stepping away after a few videos to see how you feel.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 1836,
@@ -175,6 +178,7 @@
    "videos_per_day": 15.0,
    "minutes_per_day": 2.3,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Good looks",
    "top_share": 0.119,
    "cats_for_80": 14,
@@ -221,8 +225,8 @@
     "skip_share": 0.029,
     "longest_sitting": 0.009
    },
-   "summary": "About 12% of your viewing time goes to Good looks and 8% to Fashion, across 15 videos a day. What stands out: your mix is broad, with 80% of your time spread over 14 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your feed consists primarily of Good looks at 12% and Fashion at 8%. You skip only 6% of videos early, which is significantly lower than 21% for the typical user and lower than 97% of users. You might choose to set a timer to signal the end of your session, or perhaps explore a category you have never watched before.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 4505,
@@ -231,6 +235,7 @@
    "videos_per_day": 16.5,
    "minutes_per_day": 1.9,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Fashion",
    "top_share": 0.143,
    "cats_for_80": 14,
@@ -277,8 +282,8 @@
     "skip_share": 0.004,
     "longest_sitting": 0.004
    },
-   "summary": "About 14% of your viewing time goes to Fashion and 14% to Good looks, across 16 videos a day. What stands out: your mix is broad, with 80% of your time spread over 14 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your watch time consists mainly of Fashion at 14% and Good looks at 14%. You perform quick swipes on 4% of videos, which is much lower than the typical 21% and lower than almost all users. You might choose to explore a completely new topic or set a personal reminder to step away whenever you feel ready for a change.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 6634,
@@ -287,6 +292,7 @@
    "videos_per_day": 15.2,
    "minutes_per_day": 2.3,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Good looks",
    "top_share": 0.173,
    "cats_for_80": 13,
@@ -333,8 +339,8 @@
     "skip_share": 0.0,
     "longest_sitting": 0.001
    },
-   "summary": "About 17% of your viewing time goes to Good looks and 10% to Other topics, across 15 videos a day. What stands out: 29% of your time is between midnight and 6 am, more than for 76% of users. If you want, you could set a quiet-hours reminder after midnight.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your viewing is mostly made of Good looks at 17% and Other topics at 10%. You only perform quick swipes on 2% of videos, while the typical value is 21%, which is lower than almost all users. You might enjoy stepping away for a short walk after finishing a few videos, or perhaps you would prefer to explore a new category instead.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 1050,
@@ -343,6 +349,7 @@
    "videos_per_day": 17.6,
    "minutes_per_day": 2.9,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Local news",
    "top_share": 0.137,
    "cats_for_80": 15,
@@ -389,8 +396,8 @@
     "skip_share": 0.085,
     "longest_sitting": 0.001
    },
-   "summary": "About 14% of your viewing time goes to Local news and 9% to Good looks, across 18 videos a day. What stands out: your mix is broad, with 80% of your time spread over 15 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your viewing is mostly made of local news at 14%, good looks at 9%, and fashion at 8%. You spend 14% of your time on local news, while the typical value is 19%, which is lower than 93% of users. You could choose to put your phone away after a few videos or try exploring a brand new topic.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 4088,
@@ -399,6 +406,7 @@
    "videos_per_day": 9.1,
    "minutes_per_day": 1.5,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Local news",
    "top_share": 0.173,
    "cats_for_80": 13,
@@ -445,8 +453,8 @@
     "skip_share": 0.55,
     "longest_sitting": 0.001
    },
-   "summary": "About 17% of your viewing time goes to Local news and 10% to Food, across 9 videos a day. What stands out: 26% of your time is replays, more than for 50% of users. If you want, you could turn off autoplay loops for a week.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "You spend most of your time watching Local news (17%) and Food (10%). Your night viewing (00:00-05:59) is 0% of watch time, which is lower than 94% of users compared to the typical 11%. You might enjoy stepping away for a short walk after a few videos, or perhaps you would prefer to explore a completely new category instead.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 2696,
@@ -455,6 +463,7 @@
    "videos_per_day": 11.3,
    "minutes_per_day": 1.3,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Good looks",
    "top_share": 0.135,
    "cats_for_80": 14,
@@ -501,8 +510,8 @@
     "skip_share": 0.344,
     "longest_sitting": 0.028
    },
-   "summary": "About 13% of your viewing time goes to Good looks and 13% to Local news, across 11 videos a day. What stands out: your mix is broad, with 80% of your time spread over 14 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "You spend most of your time watching Good looks at 13%, Local news at 13%, and Fashion at 11%. Your share of time in the top category is 14%, which is lower than the typical 19% and lower than 93% of users. You could choose to set a daily time limit or explore a new topic when you decide to open the app.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 1438,
@@ -511,6 +520,7 @@
    "videos_per_day": 21.8,
    "minutes_per_day": 2.9,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Fashion",
    "top_share": 0.14,
    "cats_for_80": 12,
@@ -557,8 +567,8 @@
     "skip_share": 0.691,
     "longest_sitting": 0.002
    },
-   "summary": "About 14% of your viewing time goes to Fashion and 12% to Good looks, across 22 videos a day. What stands out: your mix is broad, with 80% of your time spread over 12 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your feed is mainly filled with Fashion at 14%, Good looks at 12%, and Local news at 10%. Your top category share is 14%, which is lower than the typical 19% and lower than 92% of users. You might want to consider setting a bedtime reminder or trying a different category to refresh your experience.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 385,
@@ -567,6 +577,7 @@
    "videos_per_day": 19.7,
    "minutes_per_day": 2.8,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Local news",
    "top_share": 0.24,
    "cats_for_80": 15,
@@ -613,8 +624,8 @@
     "skip_share": 0.162,
     "longest_sitting": 0.002
    },
-   "summary": "About 24% of your viewing time goes to Local news and 11% to Good looks, across 20 videos a day. What stands out: your top category takes a bigger share of your time than for 81% of users. If you want, you could follow one new topic this week and see if your feed widens.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your viewing is mostly made of Local news at 24% and Good looks at 11%. You only swipe away before a quarter of a video 8% of the time, which is lower than 84% of users (typical: 21%). You could choose to explore a new interest or simply close the app whenever you feel ready for a change.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 5450,
@@ -623,6 +634,7 @@
    "videos_per_day": 15.0,
    "minutes_per_day": 2.2,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Local news",
    "top_share": 0.372,
    "cats_for_80": 11,
@@ -669,8 +681,8 @@
     "skip_share": 0.051,
     "longest_sitting": 0.002
    },
-   "summary": "About 37% of your viewing time goes to Local news and 11% to Good looks, across 15 videos a day. What stands out: your top category takes a bigger share of your time than for 95% of users. If you want, you could follow one new topic this week and see if your feed widens.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your watch time consists mostly of Local news at 37% and Good looks at 11%. You spend 37% of your time on Local news, which is higher than the typical 19% and higher than 95% of users. You might choose to explore a new interest or step away for a quick break to refresh your feed.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 297,
@@ -679,6 +691,7 @@
    "videos_per_day": 12.3,
    "minutes_per_day": 1.5,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Sports",
    "top_share": 0.156,
    "cats_for_80": 14,
@@ -725,8 +738,8 @@
     "skip_share": 0.202,
     "longest_sitting": 0.002
    },
-   "summary": "About 16% of your viewing time goes to Sports and 12% to Local news, across 12 videos a day. What stands out: your mix is broad, with 80% of your time spread over 14 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "You mostly watch Sports at 16% and Local news at 12%. Your top category share is 16%, which is lower than the typical 19% and lower than 86% of users. You might choose to explore a brand new topic or simply close the app when you feel ready to move on to your next activity.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 1226,
@@ -735,6 +748,7 @@
    "videos_per_day": 13.1,
    "minutes_per_day": 2.0,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Fashion",
    "top_share": 0.136,
    "cats_for_80": 13,
@@ -781,8 +795,8 @@
     "skip_share": 0.052,
     "longest_sitting": 0.007
    },
-   "summary": "About 14% of your viewing time goes to Fashion and 13% to Local news, across 13 videos a day. What stands out: your mix is broad, with 80% of your time spread over 13 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your watch time consists mostly of Fashion (14%) and Local news (13%). You perform quick swipes on only 6% of videos, which is much lower than the typical 21% and lower than 95% of users. You might consider setting a timer before you start watching or choosing to close the app once your late-night session reaches a certain point.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 1665,
@@ -791,6 +805,7 @@
    "videos_per_day": 16.2,
    "minutes_per_day": 2.2,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Local news",
    "top_share": 0.185,
    "cats_for_80": 14,
@@ -837,8 +852,8 @@
     "skip_share": 0.019,
     "longest_sitting": 0.018
    },
-   "summary": "About 18% of your viewing time goes to Local news and 11% to Other topics, across 16 videos a day. What stands out: 25% of your time is between midnight and 6 am, more than for 71% of users. If you want, you could set a quiet-hours reminder after midnight.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your watch time is mostly made of local news at 18%, other topics at 11%, and good looks at 10%. You rarely skip videos quickly, with quick swipes at 5% of videos, which is lower than the typical 21% and lower than 98% of users. You might consider setting a timer for your night sessions or exploring a new category to see how it shifts your routine.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 5366,
@@ -847,6 +862,7 @@
    "videos_per_day": 14.5,
    "minutes_per_day": 1.8,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Local news",
    "top_share": 0.16,
    "cats_for_80": 14,
@@ -893,8 +909,8 @@
     "skip_share": 0.362,
     "longest_sitting": 0.007
    },
-   "summary": "About 16% of your viewing time goes to Local news and 11% to Fashion, across 14 videos a day. What stands out: your mix is broad, with 80% of your time spread over 14 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "You spend most of your time watching local news at 16%, fashion at 11%, and good looks at 9%. Your share of time in the top category is 16% (typical: 19%), which is lower than 84% of users. You might prefer to set a casual timer for your night sessions or explore a completely different topic to keep things fresh.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 5508,
@@ -903,6 +919,7 @@
    "videos_per_day": 10.0,
    "minutes_per_day": 1.6,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Short drama",
    "top_share": 0.1,
    "cats_for_80": 15,
@@ -949,8 +966,8 @@
     "skip_share": 0.528,
     "longest_sitting": 0.005
    },
-   "summary": "About 10% of your viewing time goes to Short drama and 8% to Local news, across 10 videos a day. What stands out: your mix is broad, with 80% of your time spread over 15 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your viewing is mostly made of short drama at 10%, local news at 8%, and comedy at 8%. You spend only 10% of your time on short drama, which is lower than 99% of users and quite unusual compared to the typical 19%. You could try exploring a brand new category of videos or simply closing the app after finishing your next clip.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 2439,
@@ -959,6 +976,7 @@
    "videos_per_day": 15.8,
    "minutes_per_day": 2.0,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Anime & manga",
    "top_share": 0.194,
    "cats_for_80": 13,
@@ -1005,8 +1023,8 @@
     "skip_share": 0.348,
     "longest_sitting": 0.002
    },
-   "summary": "About 19% of your viewing time goes to Anime & manga and 13% to Local news, across 16 videos a day. What stands out: your top category takes a bigger share of your time than for 50% of users. If you want, you could follow one new topic this week and see if your feed widens.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your viewing is mostly made of Anime & manga 19% and Local news 13%. Only 1% of your watch time is during the night (00:00-05:59), which is lower than 76% of users. You might choose to explore a new category or simply set the app aside when you feel like stepping away.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 4446,
@@ -1015,6 +1033,7 @@
    "videos_per_day": 17.6,
    "minutes_per_day": 2.2,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Local news",
    "top_share": 0.183,
    "cats_for_80": 15,
@@ -1061,8 +1080,8 @@
     "skip_share": 0.162,
     "longest_sitting": 0.002
    },
-   "summary": "About 18% of your viewing time goes to Local news and 9% to Fashion, across 18 videos a day. What stands out: your top category takes a bigger share of your time than for 38% of users. If you want, you could follow one new topic this week and see if your feed widens.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your viewing is mostly made of local news at 18%, fashion at 9%, and good looks at 8%. Only 8% of your videos are quick swipes, which is lower than 84% of users compared to the typical 21%. You might prefer to set a timer for your sessions or explore a completely different category to keep your experience fresh.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 4306,
@@ -1071,6 +1090,7 @@
    "videos_per_day": 19.1,
    "minutes_per_day": 1.8,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Local news",
    "top_share": 0.118,
    "cats_for_80": 17,
@@ -1117,8 +1137,8 @@
     "skip_share": 0.729,
     "longest_sitting": 0.011
    },
-   "summary": "About 12% of your viewing time goes to Local news and 10% to Fashion, across 19 videos a day. What stands out: your mix is broad, with 80% of your time spread over 17 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your feed is primarily composed of Local news 12%, Fashion 10%, and Good looks 9%. You have an unusually diverse taste, with your top category accounting for only 12% of your time, compared to 19% for a typical user, which is lower than 97% of users. You might prefer to close the app after a few clips or explore a fresh topic instead of scrolling late at night.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 2506,
@@ -1127,6 +1147,7 @@
    "videos_per_day": 14.3,
    "minutes_per_day": 1.8,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Good looks",
    "top_share": 0.156,
    "cats_for_80": 13,
@@ -1173,8 +1194,8 @@
     "skip_share": 0.011,
     "longest_sitting": 0.005
    },
-   "summary": "About 16% of your viewing time goes to Good looks and 14% to Fashion, across 14 videos a day. What stands out: your mix is broad, with 80% of your time spread over 13 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your watch time is primarily made up of Good looks (16%) and Fashion (14%). Only 5% of your videos are quick swipes, which is lower than 99% of users compared to the typical 21%. You might prefer to set a daily time limit for your sessions or occasionally explore a completely new category to refresh your feed.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 6301,
@@ -1183,6 +1204,7 @@
    "videos_per_day": 10.9,
    "minutes_per_day": 2.7,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Local news",
    "top_share": 0.187,
    "cats_for_80": 12,
@@ -1229,8 +1251,8 @@
     "skip_share": 0.35,
     "longest_sitting": 0.001
    },
-   "summary": "About 19% of your viewing time goes to Local news and 12% to Comedy, across 11 videos a day. What stands out: 48% of your time is replays, more than for 92% of users. If you want, you could turn off autoplay loops for a week.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your feed is mostly made up of Local news at 19%, Comedy at 12%, and Good looks at 9%. You spend 48% of your watch time replaying videos, which is higher than 92% of users and significantly above the typical value of 26%. You might choose to explore a brand new category or set a timer to help you decide when to wrap up your session.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 3083,
@@ -1239,6 +1261,7 @@
    "videos_per_day": 11.3,
    "minutes_per_day": 1.9,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Local news",
    "top_share": 0.123,
    "cats_for_80": 13,
@@ -1285,8 +1308,8 @@
     "skip_share": 0.001,
     "longest_sitting": 0.002
    },
-   "summary": "About 12% of your viewing time goes to Local news and 11% to Good looks, across 11 videos a day. What stands out: your mix is broad, with 80% of your time spread over 13 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your viewing is primarily made up of Local news at 12%, Good looks at 11%, and Fashion at 11%. You have quick swipes on only 4% of videos, which is lower than 21% of videos and lower than almost all users. You might choose to explore a completely new category or simply close the app whenever you feel satisfied with your current session.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 2339,
@@ -1295,6 +1318,7 @@
    "videos_per_day": 18.6,
    "minutes_per_day": 2.5,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Good looks",
    "top_share": 0.102,
    "cats_for_80": 14,
@@ -1341,8 +1365,8 @@
     "skip_share": 0.018,
     "longest_sitting": 0.002
    },
-   "summary": "About 10% of your viewing time goes to Good looks and 10% to Fashion, across 19 videos a day. What stands out: your mix is broad, with 80% of your time spread over 14 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your viewing is primarily composed of Good looks at 10% and Fashion at 10%. You spend only 10% of your time on your top category, which is much lower than the typical 19% seen by 99% of users. You might choose to explore a completely new category or step away for a fresh perspective.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 4307,
@@ -1351,6 +1375,7 @@
    "videos_per_day": 21.1,
    "minutes_per_day": 3.8,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Fashion",
    "top_share": 0.134,
    "cats_for_80": 15,
@@ -1397,8 +1422,8 @@
     "skip_share": 0.091,
     "longest_sitting": 0.002
    },
-   "summary": "About 13% of your viewing time goes to Fashion and 11% to Good looks, across 21 videos a day. What stands out: your mix is broad, with 80% of your time spread over 15 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your watch time is mainly focused on fashion at 13% and good looks at 11%. You spend 13% of your time on fashion, which is lower than 94% of users compared to the typical 19%. You might enjoy keeping your late-night viewing brief or switching to a new topic to see if it changes your feed.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 2463,
@@ -1407,6 +1432,7 @@
    "videos_per_day": 10.6,
    "minutes_per_day": 3.1,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Local news",
    "top_share": 0.199,
    "cats_for_80": 15,
@@ -1453,8 +1479,8 @@
     "skip_share": 0.745,
     "longest_sitting": 0.001
    },
-   "summary": "About 20% of your viewing time goes to Local news and 11% to Other topics, across 11 videos a day. What stands out: 60% of your time is replays, more than for 99% of users. If you want, you could turn off autoplay loops for a week.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your viewing is mostly made of local news at 20% and other topics at 11%. You have a high rate of replays at 60% of watch time, which is higher than 99% of users compared to the typical 26%. You might choose to explore a new category or close the app when you feel like repeating the same video.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 407,
@@ -1463,6 +1489,7 @@
    "videos_per_day": 13.3,
    "minutes_per_day": 2.5,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Local news",
    "top_share": 0.116,
    "cats_for_80": 15,
@@ -1509,8 +1536,8 @@
     "skip_share": 0.23,
     "longest_sitting": 0.001
    },
-   "summary": "About 12% of your viewing time goes to Local news and 8% to Celebrities, across 13 videos a day. What stands out: your mix is broad, with 80% of your time spread over 15 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your viewing is primarily focused on local news at 12%, celebrities at 8%, and fashion at 8%. You are quite diverse in your interests, as your share of time in the top category, local news, is only 12% compared to 19% for the typical user, which is lower than 97% of users. You might want to try setting a quiet phone alert to help you step away for a while, or you could explore a new topic when you feel like a change of pace.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 6208,
@@ -1519,6 +1546,7 @@
    "videos_per_day": 14.7,
    "minutes_per_day": 2.6,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Lifestyle",
    "top_share": 0.215,
    "cats_for_80": 11,
@@ -1565,8 +1593,8 @@
     "skip_share": 0.148,
     "longest_sitting": 0.001
    },
-   "summary": "About 22% of your viewing time goes to Lifestyle and 16% to Local news, across 15 videos a day. What stands out: 37% of your time is replays, more than for 74% of users. If you want, you could turn off autoplay loops for a week.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "You spend 22% of your time on Lifestyle and 16% on Local news. You only swipe away before a quarter of a video 8% of the time, which is lower than 85% of users (typical: 21%). You might enjoy exploring a new topic or closing the app after your next video.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 4186,
@@ -1575,6 +1603,7 @@
    "videos_per_day": 18.5,
    "minutes_per_day": 2.1,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Good looks",
    "top_share": 0.138,
    "cats_for_80": 14,
@@ -1621,8 +1650,8 @@
     "skip_share": 0.044,
     "longest_sitting": 0.007
    },
-   "summary": "About 14% of your viewing time goes to Good looks and 14% to Local news, across 18 videos a day. What stands out: your mix is broad, with 80% of your time spread over 14 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your viewing is primarily made of Good looks at 14% and Local news at 14%. You only skip past a video early 6% of the time, compared to the typical 21%, which is lower than 96% of users. You might choose to set a timer for your late-night sessions or explore a completely different topic to keep your experience fresh.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 5598,
@@ -1631,6 +1660,7 @@
    "videos_per_day": 20.7,
    "minutes_per_day": 2.7,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Local news",
    "top_share": 0.217,
    "cats_for_80": 13,
@@ -1677,8 +1707,8 @@
     "skip_share": 0.01,
     "longest_sitting": 0.001
    },
-   "summary": "About 22% of your viewing time goes to Local news and 10% to Good looks, across 21 videos a day. What stands out: your top category takes a bigger share of your time than for 71% of users. If you want, you could follow one new topic this week and see if your feed widens.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your viewing is mostly made up of Local news at 22% and Good looks at 10%. You have quick swipes on 5% of videos, which is the typical 21% value but lower than 99% of users. You might choose to set a timer for your late-night sessions or explore a new topic to freshen your feed.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 4821,
@@ -1687,6 +1717,7 @@
    "videos_per_day": 14.5,
    "minutes_per_day": 1.7,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Local news",
    "top_share": 0.168,
    "cats_for_80": 14,
@@ -1733,8 +1764,8 @@
     "skip_share": 0.181,
     "longest_sitting": 0.025
    },
-   "summary": "About 17% of your viewing time goes to Local news and 13% to Good looks, across 14 videos a day. What stands out: your mix is broad, with 80% of your time spread over 14 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your viewing is mostly made of local news at 17% and good looks at 13%. You only perform quick swipes on 9% of videos, which is lower than the typical 21% and lower than 82% of users. You might choose to set a timer for your sessions or try exploring a brand new category next time you open the app.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 2511,
@@ -1743,6 +1774,7 @@
    "videos_per_day": 19.3,
    "minutes_per_day": 1.8,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Fashion",
    "top_share": 0.152,
    "cats_for_80": 15,
@@ -1789,8 +1821,8 @@
     "skip_share": 0.463,
     "longest_sitting": 0.007
    },
-   "summary": "About 15% of your viewing time goes to Fashion and 12% to Other topics, across 19 videos a day. What stands out: your mix is broad, with 80% of your time spread over 15 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "You spend most of your time watching Fashion at 15%, Other topics at 12%, and Good looks at 10%. Your night viewing (00:00-05:59) is 44% of watch time, which is higher than 88% of users (typical: 11%). You might want to consider switching to a different hobby before bed or simply closing the app once you feel tired.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 3070,
@@ -1799,6 +1831,7 @@
    "videos_per_day": 14.7,
    "minutes_per_day": 2.6,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Good looks",
    "top_share": 0.168,
    "cats_for_80": 13,
@@ -1845,8 +1878,8 @@
     "skip_share": 0.0,
     "longest_sitting": 0.005
    },
-   "summary": "About 17% of your viewing time goes to Good looks and 10% to Local news, across 15 videos a day. What stands out: your mix is broad, with 80% of your time spread over 13 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your top interests are Good looks at 17% and Local news at 10%. You rarely skip early, with quick swipes at 2% of videos compared to the typical 21%, which is lower than almost all users. You might choose to set a timer for your sessions or explore a category you have never watched before.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 2224,
@@ -1855,6 +1888,7 @@
    "videos_per_day": 15.3,
    "minutes_per_day": 1.5,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Good looks",
    "top_share": 0.148,
    "cats_for_80": 13,
@@ -1901,8 +1935,8 @@
     "skip_share": 0.377,
     "longest_sitting": 0.03
    },
-   "summary": "About 15% of your viewing time goes to Good looks and 14% to Local news, across 15 videos a day. What stands out: your mix is broad, with 80% of your time spread over 13 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your viewing is mostly made of Good looks at 15% and Local news at 14%. Your share of time in the top category is 15%, compared to 19% for typical users, which is lower than 90% of users. You might choose to explore a completely new category or set a reminder to step away from your screen when you feel ready for a change.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 6826,
@@ -1911,6 +1945,7 @@
    "videos_per_day": 10.5,
    "minutes_per_day": 1.4,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Local news",
    "top_share": 0.183,
    "cats_for_80": 11,
@@ -1957,8 +1992,8 @@
     "skip_share": 0.088,
     "longest_sitting": 0.001
    },
-   "summary": "About 18% of your viewing time goes to Local news and 14% to Good looks, across 10 videos a day. What stands out: 24% of your time is replays, more than for 45% of users. If you want, you could turn off autoplay loops for a week.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your feed is mostly made of Local news at 18%, Good looks at 14%, and Fashion at 14%. You watch 0% of your content between 00:00-05:59, which is typical for 11% of watch time and lower than 94% of users. You could choose to explore a new category or simply set the phone aside when you feel ready for a break.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 4891,
@@ -1967,6 +2002,7 @@
    "videos_per_day": 13.1,
    "minutes_per_day": 2.4,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Good looks",
    "top_share": 0.152,
    "cats_for_80": 13,
@@ -2013,8 +2049,8 @@
     "skip_share": 0.013,
     "longest_sitting": 0.002
    },
-   "summary": "About 15% of your viewing time goes to Good looks and 12% to Fashion, across 13 videos a day. What stands out: your mix is broad, with 80% of your time spread over 13 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "You spend most of your time watching Good looks (15%) and Fashion (12%). Only 5% of your videos are quick swipes, which is lower than 99% of users. You might choose to set a timer for your late-night sessions or explore a fresh topic if you feel like a change.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 5910,
@@ -2023,6 +2059,7 @@
    "videos_per_day": 13.8,
    "minutes_per_day": 1.6,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Good looks",
    "top_share": 0.154,
    "cats_for_80": 12,
@@ -2069,8 +2106,8 @@
     "skip_share": 0.307,
     "longest_sitting": 0.001
    },
-   "summary": "About 15% of your viewing time goes to Good looks and 14% to Fashion, across 14 videos a day. What stands out: your mix is broad, with 80% of your time spread over 12 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your viewing is mainly composed of Good looks at 15% and Fashion at 14%. You spent 15% of your time on Good looks, which is lower than 19% for the typical user and lower than 87% of users. You might want to explore a new category when you open the app or simply step away for a quick break.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 475,
@@ -2079,6 +2116,7 @@
    "videos_per_day": 12.6,
    "minutes_per_day": 1.6,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Local news",
    "top_share": 0.161,
    "cats_for_80": 13,
@@ -2125,8 +2163,8 @@
     "skip_share": 0.335,
     "longest_sitting": 0.018
    },
-   "summary": "About 16% of your viewing time goes to Local news and 9% to Celebrities, across 13 videos a day. What stands out: your mix is broad, with 80% of your time spread over 13 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your watch time consists mostly of local news at 16%, celebrities at 9%, and good looks at 9%. You spend 61% of your watch time viewing between 00:00-05:59, which is higher than 95% of users compared to the typical 11%. You might choose to set a bedtime reminder or simply put your phone away to see how it affects your sleep.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 3481,
@@ -2135,6 +2173,7 @@
    "videos_per_day": 14.2,
    "minutes_per_day": 1.6,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Local news",
    "top_share": 0.148,
    "cats_for_80": 16,
@@ -2181,8 +2220,8 @@
     "skip_share": 0.443,
     "longest_sitting": 0.007
    },
-   "summary": "About 15% of your viewing time goes to Local news and 9% to Good looks, across 14 videos a day. What stands out: your mix is broad, with 80% of your time spread over 16 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your feed is primarily composed of Local news at 15%, Good looks at 9%, and Food at 7%. You spend 61% of your watch time viewing at night (00:00-05:59), which is higher than 95% of users compared to the typical 11%. You might prefer to set a wind-down timer before bed or simply try closing the app once you finish your current video.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 3464,
@@ -2191,6 +2230,7 @@
    "videos_per_day": 14.1,
    "minutes_per_day": 1.9,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Fashion",
    "top_share": 0.13,
    "cats_for_80": 14,
@@ -2237,8 +2277,8 @@
     "skip_share": 0.0,
     "longest_sitting": 0.007
    },
-   "summary": "About 13% of your viewing time goes to Fashion and 12% to Good looks, across 14 videos a day. What stands out: your mix is broad, with 80% of your time spread over 14 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "You mostly watch Fashion at 13%, Good looks at 12%, and Local news at 12%. Only 3% of your videos are quick swipes, which is lower than 94% of users compared to the typical 21%. You might prefer to set a gentle alarm for your nightly routine or simply pick a new category to explore when you feel ready for a change.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 2839,
@@ -2247,6 +2287,7 @@
    "videos_per_day": 22.0,
    "minutes_per_day": 2.4,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Local news",
    "top_share": 0.131,
    "cats_for_80": 16,
@@ -2293,8 +2334,8 @@
     "skip_share": 0.183,
     "longest_sitting": 0.013
    },
-   "summary": "About 13% of your viewing time goes to Local news and 12% to Good looks, across 22 videos a day. What stands out: your mix is broad, with 80% of your time spread over 16 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "You mostly watch local news at 13%, good looks at 12%, and fashion at 10%. Your share of time in the top category is 13% (typical: 19%), which is lower than 94% of users. You might choose to set a timer for your sessions or put your phone away after watching a few videos to help you step back.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 1266,
@@ -2303,6 +2344,7 @@
    "videos_per_day": 16.4,
    "minutes_per_day": 2.2,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Local news",
    "top_share": 0.141,
    "cats_for_80": 15,
@@ -2349,8 +2391,8 @@
     "skip_share": 0.308,
     "longest_sitting": 0.009
    },
-   "summary": "About 14% of your viewing time goes to Local news and 13% to Fashion, across 16 videos a day. What stands out: your mix is broad, with 80% of your time spread over 15 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your viewing is mostly made of local news at 14% and fashion at 13%. Your focus on local news is only 14%, which is lower than 92% of users compared to the typical 19%. You might choose to explore a different topic or simply close the app whenever you feel ready to move on to other activities.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 172,
@@ -2359,6 +2401,7 @@
    "videos_per_day": 10.5,
    "minutes_per_day": 1.6,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Good looks",
    "top_share": 0.141,
    "cats_for_80": 14,
@@ -2405,8 +2448,8 @@
     "skip_share": 0.017,
     "longest_sitting": 0.001
    },
-   "summary": "About 14% of your viewing time goes to Good looks and 14% to Local news, across 10 videos a day. What stands out: your mix is broad, with 80% of your time spread over 14 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your viewing is primarily focused on Good looks at 14% and Local news at 14%. You perform quick swipes on only 5% of videos, which is the typical value of 21% and is lower than 98% of users. You might choose to set a time limit for your late-night sessions or explore a new topic when you decide to log on.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 6374,
@@ -2415,6 +2458,7 @@
    "videos_per_day": 17.5,
    "minutes_per_day": 2.5,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Relationships",
    "top_share": 0.151,
    "cats_for_80": 12,
@@ -2461,8 +2505,8 @@
     "skip_share": 0.001,
     "longest_sitting": 0.007
    },
-   "summary": "About 15% of your viewing time goes to Relationships and 14% to Good looks, across 18 videos a day. What stands out: your mix is broad, with 80% of your time spread over 12 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your feed is mostly made up of Relationships at 15% and Good looks at 14%. You only skip past 4% of videos before a quarter of the way through, which is lower than almost all users compared to the typical 21%. You might enjoy trying a new interest or setting a gentle reminder to pause whenever you feel ready for a change.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 6211,
@@ -2471,6 +2515,7 @@
    "videos_per_day": 16.3,
    "minutes_per_day": 2.0,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Fashion",
    "top_share": 0.12,
    "cats_for_80": 15,
@@ -2517,8 +2562,8 @@
     "skip_share": 0.656,
     "longest_sitting": 0.025
    },
-   "summary": "About 12% of your viewing time goes to Fashion and 11% to Good looks, across 16 videos a day. What stands out: your mix is broad, with 80% of your time spread over 15 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your viewing is mostly made of Fashion at 12% and Good looks at 11%. You spend 12% of your time in your top category, Fashion, which is typical 19%; lower than 96% of users. You might want to consider shifting some of your late-night scrolling toward daytime hours or putting the phone down a bit earlier to see how it feels.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 5369,
@@ -2527,6 +2572,7 @@
    "videos_per_day": 10.4,
    "minutes_per_day": 2.9,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Local news",
    "top_share": 0.153,
    "cats_for_80": 12,
@@ -2573,8 +2619,8 @@
     "skip_share": 0.503,
     "longest_sitting": 0.002
    },
-   "summary": "About 15% of your viewing time goes to Local news and 14% to Anime & manga, across 10 videos a day. What stands out: your mix is broad, with 80% of your time spread over 12 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "You mostly watch Local news (15%) and Anime & manga (14%). Your replays account for 52% of your watch time, which is higher than 96% of users compared to the 26% typical value. You might choose to set a timer for your late-night sessions or explore a brand new topic during the day.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 1691,
@@ -2583,6 +2629,7 @@
    "videos_per_day": 16.5,
    "minutes_per_day": 2.1,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Local news",
    "top_share": 0.17,
    "cats_for_80": 15,
@@ -2629,8 +2676,8 @@
     "skip_share": 0.077,
     "longest_sitting": 0.018
    },
-   "summary": "About 17% of your viewing time goes to Local news and 8% to Dance, across 16 videos a day. What stands out: your mix is broad, with 80% of your time spread over 15 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your feed is primarily composed of Local news at 17%, Dance at 8%, and Good looks at 7%. You spend 74% of your watch time viewing at night (00:00-05:59), which is higher than 98% of users compared to the typical 11%. You might prefer setting a bedtime reminder or simply closing the app once you feel tired.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 6278,
@@ -2639,6 +2686,7 @@
    "videos_per_day": 10.9,
    "minutes_per_day": 1.7,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Good looks",
    "top_share": 0.121,
    "cats_for_80": 14,
@@ -2685,8 +2733,8 @@
     "skip_share": 0.232,
     "longest_sitting": 0.004
    },
-   "summary": "About 12% of your viewing time goes to Good looks and 10% to Other topics, across 11 videos a day. What stands out: your mix is broad, with 80% of your time spread over 14 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your viewing is mostly made of Good looks at 12% and Other topics at 10%. Your share of time in the top category is 12%, while the typical value is 19%, which is lower than 96% of users. You might choose to explore a new hobby outside of the app or simply set the device aside when you start feeling sleepy.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 1911,
@@ -2695,6 +2743,7 @@
    "videos_per_day": 11.7,
    "minutes_per_day": 1.7,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Fashion",
    "top_share": 0.144,
    "cats_for_80": 14,
@@ -2741,8 +2790,8 @@
     "skip_share": 0.29,
     "longest_sitting": 0.035
    },
-   "summary": "About 14% of your viewing time goes to Fashion and 12% to Local news, across 12 videos a day. What stands out: your mix is broad, with 80% of your time spread over 14 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your viewing is mostly made of Fashion at 14% and Local news at 12%. You spend 65% of your watch time viewing between 00:00-05:59, which is higher than 96% of users compared to the typical 11%. You might prefer to set a gentle reminder to help you wind down for the night or explore a fresh topic instead.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 279,
@@ -2751,6 +2800,7 @@
    "videos_per_day": 19.6,
    "minutes_per_day": 2.1,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Local news",
    "top_share": 0.148,
    "cats_for_80": 15,
@@ -2797,8 +2847,8 @@
     "skip_share": 0.53,
     "longest_sitting": 0.104
    },
-   "summary": "About 15% of your viewing time goes to Local news and 11% to Fashion, across 20 videos a day. What stands out: your mix is broad, with 80% of your time spread over 15 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your viewing is primarily made up of Local news at 15% and Fashion at 11%. You have a low replay rate of 8% of watch time, which is much lower than the typical value of 26% and lower than 94% of users. You might choose to set a time limit for your app sessions or simply enjoy a quiet break away from the screen when you feel ready.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 6306,
@@ -2807,6 +2857,7 @@
    "videos_per_day": 11.8,
    "minutes_per_day": 2.1,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Local news",
    "top_share": 0.147,
    "cats_for_80": 16,
@@ -2853,8 +2904,8 @@
     "skip_share": 0.0,
     "longest_sitting": 0.001
    },
-   "summary": "About 15% of your viewing time goes to Local news and 12% to Fashion, across 12 videos a day. What stands out: your mix is broad, with 80% of your time spread over 16 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your viewing is mostly made of local news at 15% and fashion at 12%. You have a unique style, as only 3% of your videos are quick swipes compared to the typical 21%, a rate lower than almost all users. You might prefer to set a gentle app timer for your late-night sessions or explore a completely different category to refresh your feed.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 4659,
@@ -2863,6 +2914,7 @@
    "videos_per_day": 16.3,
    "minutes_per_day": 1.9,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Local news",
    "top_share": 0.141,
    "cats_for_80": 15,
@@ -2909,8 +2961,8 @@
     "skip_share": 0.209,
     "longest_sitting": 0.013
    },
-   "summary": "About 14% of your viewing time goes to Local news and 12% to Good looks, across 16 videos a day. What stands out: your mix is broad, with 80% of your time spread over 15 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your viewing consists mostly of local news at 14%, good looks at 12%, and fashion at 9%. You rarely re-watch videos, with replays making up 8% of your watch time compared to 26% for the typical user, which is lower than 93% of users. You might enjoy setting a quiet reminder to step away for a while or exploring a completely different topic when you feel ready for a change.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 2541,
@@ -2919,6 +2971,7 @@
    "videos_per_day": 12.3,
    "minutes_per_day": 1.6,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Local news",
    "top_share": 0.142,
    "cats_for_80": 12,
@@ -2965,8 +3018,8 @@
     "skip_share": 0.224,
     "longest_sitting": 0.007
    },
-   "summary": "About 14% of your viewing time goes to Local news and 14% to Good looks, across 12 videos a day. What stands out: your mix is broad, with 80% of your time spread over 12 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your feed is primarily composed of Local news at 14% and Good looks at 14%. You spend only 14% of your time on your top category, which is lower than 19% for typical users and lower than 92% of users. You might prefer to explore a completely new topic or set a quiet timer to help you decide when to step away from the screen.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 5949,
@@ -2975,6 +3028,7 @@
    "videos_per_day": 15.2,
    "minutes_per_day": 2.3,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Fashion",
    "top_share": 0.126,
    "cats_for_80": 14,
@@ -3021,8 +3075,8 @@
     "skip_share": 0.0,
     "longest_sitting": 0.007
    },
-   "summary": "About 13% of your viewing time goes to Fashion and 11% to Local news, across 15 videos a day. What stands out: your mix is broad, with 80% of your time spread over 14 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "You spend your time mostly watching Fashion at 13%, Local news at 11%, and Good looks at 11%. You almost never swipe away early, with quick swipes at 2% of videos, which is lower than 99% of users compared to the typical 21%. You might enjoy trying a new topic or setting a bedtime reminder if you find yourself scrolling late at night.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 4305,
@@ -3031,6 +3085,7 @@
    "videos_per_day": 11.4,
    "minutes_per_day": 2.1,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Fashion",
    "top_share": 0.157,
    "cats_for_80": 13,
@@ -3077,8 +3132,8 @@
     "skip_share": 0.88,
     "longest_sitting": 0.001
    },
-   "summary": "About 16% of your viewing time goes to Fashion and 13% to Local news, across 11 videos a day. What stands out: your mix is broad, with 80% of your time spread over 13 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your feed is primarily shaped by Fashion at 16% and Local news at 13%. You skip 43% of videos before a quarter is finished, which is higher than 88% of users compared to the typical 21%. You might prefer to set a daily time limit for the app or explore a brand new topic instead of watching your usual feed.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 5034,
@@ -3087,6 +3142,7 @@
    "videos_per_day": 22.9,
    "minutes_per_day": 2.9,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Fashion",
    "top_share": 0.17,
    "cats_for_80": 13,
@@ -3133,8 +3189,8 @@
     "skip_share": 0.7,
     "longest_sitting": 0.018
    },
-   "summary": "About 17% of your viewing time goes to Fashion and 14% to Good looks, across 23 videos a day. What stands out: your mix is broad, with 80% of your time spread over 13 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your viewing is mostly made up of Fashion at 17% and Good looks at 14%. You do 47% of your watch time during night viewing (00:00-05:59), which is higher than 89% of users compared to the typical 11%. You might enjoy resting your eyes by choosing to set a nightly reminder to close the app or by exploring a new topic during the day.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 1823,
@@ -3143,6 +3199,7 @@
    "videos_per_day": 13.9,
    "minutes_per_day": 1.8,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Fashion",
    "top_share": 0.122,
    "cats_for_80": 13,
@@ -3189,8 +3246,8 @@
     "skip_share": 0.002,
     "longest_sitting": 0.007
    },
-   "summary": "About 12% of your viewing time goes to Fashion and 12% to Good looks, across 14 videos a day. What stands out: your mix is broad, with 80% of your time spread over 13 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "You primarily watch Fashion and Good looks, which each make up 12% of your viewing time. Only 4% of your videos are quick swipes, compared to 21% for the typical user, which is lower than almost all users. You might want to consider stepping away for a walk or perhaps exploring a completely different topic during your next session.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 458,
@@ -3199,6 +3256,7 @@
    "videos_per_day": 14.8,
    "minutes_per_day": 2.3,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Good looks",
    "top_share": 0.15,
    "cats_for_80": 12,
@@ -3245,8 +3303,8 @@
     "skip_share": 0.0,
     "longest_sitting": 0.004
    },
-   "summary": "About 15% of your viewing time goes to Good looks and 14% to Fashion, across 15 videos a day. What stands out: your mix is broad, with 80% of your time spread over 12 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your viewing is led by Good looks at 15% and Fashion at 14%. You perform quick swipes on only 3% of videos, which is lower than almost all users compared to the typical 21%. You might choose to set a timer for your next session or explore a new topic entirely.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 4317,
@@ -3255,6 +3313,7 @@
    "videos_per_day": 17.9,
    "minutes_per_day": 2.1,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Good looks",
    "top_share": 0.145,
    "cats_for_80": 14,
@@ -3301,8 +3360,8 @@
     "skip_share": 0.219,
     "longest_sitting": 0.005
    },
-   "summary": "About 14% of your viewing time goes to Good looks and 14% to Local news, across 18 videos a day. What stands out: your mix is broad, with 80% of your time spread over 14 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your viewing is mostly made up of Good looks at 14%, Local news at 14%, and Fashion at 12%. You spend only 14% of your time on Good looks, which is lower than 91% of users. You might enjoy switching to a different category or setting your device aside when you feel ready for a change.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 5096,
@@ -3311,6 +3370,7 @@
    "videos_per_day": 16.8,
    "minutes_per_day": 1.8,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Fashion",
    "top_share": 0.117,
    "cats_for_80": 15,
@@ -3357,8 +3417,8 @@
     "skip_share": 0.509,
     "longest_sitting": 0.013
    },
-   "summary": "About 12% of your viewing time goes to Fashion and 11% to Local news, across 17 videos a day. What stands out: your mix is broad, with 80% of your time spread over 15 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your viewing is primarily focused on fashion at 12% and local news at 11%. Your share of time in your top category, fashion, is 12%, which is lower than 19% for typical users and lower than 97% of users. You might choose to explore a new category during your next session or simply close the app whenever you feel satisfied.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 4137,
@@ -3367,6 +3427,7 @@
    "videos_per_day": 15.5,
    "minutes_per_day": 1.8,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Local news",
    "top_share": 0.187,
    "cats_for_80": 12,
@@ -3413,8 +3474,8 @@
     "skip_share": 0.407,
     "longest_sitting": 0.002
    },
-   "summary": "About 19% of your viewing time goes to Local news and 16% to Good looks, across 16 videos a day. What stands out: 16% of your time is between midnight and 6 am, more than for 59% of users. If you want, you could set a quiet-hours reminder after midnight.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your viewing is mostly made of local news at 19% and good looks at 16%. You have the lowest amount of replays at 21% of watch time, which is lower than 63% of users compared to the typical 26%. You might choose to set a timer for your late-night sessions or explore a completely different category to keep things fresh.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 4037,
@@ -3423,6 +3484,7 @@
    "videos_per_day": 14.5,
    "minutes_per_day": 2.2,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Local news",
    "top_share": 0.117,
    "cats_for_80": 15,
@@ -3469,8 +3531,8 @@
     "skip_share": 0.154,
     "longest_sitting": 0.004
    },
-   "summary": "About 12% of your viewing time goes to Local news and 10% to Good looks, across 14 videos a day. What stands out: your mix is broad, with 80% of your time spread over 15 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "You mostly watch local news at 12%, good looks at 10%, and fashion at 9%. Your share of time in local news is 12%, while the typical value is 19%, which is lower than 97% of users. You could choose to put the phone down after a short session or explore a new topic to keep your feed feeling fresh.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 4498,
@@ -3479,6 +3541,7 @@
    "videos_per_day": 18.7,
    "minutes_per_day": 2.4,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Fashion",
    "top_share": 0.18,
    "cats_for_80": 12,
@@ -3525,8 +3588,8 @@
     "skip_share": 0.014,
     "longest_sitting": 0.002
    },
-   "summary": "About 18% of your viewing time goes to Fashion and 15% to Other topics, across 19 videos a day. What stands out: 33% of your time is between midnight and 6 am, more than for 80% of users. If you want, you could set a quiet-hours reminder after midnight.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your viewing is primarily made up of Fashion (18%), Other topics (15%), and Good looks (13%). You perform quick swipes on 5% of videos, which is lower than 99% of users and significantly less than the typical 21%. You might prefer to set a gentle reminder to close the app after a while, or perhaps you would like to explore a fresh category instead.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 3291,
@@ -3535,6 +3598,7 @@
    "videos_per_day": 12.4,
    "minutes_per_day": 1.6,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Local news",
    "top_share": 0.14,
    "cats_for_80": 15,
@@ -3581,8 +3645,8 @@
     "skip_share": 0.003,
     "longest_sitting": 0.001
    },
-   "summary": "About 14% of your viewing time goes to Local news and 14% to Fashion, across 12 videos a day. What stands out: your mix is broad, with 80% of your time spread over 15 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your viewing is mostly made of Local news 14%, Fashion 14%, and Good looks 9%. You quick swipe just 4% of videos, which is lower than almost all users compared to a typical 21%. You might choose to set a break reminder or try a new topic.",
+   "summary_source": "Gemini (gemini-3-flash-preview), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 242,
@@ -3591,6 +3655,7 @@
    "videos_per_day": 13.9,
    "minutes_per_day": 2.2,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Good looks",
    "top_share": 0.14,
    "cats_for_80": 13,
@@ -3637,8 +3702,8 @@
     "skip_share": 0.191,
     "longest_sitting": 0.004
    },
-   "summary": "About 14% of your viewing time goes to Good looks and 12% to Local news, across 14 videos a day. What stands out: your mix is broad, with 80% of your time spread over 13 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your feed consists primarily of Good looks at 14%, Local news at 12%, and Fashion at 10%. You spend only 14% of your time on your top category, which is lower than 92% of users compared to the typical 19%. You might consider setting a timer to step away for a while, or perhaps you would prefer to explore a completely new category today?",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 7132,
@@ -3647,6 +3712,7 @@
    "videos_per_day": 17.7,
    "minutes_per_day": 3.2,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Local news",
    "top_share": 0.208,
    "cats_for_80": 13,
@@ -3693,8 +3759,8 @@
     "skip_share": 0.105,
     "longest_sitting": 0.002
    },
-   "summary": "About 21% of your viewing time goes to Local news and 13% to Fashion, across 18 videos a day. What stands out: 25% of your time is between midnight and 6 am, more than for 71% of users. If you want, you could set a quiet-hours reminder after midnight.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your viewing is primarily made up of Local news at 21% and Fashion at 13%. You rarely skip videos early, with quick swipes at 8% of videos, which is lower than the typical 21% and lower than 90% of users. You might choose to set a recurring reminder to step away from your screen or perhaps explore a different interest.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 5505,
@@ -3703,6 +3769,7 @@
    "videos_per_day": 16.1,
    "minutes_per_day": 2.4,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Local news",
    "top_share": 0.16,
    "cats_for_80": 13,
@@ -3749,8 +3816,8 @@
     "skip_share": 0.074,
     "longest_sitting": 0.001
    },
-   "summary": "About 16% of your viewing time goes to Local news and 12% to Good looks, across 16 videos a day. What stands out: your mix is broad, with 80% of your time spread over 13 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your viewing is mostly made of local news at 16%, good looks at 12%, and fashion at 10%. You perform quick swipes on 7% of videos, which is lower than 93% of users compared to the typical 21%. You might prefer to set a daily time limit for your sessions or choose to close the app after finishing a few videos.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 5600,
@@ -3759,6 +3826,7 @@
    "videos_per_day": 10.4,
    "minutes_per_day": 1.5,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Local news",
    "top_share": 0.198,
    "cats_for_80": 11,
@@ -3805,8 +3873,8 @@
     "skip_share": 0.892,
     "longest_sitting": 0.016
    },
-   "summary": "About 20% of your viewing time goes to Local news and 15% to Other topics, across 10 videos a day. What stands out: 38% of your time is replays, more than for 78% of users. If you want, you could turn off autoplay loops for a week.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your viewing is primarily made of local news at 20% and other topics at 15%. You swipe away from 44% of videos before a quarter is finished, which is higher than 89% of users and significantly more frequent than the typical 21%. You could try setting a time limit or choosing to step away from your phone whenever you feel restless.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 2392,
@@ -3815,6 +3883,7 @@
    "videos_per_day": 14.6,
    "minutes_per_day": 1.8,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Local news",
    "top_share": 0.148,
    "cats_for_80": 15,
@@ -3861,8 +3930,8 @@
     "skip_share": 0.006,
     "longest_sitting": 0.004
    },
-   "summary": "About 15% of your viewing time goes to Local news and 13% to Good looks, across 15 videos a day. What stands out: your mix is broad, with 80% of your time spread over 15 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your viewing is mainly composed of Local news at 15%, Good looks at 13%, and Other topics at 11%. You only leave 4% of videos early, which is lower than 99% of users and quite unusual compared to the typical 21%. You might prefer to watch fewer videos in a row or choose to set a stopping point before you start your next session.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 1277,
@@ -3871,6 +3940,7 @@
    "videos_per_day": 13.4,
    "minutes_per_day": 2.6,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Local news",
    "top_share": 0.164,
    "cats_for_80": 14,
@@ -3917,8 +3987,8 @@
     "skip_share": 0.454,
     "longest_sitting": 0.004
    },
-   "summary": "About 16% of your viewing time goes to Local news and 10% to Fashion, across 13 videos a day. What stands out: your mix is broad, with 80% of your time spread over 14 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your feed is primarily composed of Local news at 16%, Fashion at 10%, and Good looks at 9%. You have a lower share of time in your top category of Local news at 16% compared to the typical 19%, which is lower than 80% of users. You might enjoy setting a quiet alarm for when you start your late-night sessions or exploring a completely new category to refresh your feed.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 1318,
@@ -3927,6 +3997,7 @@
    "videos_per_day": 13.4,
    "minutes_per_day": 2.3,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Local news",
    "top_share": 0.206,
    "cats_for_80": 12,
@@ -3973,8 +4044,8 @@
     "skip_share": 0.483,
     "longest_sitting": 0.002
    },
-   "summary": "About 21% of your viewing time goes to Local news and 12% to Fashion, across 13 videos a day. What stands out: 40% of your time is replays, more than for 81% of users. If you want, you could turn off autoplay loops for a week.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your viewing is primarily made up of Local news at 21% and Fashion at 12%. You re-watch 40% of your total viewing time, which is higher than 26% (typical: 26%) and higher than 81% of users. You might choose to set a quiet time limit for your late-night sessions or explore a new category during the day.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 3414,
@@ -3983,6 +4054,7 @@
    "videos_per_day": 11.7,
    "minutes_per_day": 1.4,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Local news",
    "top_share": 0.107,
    "cats_for_80": 16,
@@ -4029,8 +4101,8 @@
     "skip_share": 0.128,
     "longest_sitting": 0.004
    },
-   "summary": "About 11% of your viewing time goes to Local news and 8% to Sports, across 12 videos a day. What stands out: your mix is broad, with 80% of your time spread over 16 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "You spend most of your time watching Local news (11%), Sports (8%), and Fashion (8%). Your focus on your top category, Local news, is just 11%, which is lower than the typical 19% seen by other viewers and lower than 98% of users. Would you like to try searching for a new topic, or perhaps close the app after finishing your current video?",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 2817,
@@ -4039,6 +4111,7 @@
    "videos_per_day": 12.1,
    "minutes_per_day": 2.6,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Local news",
    "top_share": 0.166,
    "cats_for_80": 14,
@@ -4085,8 +4158,8 @@
     "skip_share": 0.853,
     "longest_sitting": 0.009
    },
-   "summary": "About 17% of your viewing time goes to Local news and 13% to Fashion, across 12 videos a day. What stands out: your mix is broad, with 80% of your time spread over 14 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your top interests are Local news at 17% and Fashion at 13%. You re-watch 52% of your total viewing time, which is higher than 96% of users compared to the typical 26%. You might enjoy trying a new category to explore different topics or simply closing the app after finishing your current video.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 4438,
@@ -4095,6 +4168,7 @@
    "videos_per_day": 12.4,
    "minutes_per_day": 2.0,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Local news",
    "top_share": 0.167,
    "cats_for_80": 13,
@@ -4141,8 +4215,8 @@
     "skip_share": 0.031,
     "longest_sitting": 0.001
    },
-   "summary": "About 17% of your viewing time goes to Local news and 10% to Good looks, across 12 videos a day. What stands out: your mix is broad, with 80% of your time spread over 13 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your feed is mostly made up of local news at 17%, good looks at 10%, and other topics at 9%. You spend 84% of your watch time viewing between 00:00-05:59, which is higher than 99% of users and significantly above the typical 11%. You might enjoy experimenting with setting a wind-down timer for your late-night sessions or exploring a completely different category to refresh your feed.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 1643,
@@ -4151,6 +4225,7 @@
    "videos_per_day": 14.7,
    "minutes_per_day": 2.2,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Local news",
    "top_share": 0.164,
    "cats_for_80": 13,
@@ -4197,8 +4272,8 @@
     "skip_share": 0.106,
     "longest_sitting": 0.004
    },
-   "summary": "About 16% of your viewing time goes to Local news and 13% to Fashion, across 15 videos a day. What stands out: your mix is broad, with 80% of your time spread over 13 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your feed is primarily shaped by local news at 16% and fashion at 13%. You rarely skip videos early, with quick swipes at 8% of videos compared to the 21% typical, which is lower than 89% of users. You might choose to set a timer for your late-night sessions or perhaps explore a completely different category to see what else is out there.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 1094,
@@ -4207,6 +4282,7 @@
    "videos_per_day": 17.9,
    "minutes_per_day": 2.7,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Local news",
    "top_share": 0.182,
    "cats_for_80": 14,
@@ -4253,8 +4329,8 @@
     "skip_share": 0.307,
     "longest_sitting": 0.002
    },
-   "summary": "About 18% of your viewing time goes to Local news and 12% to Fashion, across 18 videos a day. What stands out: 36% of your time is between midnight and 6 am, more than for 82% of users. If you want, you could set a quiet-hours reminder after midnight.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "You mostly spend your time watching local news at 18% and fashion at 12%. Your night viewing (00:00-05:59) accounts for 36% of your watch time, which is higher than 82% of users compared to the typical 11%. You could try setting a bedtime reminder or switching to a new topic to help you wind down for the night.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 5458,
@@ -4263,6 +4339,7 @@
    "videos_per_day": 13.7,
    "minutes_per_day": 1.9,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Politics",
    "top_share": 0.13,
    "cats_for_80": 18,
@@ -4309,8 +4386,8 @@
     "skip_share": 0.458,
     "longest_sitting": 0.003
    },
-   "summary": "About 13% of your viewing time goes to Politics and 10% to Local news, across 14 videos a day. What stands out: your mix is broad, with 80% of your time spread over 18 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your feed is mainly filled with Politics at 13%, Local news at 10%, and Fashion at 8%. You spend only 13% of your time on your top category, which is lower than 95% of users and quite different from the typical 19%. You might enjoy exploring a completely new category or closing the app whenever you feel satisfied with your current session.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 2141,
@@ -4319,6 +4396,7 @@
    "videos_per_day": 13.2,
    "minutes_per_day": 2.2,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Fashion",
    "top_share": 0.143,
    "cats_for_80": 14,
@@ -4365,8 +4443,8 @@
     "skip_share": 0.037,
     "longest_sitting": 0.002
    },
-   "summary": "About 14% of your viewing time goes to Fashion and 13% to Local news, across 13 videos a day. What stands out: your mix is broad, with 80% of your time spread over 14 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "You mostly watch Fashion at 14% and Local news at 13%. Only 6% of your videos are quick swipes, which is lower than 96% of users. You could choose to explore a brand new category or set a reminder to step away whenever you feel ready.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 4349,
@@ -4375,6 +4453,7 @@
    "videos_per_day": 15.7,
    "minutes_per_day": 2.7,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Local news",
    "top_share": 0.142,
    "cats_for_80": 13,
@@ -4421,8 +4500,8 @@
     "skip_share": 0.024,
     "longest_sitting": 0.003
    },
-   "summary": "About 14% of your viewing time goes to Local news and 12% to Good looks, across 16 videos a day. What stands out: your mix is broad, with 80% of your time spread over 13 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your viewing consists mostly of local news at 14%, good looks at 12%, and fashion at 10%. You perform quick swipes on only 6% of videos, which is lower than 98% of users compared to the typical value of 21%. You could choose to explore a brand new topic or put your phone down whenever you feel ready for a change of pace.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 1898,
@@ -4431,6 +4510,7 @@
    "videos_per_day": 9.0,
    "minutes_per_day": 1.4,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Fashion",
    "top_share": 0.184,
    "cats_for_80": 11,
@@ -4477,8 +4557,8 @@
     "skip_share": 0.534,
     "longest_sitting": 0.001
    },
-   "summary": "About 18% of your viewing time goes to Fashion and 13% to Local news, across 9 videos a day. What stands out: 37% of your time is replays, more than for 75% of users. If you want, you could turn off autoplay loops for a week.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your watch time is mainly focused on fashion at 18%, local news at 13%, and anime & manga at 11%. You have 0% of watch time during night viewing (00:00-05:59), which is lower than 94% of users compared to the typical 11%. You might enjoy choosing to explore a brand new category or setting a brief stopping point for your next session.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 1245,
@@ -4487,6 +4567,7 @@
    "videos_per_day": 13.7,
    "minutes_per_day": 2.3,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Food",
    "top_share": 0.121,
    "cats_for_80": 15,
@@ -4533,8 +4614,8 @@
     "skip_share": 0.094,
     "longest_sitting": 0.004
    },
-   "summary": "About 12% of your viewing time goes to Food and 8% to Fashion, across 14 videos a day. What stands out: your mix is broad, with 80% of your time spread over 15 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your viewing is mostly made of Food at 12%, Fashion at 8%, and Good looks at 8%. You spend only 12% of your time on Food, which is lower than 19% for the typical user and lower than 96% of users. You could either continue your current viewing pace or try exploring a new category to see what else you enjoy.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 4764,
@@ -4543,6 +4624,7 @@
    "videos_per_day": 10.6,
    "minutes_per_day": 1.4,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Local news",
    "top_share": 0.256,
    "cats_for_80": 12,
@@ -4589,8 +4671,8 @@
     "skip_share": 0.079,
     "longest_sitting": 0.004
    },
-   "summary": "About 26% of your viewing time goes to Local news and 7% to Good looks, across 11 videos a day. What stands out: your top category takes a bigger share of your time than for 85% of users. If you want, you could follow one new topic this week and see if your feed widens.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your viewing is mostly made of local news at 26%, good looks at 7%, and anime & manga at 7%. You rarely skip videos early, as your quick swipes of 7% are lower than 92% of users compared to the typical 21%. You might prefer to set a casual timer for your sessions or explore a new topic when you feel like a change.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 3132,
@@ -4599,6 +4681,7 @@
    "videos_per_day": 18.3,
    "minutes_per_day": 2.3,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Good looks",
    "top_share": 0.136,
    "cats_for_80": 13,
@@ -4645,8 +4728,8 @@
     "skip_share": 0.253,
     "longest_sitting": 0.001
    },
-   "summary": "About 14% of your viewing time goes to Good looks and 11% to Local news, across 18 videos a day. What stands out: your mix is broad, with 80% of your time spread over 13 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your watch time consists mainly of Good looks at 14% and Local news at 11%. Your focus on Good looks is 14%, which is lower than 93% of users compared to the typical 19%. You could choose to set a time limit for your late-night sessions or explore a completely different category to see what else you enjoy.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 2784,
@@ -4655,6 +4738,7 @@
    "videos_per_day": 14.1,
    "minutes_per_day": 1.8,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Local news",
    "top_share": 0.176,
    "cats_for_80": 13,
@@ -4701,8 +4785,8 @@
     "skip_share": 0.184,
     "longest_sitting": 0.007
    },
-   "summary": "About 18% of your viewing time goes to Local news and 12% to Good looks, across 14 videos a day. What stands out: 67% of your time is between midnight and 6 am, more than for 97% of users. If you want, you could set a quiet-hours reminder after midnight.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "You spend most of your time watching Local news at 18% and Good looks at 12%. You do 67% of your viewing during the night, which is higher than 97% of users compared to the typical 11%. You might want to consider setting a bedtime reminder or trying a different activity to help you wind down before sleep.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 4310,
@@ -4711,6 +4795,7 @@
    "videos_per_day": 16.2,
    "minutes_per_day": 2.0,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Local news",
    "top_share": 0.151,
    "cats_for_80": 15,
@@ -4757,8 +4842,8 @@
     "skip_share": 0.201,
     "longest_sitting": 0.009
    },
-   "summary": "About 15% of your viewing time goes to Local news and 11% to Fashion, across 16 videos a day. What stands out: your mix is broad, with 80% of your time spread over 15 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your feed consists mainly of Local news at 15%, Fashion at 11%, and Good looks at 10%. You spend 65% of your watch time viewing between 00:00-05:59, which is higher than 96% of users compared to the typical 11%. You might enjoy trying a fresh topic or setting a screen time reminder for your late-night sessions if you find them cutting into your rest.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 1490,
@@ -4767,6 +4852,7 @@
    "videos_per_day": 20.7,
    "minutes_per_day": 3.7,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Good looks",
    "top_share": 0.157,
    "cats_for_80": 13,
@@ -4813,8 +4899,8 @@
     "skip_share": 0.001,
     "longest_sitting": 0.001
    },
-   "summary": "About 16% of your viewing time goes to Good looks and 11% to Local news, across 21 videos a day. What stands out: your mix is broad, with 80% of your time spread over 13 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your viewing is primarily focused on Good looks at 16% and Local news at 11%. You have quick swipes on only 4% of videos, while the typical user is at 21%, which is lower than almost all users. You might choose to set a timer for your late-night sessions or explore a brand new topic instead.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 1431,
@@ -4823,6 +4909,7 @@
    "videos_per_day": 17.6,
    "minutes_per_day": 2.6,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Good looks",
    "top_share": 0.123,
    "cats_for_80": 15,
@@ -4869,8 +4956,8 @@
     "skip_share": 0.002,
     "longest_sitting": 0.009
    },
-   "summary": "About 12% of your viewing time goes to Good looks and 11% to Fashion, across 18 videos a day. What stands out: your mix is broad, with 80% of your time spread over 15 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your viewing is primarily made up of Good looks at 12% and Fashion at 11%. You only perform quick swipes on 4% of videos, while the typical user does this on 21%, which is lower than almost all users. You might choose to explore a completely new category or set a timer for your next session to keep your viewing experience fresh.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 241,
@@ -4879,6 +4966,7 @@
    "videos_per_day": 21.9,
    "minutes_per_day": 3.0,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Local news",
    "top_share": 0.16,
    "cats_for_80": 16,
@@ -4925,8 +5013,8 @@
     "skip_share": 0.098,
     "longest_sitting": 0.009
    },
-   "summary": "About 16% of your viewing time goes to Local news and 9% to Good looks, across 22 videos a day. What stands out: your mix is broad, with 80% of your time spread over 16 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your watch time is mainly focused on Local news at 16%, Good looks at 9%, and Sports at 8%. You skip less than 7% of videos, which is much better than the typical 21% and lower than 90% of users. You might choose to set a timer for your late-night sessions or explore a completely different category to refresh your feed.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 5332,
@@ -4935,6 +5023,7 @@
    "videos_per_day": 15.6,
    "minutes_per_day": 1.7,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Good looks",
    "top_share": 0.159,
    "cats_for_80": 15,
@@ -4981,8 +5070,8 @@
     "skip_share": 0.333,
     "longest_sitting": 0.022
    },
-   "summary": "About 16% of your viewing time goes to Good looks and 10% to Local news, across 16 videos a day. What stands out: your mix is broad, with 80% of your time spread over 15 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "You spend most of your time watching Good looks (16%) and Local news (10%). You do no night viewing (00:00-05:59) at all, which is 0% of watch time compared to the typical 11%, a habit lower than 94% of users. You might enjoy setting a quiet timer for your sessions or perhaps exploring a completely new category to refresh your feed.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 4855,
@@ -4991,6 +5080,7 @@
    "videos_per_day": 13.6,
    "minutes_per_day": 2.3,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Local news",
    "top_share": 0.122,
    "cats_for_80": 14,
@@ -5037,8 +5127,8 @@
     "skip_share": 0.019,
     "longest_sitting": 0.001
    },
-   "summary": "About 12% of your viewing time goes to Local news and 12% to Good looks, across 14 videos a day. What stands out: your mix is broad, with 80% of your time spread over 14 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "You mostly watch local news at 12%, good looks at 12%, and fashion at 10%. You rarely swipe away early, with quick swipes at 5% of videos, which is much lower than the typical 21% and lower than 98% of users. You might want to consider putting your phone down before bed or exploring a different category of content.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 6942,
@@ -5047,6 +5137,7 @@
    "videos_per_day": 14.9,
    "minutes_per_day": 2.3,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Good looks",
    "top_share": 0.135,
    "cats_for_80": 13,
@@ -5093,8 +5184,8 @@
     "skip_share": 0.0,
     "longest_sitting": 0.003
    },
-   "summary": "About 13% of your viewing time goes to Good looks and 12% to Local news, across 15 videos a day. What stands out: your mix is broad, with 80% of your time spread over 13 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your viewing is mostly made of Good looks at 13%, Local news at 12%, and Fashion at 12%. You have quick swipes on 1% of videos, which is lower than the typical value of 21% and lower than almost all users. You might enjoy occasionally refreshing your feed by searching for a new topic or simply stepping away for a breath of fresh air.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 1773,
@@ -5103,6 +5194,7 @@
    "videos_per_day": 22.9,
    "minutes_per_day": 3.2,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Local news",
    "top_share": 0.187,
    "cats_for_80": 15,
@@ -5149,8 +5241,8 @@
     "skip_share": 0.023,
     "longest_sitting": 0.009
    },
-   "summary": "About 19% of your viewing time goes to Local news and 10% to Good looks, across 23 videos a day. What stands out: your top category takes a bigger share of your time than for 42% of users. If you want, you could follow one new topic this week and see if your feed widens.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your viewing is primarily composed of Local news at 19%, Good looks at 10%, and Dance at 7%. You skip only 6% of videos before a quarter of the way through, which is lower than 98% of users (typical: 21%). You might choose to explore a new category or step away for a breath of fresh air when you finish your next video.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 1928,
@@ -5159,6 +5251,7 @@
    "videos_per_day": 12.3,
    "minutes_per_day": 1.4,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Local news",
    "top_share": 0.163,
    "cats_for_80": 14,
@@ -5205,8 +5298,8 @@
     "skip_share": 0.339,
     "longest_sitting": 0.002
    },
-   "summary": "About 16% of your viewing time goes to Local news and 10% to Fashion, across 12 videos a day. What stands out: your mix is broad, with 80% of your time spread over 14 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "You mostly watch Local news at 16%, Fashion at 10%, and Good looks at 9%. Your replays account for 12% of watch time, which is lower than 84% of users compared to the typical 26%. You might prefer to set a casual timer for yourself or simply close the app whenever you feel ready to move on to something else.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 3322,
@@ -5215,6 +5308,7 @@
    "videos_per_day": 12.0,
    "minutes_per_day": 1.6,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Local news",
    "top_share": 0.198,
    "cats_for_80": 14,
@@ -5261,8 +5355,8 @@
     "skip_share": 0.456,
     "longest_sitting": 0.002
    },
-   "summary": "About 20% of your viewing time goes to Local news and 9% to Fashion, across 12 videos a day. What stands out: your top category takes a bigger share of your time than for 55% of users. If you want, you could follow one new topic this week and see if your feed widens.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your watch time is primarily made up of Local news at 20%, Fashion at 9%, and Good looks at 8%. You have 0% of watch time during night viewing (00:00-05:59), which is the typical 11% and lower than 94% of users. You could choose to explore a brand new topic or simply step away from your phone for a refreshing break.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 3504,
@@ -5271,6 +5365,7 @@
    "videos_per_day": 13.9,
    "minutes_per_day": 2.7,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Local news",
    "top_share": 0.175,
    "cats_for_80": 15,
@@ -5317,8 +5412,8 @@
     "skip_share": 0.564,
     "longest_sitting": 0.007
    },
-   "summary": "About 18% of your viewing time goes to Local news and 10% to Fashion, across 14 videos a day. What stands out: 44% of your time is replays, more than for 88% of users. If you want, you could turn off autoplay loops for a week.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "You spend most of your time watching Local news at 18%, Fashion at 10%, and Lifestyle at 8%. You have a unique habit of replaying content, with 44% of your watch time spent on re-watched segments, which is higher than 88% of users compared to the typical 26%. You might choose to set a timer for your sessions or simply close the app whenever you feel ready for a change.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 2212,
@@ -5327,6 +5422,7 @@
    "videos_per_day": 14.3,
    "minutes_per_day": 1.6,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Local news",
    "top_share": 0.223,
    "cats_for_80": 16,
@@ -5373,8 +5469,8 @@
     "skip_share": 0.27,
     "longest_sitting": 0.002
    },
-   "summary": "About 22% of your viewing time goes to Local news and 11% to Good looks, across 14 videos a day. What stands out: your top category takes a bigger share of your time than for 75% of users. If you want, you could follow one new topic this week and see if your feed widens.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your viewing is mostly made of local news at 22% and good looks at 11%. You spent 0% of your time watching at night, which is lower than 94% of users compared to the typical 11%. You might want to try watching a new topic or closing the app after finishing your next video, depending on how you feel.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 2486,
@@ -5383,6 +5479,7 @@
    "videos_per_day": 14.1,
    "minutes_per_day": 1.8,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Local news",
    "top_share": 0.118,
    "cats_for_80": 14,
@@ -5429,8 +5526,8 @@
     "skip_share": 0.22,
     "longest_sitting": 0.028
    },
-   "summary": "About 12% of your viewing time goes to Local news and 9% to Good looks, across 14 videos a day. What stands out: your mix is broad, with 80% of your time spread over 14 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your watch time is mainly focused on local news at 12%, good looks at 9%, and other topics at 9%. You spend 12% of your time on local news, while the typical value is 19%, which is lower than 97% of users. You might choose to explore a completely new category or simply step away to enjoy the world offline.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 5709,
@@ -5439,6 +5536,7 @@
    "videos_per_day": 15.2,
    "minutes_per_day": 2.0,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Local news",
    "top_share": 0.169,
    "cats_for_80": 14,
@@ -5485,8 +5583,8 @@
     "skip_share": 0.295,
     "longest_sitting": 0.007
    },
-   "summary": "About 17% of your viewing time goes to Local news and 12% to Good looks, across 15 videos a day. What stands out: your mix is broad, with 80% of your time spread over 14 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "You spend most of your time watching local news at 17%, good looks at 12%, and fashion at 11%. Your focus on local news is only 17%, which is lower than 77% of users compared to the typical 19%. You might enjoy experimenting with new topics or stepping away from your feed whenever you feel like a change of scenery.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 3948,
@@ -5495,6 +5593,7 @@
    "videos_per_day": 18.7,
    "minutes_per_day": 2.4,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Local news",
    "top_share": 0.186,
    "cats_for_80": 13,
@@ -5541,8 +5640,8 @@
     "skip_share": 0.0,
     "longest_sitting": 0.007
    },
-   "summary": "About 19% of your viewing time goes to Local news and 13% to Good looks, across 19 videos a day. What stands out: 10% of your time is between midnight and 6 am, more than for 47% of users. If you want, you could set a quiet-hours reminder after midnight.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your viewing is mostly made of local news at 19% and good looks at 13%. You only skip 3% of videos before a quarter is played, which is lower than almost all users compared to the typical 21%. You might prefer to explore a fresh category or simply pause for a moment when you feel like stepping away.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 597,
@@ -5551,6 +5650,7 @@
    "videos_per_day": 15.9,
    "minutes_per_day": 1.4,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Local news",
    "top_share": 0.192,
    "cats_for_80": 16,
@@ -5597,8 +5697,8 @@
     "skip_share": 0.405,
     "longest_sitting": 0.007
    },
-   "summary": "About 19% of your viewing time goes to Local news and 10% to Fashion, across 16 videos a day. What stands out: your top category takes a bigger share of your time than for 48% of users. If you want, you could follow one new topic this week and see if your feed widens.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "You spend most of your time watching Local news (19%), Fashion (10%), and Good looks (8%). You re-watch only 7% of videos, which is much lower than the 26% typical for others and lower than 95% of users. You could choose to set a timer for your viewing sessions or perhaps explore a completely new category instead.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 1712,
@@ -5607,6 +5707,7 @@
    "videos_per_day": 12.7,
    "minutes_per_day": 1.6,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Local news",
    "top_share": 0.203,
    "cats_for_80": 14,
@@ -5653,8 +5754,8 @@
     "skip_share": 0.174,
     "longest_sitting": 0.002
    },
-   "summary": "About 20% of your viewing time goes to Local news and 10% to Good looks, across 13 videos a day. What stands out: 42% of your time is between midnight and 6 am, more than for 87% of users. If you want, you could set a quiet-hours reminder after midnight.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "Your viewing is mostly made of local news at 20%, good looks at 10%, and fashion at 8%. You spend 42% of your watch time viewing at night (00:00-05:59), which is higher than 87% of users compared to the typical 11%. You might want to choose to put your phone down earlier or explore a new topic when you are looking for a change.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 370,
@@ -5663,6 +5764,7 @@
    "videos_per_day": 21.2,
    "minutes_per_day": 2.6,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Fashion",
    "top_share": 0.15,
    "cats_for_80": 13,
@@ -5709,8 +5811,8 @@
     "skip_share": 0.243,
     "longest_sitting": 0.013
    },
-   "summary": "About 15% of your viewing time goes to Fashion and 15% to Good looks, across 21 videos a day. What stands out: your mix is broad, with 80% of your time spread over 13 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "You spend most of your time watching Fashion at 15% and Good looks at 15%. You do 47% of your viewing between 00:00-05:59, which is higher than 90% of users compared to the 11% typical. You might enjoy setting a reminder to switch off for the night or exploring a different category to mix up your routine.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   },
   {
    "user_id": 1828,
@@ -5719,6 +5821,7 @@
    "videos_per_day": 13.5,
    "minutes_per_day": 2.1,
    "shared_sample": true,
+   "complete": false,
    "top_category": "Local news",
    "top_share": 0.118,
    "cats_for_80": 14,
@@ -5765,8 +5868,8 @@
     "skip_share": 0.087,
     "longest_sitting": 0.001
    },
-   "summary": "About 12% of your viewing time goes to Local news and 11% to Good looks, across 14 videos a day. What stands out: your mix is broad, with 80% of your time spread over 14 categories. If you want, you could check this label now and then to see if it stays that way.",
-   "summary_source": "Rule-based text (no AI key was used for this user)"
+   "summary": "You mostly watch Local news at 12%, Good looks at 11%, and Anime & manga at 8%. Your share of time in the top category is 12%, which is lower than the 19% typical value and lower than 97% of users. You might choose to explore a new category during the day or simply put your phone down once you finish a video.",
+   "summary_source": "Gemini (gemini-3.1-flash-lite), free API · fact check passed: every number is on the label"
   }
  ],
  "pop": {

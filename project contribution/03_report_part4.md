@@ -26,11 +26,11 @@ One label = one user, "serving size" = one average day over the 28 logging days 
 
 **There is no official "healthy amount" of short video**, so the label has no "% Daily Value" like a food label. Instead, every line says how the user compares with the other 5,765 users ("higher than 93% of users"). This is a comparison, not a target.
 
-**The AI summary.** A language model receives only the numbers on the label, never the raw watch history. The prompt asks for exactly three sentences: what the viewing is mostly made of, the one thing that stands out compared with other users, and one optional suggestion phrased as a choice. It must use only the numbers it was given, make no medical claims, and not moralise. Example (user 4701):
+**The AI summary.** A language model, Google Gemini (`gemini-3.1-flash-lite`, free API tier, the same set-up as Role 3), receives only the numbers on the label, never the raw watch history. The prompt asks for exactly three sentences: what the viewing is mostly made of, the one thing that stands out compared with other users, and one optional suggestion that helps the user notice or limit their viewing. It must copy the numbers as given, make no medical claims, not moralise, and never suggest watching more. Example (user 4701):
 
-> "About 39% of your viewing time goes to Local news, followed by Celebrities (6%) and Parenting (5%). What stands out most is how much one topic leads: your top category takes a bigger share of your time than for 97% of users. If you like, you could follow one or two new topics this week and see whether your mix changes."
+> "Your feed is mostly made of local news at 39%, celebrities at 6%, and parenting at 5%. You spend 39% of your time on local news, which is much higher than the typical 19% and higher than 96% of users. You could try exploring a new category or taking a short break away from the screen whenever you feel ready."
 
-The three demo summaries in the prototype were written by Claude (Anthropic) with this prompt while building the prototype. The notebook can regenerate them, and summaries for any other user, with Google Gemini's free tier (the same set-up Role 3 used). Without an API key the prototype falls back to a rule-based text and says so on screen.
+Gemini wrote summaries for 103 users: the 3 demo users and the 100 users shared with Roles 2 and 3. Every summary then goes through an automatic **fact check**, a simple guardrail. Any number in the summary that is not among the facts the model was given gets flagged, and the result is shown on screen. Without an API key, the notebook keeps the saved summaries, and users without one get a rule-based text, which the page says.
 
 ## 3. Data and method
 
@@ -87,6 +87,16 @@ The three demo summaries in the prototype were written by Claude (Anthropic) wit
 **What we found.** For most categories, about **15–25%** of videos are left before a quarter was watched. A few are far higher: Finance **77%**, Short drama **55%**, Tech & gadgets **50%**, Film & TV **49%**, Health **45%**, Food **44%**.
 
 **What it means.** These categories are shown often but rejected quickly. On a label, a high "quick swipes" line tells the user that a lot of their scrolling is searching rather than watching.
+
+### Finding 6: The AI writes well only when the numbers are pre-digested
+
+**What we found.** Our first prompt sent the label as bare numbers (for example `"longest_sitting": 10`, `"night_share": 0.9`). Gemini then made factual errors in plain, confident sentences. It called "10 videos" "10 minutes". It turned "higher than 90% of users" into "you watch 90% more at night than other users". It wrote things like "the 0.001 percentile". A second problem showed up in the suggestions: one summary invited a user to "explore the 39 categories you haven't watched yet" (39 is the total, and the user had watched 38). Another suggested "trying a longer session", the opposite of what a label is for.
+
+**What it means.** A language model is good at *phrasing*, not at *interpreting* raw numbers. Without care, the AI part of the label could tell users false things about themselves.
+
+**Why it happens.** A bare number has no unit and no meaning attached, so the model fills the gap with a plausible guess. That's the same mechanism behind the "invented video IDs" Role 3 saw.
+
+**What we did.** Prompt version 2 sends every fact as a labelled line with its unit and a ready-made comparison ("Longest sitting: 133 videos in a row (typical: 200 videos); lower than 67% of users"). It marks the most unusual fact so the model doesn't have to choose. It bans numbers in the suggestion and any nudge to watch more. We added the automatic fact check: with prompt v2, **all 103 summaries passed** (every number they contain is on the label), and the three demo summaries read correctly. 102 were written by `gemini-3.1-flash-lite`; one call hit a temporary "high demand" error, and the notebook fell back to `gemini-3-flash-preview`. The fact check catches invented numbers, not every misleading sentence, so a person should still read summaries before they reach real users. The first attempt's outputs are kept in `06_results/gemini_prompt_v1_examples.json`.
 
 ## 5. Limits
 

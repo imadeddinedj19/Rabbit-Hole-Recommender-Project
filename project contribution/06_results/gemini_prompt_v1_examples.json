@@ -1,0 +1,85 @@
+{
+ "note": "First Gemini attempt (prompt v1: bare numbers without units). Kept as evidence of errors; replaced by prompt v2.",
+ "summaries": {
+  "4701": {
+   "text": "Your feed consists primarily of local news at 39%, followed by smaller amounts of celebrity content, parenting, and food videos. You stand out for your high replay share, which sits in the 93rd percentile compared to other users. You might choose to explore some of the 33 other categories in your mix, or simply continue enjoying your current favorites.",
+   "source": "Gemini (gemini-3.1-flash-lite), free API"
+  },
+  "3452": {
+   "text": "Your feed is primarily composed of local news, good looks, food, dance, and celebrities, which make up about 40% of your viewing. You stand out most for your variety, as you explore 16 different categories to reach 80% of your watch time, placing you in the 92nd percentile of users. You could choose to spend more time on your favorite topics, or simply continue enjoying the broad mix of content you currently discover.",
+   "source": "Gemini (gemini-3.1-flash-lite), free API"
+  },
+  "4102": {
+   "text": "Your feed is primarily composed of local news at 18.7%, good looks at 11.5%, and celebrities at 7.6%. You watch 136.6 videos per day, placing you in the 95th percentile for daily video volume compared to other users. You might consider balancing your variety across the 15 categories that make up 80% of your viewing, or you could simply continue exploring at your current pace.",
+   "source": "Gemini (gemini-3.1-flash-lite), free API"
+  },
+  "1836": {
+   "text": "Your feed is primarily composed of Good looks at 12%, Fashion at 8%, and Relationships at 8%. You are in the 0.6th percentile for videos per day, watching far fewer than the typical user. You might choose to explore a wider variety of interests or keep your current focused viewing routine.",
+   "source": "Gemini (gemini-3.1-flash-lite), free API"
+  },
+  "4505": {
+   "text": "Your feed is primarily composed of fashion and good looks content, which together account for over 28% of your viewing. You stand out for your late-night habits, with a night share that is higher than 62% of other users. You might choose to explore more varied categories or perhaps set aside your phone earlier in the evening to see how it affects your experience.",
+   "source": "Gemini (gemini-3.1-flash-lite), free API"
+  },
+  "6634": {
+   "text": "You primarily watch videos about Good looks, Other topics, and Local news, which make up about 37% of your daily feed. You stand out for your late-night viewing habits, which are higher than 76.2% of other users. You might consider choosing to swap a few night-time videos for something different, or simply continue watching as you do now.",
+   "source": "Gemini (gemini-3.1-flash-lite), free API"
+  },
+  "1050": {
+   "text": "Your viewing is primarily composed of local news at 13.7%, followed by good looks at 8.7% and fashion at 8.3%. You stand out most for your longest sitting of 10 minutes, which is in the 0.1st percentile of users. You might consider whether you prefer to stick to your quick sessions or try watching for longer stretches.",
+   "source": "Gemini (gemini-3.1-flash-lite), free API"
+  },
+  "4088": {
+   "text": "You primarily watch local news, food content, and comedy, which make up about 37% of your total viewing time. Your longest sitting of 8 minutes is notably shorter than most other users, ranking in the 0.001 percentile. You could continue watching at your current pace, or you might choose to explore more of the 25 other categories available to you.",
+   "source": "Gemini (gemini-3.1-flash-lite), free API"
+  },
+  "2696": {
+   "text": "Your feed is primarily composed of Good looks at 13.5%, Local news at 13.4%, and Fashion at 11.3%. You stand out most for your viewing habits, as your longest sitting of 27 minutes is in the 2.8th percentile compared to others. You might choose to explore more varied categories, or continue enjoying your current mix of short daily sessions.",
+   "source": "Gemini (gemini-3.1-flash-lite), free API"
+  },
+  "1438": {
+   "text": "You spend most of your time watching fashion (14%), good looks (12%), and local news (10%). You watch 90% more at night than other users, making this your most distinct viewing habit. You might consider balancing your night viewing with some daytime sessions or enjoy your current routine as it is.",
+   "source": "Gemini (gemini-3.1-flash-lite), free API"
+  },
+  "385": {
+   "text": "Your viewing is primarily composed of local news at 24%, followed by good looks at 11% and comedy at 7%. You stand out most for your top category share, which sits at the 81st percentile compared to other users. You might choose to explore a few of the 33 other available categories or continue enjoying your current favorites.",
+   "source": "Gemini (gemini-3.1-flash-lite), free API"
+  },
+  "5450": {
+   "text": "Your feed is primarily composed of local news, which accounts for 37.2% of your viewing time. You stand out because your 95.4th percentile top category share is significantly higher than that of other users. You might consider exploring a few more of the other 30 categories if you want to broaden your content mix.",
+   "source": "Gemini (gemini-3.1-flash-lite), free API"
+  },
+  "297": {
+   "text": "Your viewing is primarily composed of sports at 15.6% and local news at 11.6%. You stand out most for your late-night habits, as your 20.4% night share ranks you in the 65th percentile among all users. You might consider balancing your nighttime sessions with some daytime viewing, or simply continue enjoying your content whenever you prefer.",
+   "source": "Gemini (gemini-3.1-flash-lite), free API"
+  },
+  "1226": {
+   "text": "Your feed is primarily composed of Fashion at 13.6% and Local news at 12.5%. You watch 92.6% more videos at night than the typical user. You might consider balancing your late-night viewing with some daytime sessions if you feel like a change in routine.",
+   "source": "Gemini (gemini-3.1-flash-lite), free API"
+  },
+  "1665": {
+   "text": "Your feed is primarily composed of local news at 18.5%, with the remainder split across other topics, fashion, and dance. You stand out for your late-night viewing habits, which rank in the 71st percentile compared to other users. You might consider balancing your late-night sessions with some daytime viewing if you want to shift your routine.",
+   "source": "Gemini (gemini-3.1-flash-lite), free API"
+  },
+  "5366": {
+   "text": "Your feed is primarily composed of local news at 16%, fashion at 11%, and good looks at 9%. You stand out most for your late-night viewing, which is higher than 64% of other users. You might consider whether you prefer keeping your current nighttime habits or shifting some of that time to earlier in the day.",
+   "source": "Gemini (gemini-3.1-flash-lite), free API"
+  },
+  "5508": {
+   "text": "Your daily viewing consists primarily of short drama at 10%, followed by local news and comedy. You watch for 15 minutes at your longest sitting, which is lower than 99.5% of other users. You might choose to explore more of the 27 other categories or simply continue enjoying your current mix.",
+   "source": "Gemini (gemini-3.1-flash-lite), free API"
+  },
+  "2439": {
+   "text": "Your feed is primarily composed of anime and manga at 19%, followed by local news at 13% and good looks at 9%. You stand out most for your longest sitting time, which is in the bottom 0.2% compared to other users. You could choose to explore some of the 13 categories that make up 80% of your viewing, or you might prefer to stick with your current favorite interests.",
+   "source": "Gemini (gemini-3.1-flash-lite), free API"
+  },
+  "4446": {
+   "text": "Your viewing is primarily composed of local news at 18.3%, fashion at 9.5%, and good looks at 7.8%. You stand out for your longest sitting of 11 minutes, which is in just the 0.2 percentile compared to other users. You could keep your current routine or explore the 31 other categories available to diversify your feed.",
+   "source": "Gemini (gemini-3.1-flash-lite), free API"
+  },
+  "4306": {
+   "text": "Your feed is primarily composed of local news (11.8%), fashion (10.1%), and good looks (8.8%). You stand out because you explore a wide variety of content, with 17 different categories making up 80% of your viewing, which is higher than 99.4% of other users. You might choose to watch fewer videos during the night, as 29.2% of your activity occurs after hours, or continue enjoying your current routine.",
+   "source": "Gemini (gemini-3.1-flash-lite), free API"
+  }
+ }
+}

@@ -34,7 +34,9 @@ NIGHT_HOURS = range(0, 6) # 00:00-05:59, platform clock in the data
 SKIP_RATIO = 0.25         # "quick swipe" = less than a quarter of the video watched
 TOP_INGREDIENTS = 5       # categories shown by name on the label, the rest is "Other"
 
-USE_GEMINI = False        # <<< EDIT: True = write the summaries with Gemini (free key from aistudio.google.com/apikey)
+USE_GEMINI = True         # <<< EDIT: False = skip Gemini and keep the summaries already saved in ai_summaries.json
+# The key is NEVER written in this notebook: you paste it when asked (or set the GEMINI_API_KEY environment variable).
+# Get a free key at aistudio.google.com/apikey. Press Enter without a key to skip Gemini.
 GEMINI_MODELS = ["gemini-3.1-flash-lite", "gemini-3-flash-preview", "gemini-flash-latest"]
 OUT = Path(os.environ.get("LABEL_OUT", "label_outputs"))   # where every output file goes
 OUT.mkdir(parents=True, exist_ok=True)
@@ -317,7 +319,7 @@ def label_dict(uid):
         ing.append({"name": f"Other ({len(share) - len(top)} categories)", "share": round(rest, 4)})
     d = {"user_id": int(uid), "persona": DEMO.get(uid, ""), "days": int(r.days),
          "videos_per_day": round(float(r.videos_per_day), 1), "minutes_per_day": round(float(r.minutes_per_day), 1),
-         "shared_sample": int(uid) in shared_set,
+         "shared_sample": int(uid) in shared_set, "complete": bool(r.complete),
          "top_category": r.top_category, "top_share": round(float(r.top_share), 3),
          "cats_for_80": int(r.cats_for_80), "cats_total": int(r.cats_total),
          "replay_share": round(float(r.replay_share), 3), "night_share": round(float(r.night_share), 3),
@@ -327,23 +329,53 @@ def label_dict(uid):
     d["pct"] = {m: round(float(r[m + "_pct"]), 3) for m in METRICS}
     return d
 
+# Prompt v2. Version 1 sent bare numbers ("longest_sitting": 10, "night_share": 0.9) and Gemini made errors:
+# it called 10 videos "10 minutes" and turned "higher than 90% of users" into "90% more than other users".
+# v2 sends every fact as a labelled line with its unit and a ready-made comparison, and marks the most
+# unusual line, so the model only has to phrase, not interpret. (v1 outputs: gemini_prompt_v1_examples.json)
 PROMPT = """You write the summary on a "video nutrition label" for a short-video app user.
-Facts (JSON, all numbers are averages per active day over {days} days of logged viewing):
+Facts about this user (averages over {days} days of viewing; "typical" = the median user):
 {facts}
-Population medians for comparison: {medians}
 
-Write exactly 3 short sentences in plain English, second person ("you").
-1. What the viewing is mostly made of (top categories with their % of time).
-2. The one thing that stands out most compared with other users (use the percentile you are given).
-3. One gentle, optional suggestion, phrased as a choice, not an order.
-Rules: use only numbers that appear in the facts; no medical or psychological claims; no moralising;
-no word "addiction"; under 75 words. Reply with the 3 sentences only."""
+Write exactly 3 short sentences in plain English, speaking to the user as "you".
+1. What the viewing is mostly made of: name the top 2 or 3 categories with their %.
+2. The fact marked [MOST UNUSUAL], in your own natural words, keeping its number, the typical value and
+   the comparison exactly (for example "higher than 96% of users").
+3. One gentle, optional suggestion that helps the user notice or limit their viewing (for example a break,
+   a time limit, or trying a new topic), phrased as a choice. Use no numbers in this sentence, and never
+   suggest watching more or for longer.
+Rules: copy numbers and units exactly as written above; never convert units; never write "percentile";
+never write "X% more than other users"; no medical or psychological claims; no moralising;
+no word "addiction"; under 70 words. Reply with the 3 sentences only."""
+
+def compare(p):
+    share = p if p >= 0.5 else 1 - p
+    who = "almost all users" if share >= 0.995 else f"{share:.0%} of users"
+    return ("higher than " if p >= 0.5 else "lower than ") + who
 
 def prompt_for(d):
-    facts = {k: d[k] for k in ["videos_per_day", "ingredients", "top_category", "top_share", "cats_for_80",
-                               "replay_share", "night_share", "skip_share", "longest_sitting", "pct"]}
-    med = {m: round(pop[m]["p50"], 3) for m in METRICS}
-    return PROMPT.format(days=d["days"], facts=json.dumps(facts), medians=json.dumps(med))
+    P, q = d["pct"], {m: pop[m]["p50"] for m in METRICS}
+    lines = {
+        "videos_per_day": f"Videos per day: {d['videos_per_day']:.0f} (typical: {q['videos_per_day']:.0f}); {compare(P['videos_per_day'])}",
+        "top_share": f"Share of time in the top category ({d['top_category']}): {d['top_share']:.0%} "
+                     f"(typical: {q['top_share']:.0%}); {compare(P['top_share'])}",
+        "replay_share": f"Replays (seconds re-watched after a video already played once): {d['replay_share']:.0%} of watch time "
+                        f"(typical: {q['replay_share']:.0%}); {compare(P['replay_share'])}",
+        "night_share": f"Night viewing (00:00-05:59): {d['night_share']:.0%} of watch time (typical: {q['night_share']:.0%}); "
+                       f"{compare(P['night_share'])}",
+        "skip_share": f"Quick swipes (left before a quarter of the video): {d['skip_share']:.0%} of videos "
+                      f"(typical: {q['skip_share']:.0%}); {compare(P['skip_share'])}",
+        "longest_sitting": f"Longest sitting: {d['longest_sitting']} videos in a row without a 30-minute break "
+                           f"(typical: {q['longest_sitting']:.0f} videos); {compare(P['longest_sitting'])}",
+    }
+    # Users with an incomplete history (test-set users) have deflated counts, so only shares can stand out.
+    allowed = lines if d.get("complete", True) else [k for k in lines if k.endswith("_share")]
+    top = max(allowed, key=lambda k: abs(P[k] - 0.5))
+    ing = ", ".join(f"{g['name']} {g['share']:.0%}" for g in d["ingredients"])
+    facts = [f"- What the watch time is made of: {ing}",
+             f"- Variety: 80% of the time is spread over {d['cats_for_80']} of 39 categories (typical: {q['cats_for_80']:.0f})"]
+    facts += [f"- {v}" + ("  [MOST UNUSUAL]" if k == top else "") for k, v in lines.items()]
+    return PROMPT.format(days=d["days"], facts="\n".join(facts))
 
 def rule_summary(d):
     a, b = d["ingredients"][0], d["ingredients"][1]
@@ -369,21 +401,56 @@ def rule_summary(d):
 SUMMARY_FILE = OUT / "ai_summaries.json"
 summaries = json.load(open(SUMMARY_FILE, encoding="utf-8")) if SUMMARY_FILE.exists() else {}
 
-if USE_GEMINI:
-    from google import genai   # Colab: !pip -q install google-genai
-    client = genai.Client(api_key=getpass.getpass("Paste your FREE Gemini API key and press Enter: "))
-    for uid in list(DEMO) + [u for u in shared if u not in DEMO]:
-        if str(uid) in summaries and summaries[str(uid)]["source"].startswith("Gemini"):
-            continue
-        for model in GEMINI_MODELS:
+def ask_gemini(client, prompt):
+    """Try each model in GEMINI_MODELS; wait and retry when the free tier says 'too many requests' (429)."""
+    for model in GEMINI_MODELS:
+        for attempt in range(4):
             try:
-                r = client.models.generate_content(model=model, contents=prompt_for(label_dict(uid)))
-                summaries[str(uid)] = {"text": (r.text or "").strip(), "source": f"Gemini ({model})"}
+                r = client.models.generate_content(model=model, contents=prompt)
                 time.sleep(4)          # stay under the free rate limit
-                break
+                return (r.text or "").strip(), model
             except Exception as e:
-                print(model, "failed:", str(e)[:120])
-        json.dump(summaries, open(SUMMARY_FILE, "w", encoding="utf-8"), indent=1, ensure_ascii=False)
+                msg = str(e)
+                if "429" in msg or "RESOURCE_EXHAUSTED" in msg:
+                    print("rate limit, waiting", 20 * (attempt + 1), "s"); time.sleep(20 * (attempt + 1)); continue
+                print(model, "failed:", msg[:120]); break
+    return "", None
+
+API_KEY = os.environ.get("GEMINI_API_KEY", "")
+if USE_GEMINI and not API_KEY:
+    API_KEY = getpass.getpass("Paste your FREE Gemini API key and press Enter (or just Enter to skip): ").strip()
+if USE_GEMINI and API_KEY:
+    from google import genai   # installed by the pip cell at the top
+    client = genai.Client(api_key=API_KEY)
+    todo = [u for u in list(DEMO) + [u for u in shared if u not in DEMO]
+            if not summaries.get(str(u), {}).get("source", "").startswith("Gemini")]
+    print(len(todo), "summaries to write with Gemini (about 5 seconds each)")
+    for i, uid in enumerate(todo, 1):
+        text, model = ask_gemini(client, prompt_for(label_dict(uid)))
+        if text:
+            summaries[str(uid)] = {"text": text, "source": f"Gemini ({model}), free API"}
+        if i % 10 == 0 or i == len(todo):
+            json.dump(summaries, open(SUMMARY_FILE, "w", encoding="utf-8"), indent=1, ensure_ascii=False)
+            print(i, "/", len(todo), "done")
+    for uid in DEMO:
+        print(f"\n{DEMO[uid]} (user {uid}):", summaries.get(str(uid), {}).get("text", "(none)"))
+
+else:
+    print("Gemini skipped: the prototype uses the summaries already saved in", SUMMARY_FILE)
+
+# Fact check (a simple guardrail): every number in an AI summary must also appear in the facts the model
+# was given. It catches invented numbers, not every wrong sentence, so we still read the demo summaries.
+NUM = re.compile(r"\d+(?:\.\d+)?")
+checked = bad = 0
+for uid, entry in summaries.items():
+    if int(uid) not in labels.index:
+        continue
+    allowed = set(NUM.findall(prompt_for(label_dict(int(uid)))))
+    extra = [n for n in NUM.findall(entry["text"]) if n not in allowed]
+    entry["number_check"] = "ok" if not extra else "numbers not on the label: " + ", ".join(extra)
+    checked += 1; bad += bool(extra)
+json.dump(summaries, open(SUMMARY_FILE, "w", encoding="utf-8"), indent=1, ensure_ascii=False)
+print(f"Fact check: {checked - bad} of {checked} summaries use only numbers from the label")
 
 print("Example prompt:\n", prompt_for(label_dict(narrow)))
 
@@ -398,6 +465,10 @@ for uid in list(DEMO) + [u for u in shared if u not in DEMO]:
     ai = summaries.get(str(uid))
     d["summary"] = ai["text"] if ai else rule_summary(d)
     d["summary_source"] = ai["source"] if ai else "Rule-based text (no AI key was used for this user)"
+    if ai and ai.get("number_check") == "ok":
+        d["summary_source"] += " · fact check passed: every number is on the label"
+    elif ai and ai.get("number_check"):
+        d["summary_source"] += " · fact check: " + ai["number_check"]
     cards.append(d)
 payload = {"users": cards, "pop": {m: pop[m] for m in METRICS}, "n_users": pop["n_users"],
            "coverage": pop["coverage"], "n_days": pop["n_days_in_data"],

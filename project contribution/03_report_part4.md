@@ -78,7 +78,7 @@ The three demo summaries in the prototype were written by Claude (Anthropic) wit
 
 ![Heavier users do not have a narrower diet](06_results/figures/fig3_volume_vs_concentration.png)
 
-**What it means.** In this data, the "rabbit hole" is not visible as a narrowing of topics. Heavy use shows up as *more of everything*, longer sittings and more night viewing. This matches what our team repository found in its simulation (Act 2: the feed doesn't narrow; everyone gets a similar feed). For the label, it means the most useful lines for heavy users are volume, sitting length and night viewing. The variety line matters most for the few narrow users like 4701.
+**What it means.** In this data, the "rabbit hole" is not visible as a narrowing of topics. Heavy use shows up as *more of everything*, longer sittings and more night viewing. For the label, it means the most useful lines for heavy users are volume, sitting length and night viewing. The variety line matters most for the few narrow users like 4701.
 
 **Why it happens.** We can only guess. Two candidate reasons: KuaiRec's video sample is spread over many categories, and heavy users may simply accept whatever the feed shows rather than searching for one topic. The data can't separate the two.
 

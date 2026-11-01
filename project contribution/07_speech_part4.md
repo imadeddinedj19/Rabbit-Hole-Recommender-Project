@@ -1,10 +1,10 @@
 # Part 4 speech: the Video Nutrition Label
 
-**Presenter:** Imad eddine Djehlane · **Length:** about 4 minutes · **Order:** slide 21 → live app → slide 22
+**Presenter:** Imad eddine Djehlane · **Length:** about 5 minutes · **Order:** slide 21 → live app → slide 22 → slide 23
 
 ## Structure in one line
 
-**Problem → data → features → benchmark → AI layer (and its failure) → deployment → feasibility**
+**Problem → data → features → benchmark → AI layer (and its failure) → population findings → deployment → feasibility**
 
 ---
 
@@ -35,7 +35,7 @@
 
 > This is the prototype, running on the real data.
 >
-> **Benchmarking.** There is no clinical threshold for a "healthy" amount of short video, so we don't invent one. Every line is benchmarked against the population instead, as a percentile. For example: "replays: 49% of time, higher than 93% of users." Across the whole population, replays are **28%** of all watch time. A quarter of the time goes to content the user has already seen.
+> **Benchmarking.** There is no clinical threshold for a "healthy" amount of short video, so we don't invent one. Every line is benchmarked against the population instead, as a percentile. For example: "replays: 49% of time, higher than 93% of users."
 >
 > *(click "The heavy viewer")* This user is at the 95th percentile: **137 videos a day**, with one session of **341 videos** without a 30-minute break.
 >
@@ -51,7 +51,19 @@
 >
 > Result: **101 of 101** summaries passed. Same lesson as Part 3: the LLM is useful as an explainer, but only with controlled input and a validation step.
 
-## Slide 22: "three moments, one clock"
+## Slide 22: "what 5,765 labels tell us"
+
+*(back to the slides)*
+
+> Once every user has a label, we can also read the population. Two findings.
+>
+> **Left: replays are everywhere.** **28%** of all watch time is replays: seconds spent on a clip that already played once in full. It isn't one category driving it. Every major category sits between 21% and 33%, and Local news is the highest. That's a design effect, autoplay and looping, not a content effect.
+>
+> **Right: heavier users are not narrower.** We split users into five groups by volume, from about 37 to about 120 videos a day. The share of time in their top category goes *down* slightly, from 24% to 19%. The correlation is weak and negative, −0.24. Heavy users don't fall into one topic; they watch more of everything, and more at night: 21% of their time, against 9% for the lightest group.
+>
+> The implication for the label: for most people, the important lines are **volume, session length and night viewing**, not only variety. A label that only measured diversity would miss the heavy users.
+
+## Slide 23: "three moments, one clock"
 
 > **Deployment.** The label is only useful at the right touchpoint. We designed three:
 > 1. **In-session:** a passive counter. Videos so far, dominant category. No blocking.
@@ -77,12 +89,15 @@ PROBLEM   screen time = only "how much", never "what"
 DATA      KuaiRec: 12.5M events · ~7k users · 28 days · 39 categories
 FEATURES  volume · category share · concentration (80%) · replays · night · swipes · longest session
 S21       76 vs 77 videos/day → 39% one category (>96% of users) vs 10% over 16 → same volume, different profile
-APP       benchmark = percentiles, no invented threshold · replays = 28% of all time
+APP       benchmark = percentiles, no invented threshold
           heavy viewer: 137/day (95th pct), 341 in one session
           reference = 5,765 users (1,411 test users excluded: held-out history)
 AI        Gemini, input = label numbers only → v1 hallucinated units/percentiles
           → v2 structured prompt + automated fact check → 101/101 passed
-S22       in-session · at user-set limit · next morning
+S22       replays 28% of all time, 21–33% in every category → design effect, not content
+          heavier users NOT narrower: top category 24% → 19% (r = −0.24) · night 9% → 21%
+          → label must show volume, sessions, night, not only variety
+S23       in-session · at user-set limit · next morning
           platform: can ship now (simple aggregation) · third party: export only (GDPR Art. 15/20)
           barrier = incentive, not technology
 CLOSE     "measurement layer on the user side" · "has every ingredient, doesn't print the label"

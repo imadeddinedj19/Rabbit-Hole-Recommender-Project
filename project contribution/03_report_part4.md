@@ -128,7 +128,7 @@ The label only helps if it appears at the right moment. We propose three:
 ## 7. Files
 
 - `01_label_prototype.html`: the clickable prototype (open in any browser).
-- `02_slides/`: slides 21 and 22 for the team deck, plus an optional backup slide.
+- `02_slides/`: slides 21–23 for the team deck.
 - `04_notebook_video_nutrition_label.ipynb`: the full analysis; runs in Google Colab.
 - `06_results/`: all numbers (CSV/JSON) and charts.
 

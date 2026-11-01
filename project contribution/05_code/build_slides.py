@@ -1,10 +1,10 @@
-"""Fill the Part 4 slots (slides 21 and 22) of the team deck "No clocks in the casino".
+"""Fill the Part 4 slots (slides 21 to 23) of the team deck "No clocks in the casino".
 
 Usage (from this folder):
     python build_slides.py "<path to no_clocks_in_the_casino.html>"
 
 Reads the label numbers from ../06_results/ and writes to ../02_slides/:
-    part4_sections_to_paste.html   the two <section> blocks (+ one optional backup slide) for Lu to paste
+    part4_sections_to_paste.html   the three <section> blocks (slides 21-23) for Lu to paste
     deck_with_part4_filled.html    the whole deck with the two slots replaced, to preview in context
 
 All numbers on the slides come from the results files, so re-running the notebook and then this script
@@ -130,11 +130,11 @@ morning = (f'<div class="caption" style="background:var(--c-fg);color:#111;borde
            f'<b style="font-family:Arial Black,Arial,sans-serif">Yesterday, bottled</b><br>{round(narrow["videos_per_day"])} videos · '
            f'replays {pct(narrow["replay_share"])} · "about {pct(top["share"])} of your time went to {top["name"]}…"</div>')
 
-slide22 = f'''      <!-- ═══ 22 · PART 4 · HOW IT WOULD WORK (Imad) ═══ -->
+slide23 = f'''      <!-- ═══ 23 · PART 4 · HOW IT WOULD WORK (Imad) ═══ -->
       <section class="slide dark">
         <header class="slide-chrome">
           <span class="label muted">Part 4 · Video nutrition label</span>
-          <span class="label muted">22</span>
+          <span class="label muted">23</span>
         </header>
         <div class="slide-body" style="display:flex;flex-direction:column;justify-content:center;gap:4vh;min-height:0">
           <div style="display:flex;justify-content:space-between;align-items:flex-end;gap:4vw">
@@ -167,53 +167,86 @@ slide22 = f'''      <!-- ═══ 22 · PART 4 · HOW IT WOULD WORK (Imad) ═�
         </footer>
       </section>'''
 
+import csv
 sp = pop["spearman"]
-backup = f'''      <!-- ═══ BACKUP · PART 4 · WHAT THE DATA SAYS (Imad, optional, for questions) ═══ -->
-      <section class="slide slide--stats orange">
+cats = list(csv.DictReader(open(RES / "category_ingredients.csv", encoding="utf-8")))[:8]   # 8 biggest categories by time
+bands = list(csv.DictReader(open(RES / "volume_bands.csv", encoding="utf-8")))
+overall = pop["replay_share_all_time"]
+SCALE = 0.40   # bars run from 0% to 40%
+
+rep_rows = "".join(f"""
+                <div class="body" style="color:var(--c-fg);white-space:nowrap">{c["category"]}</div>
+                <div style="position:relative;height:2.6vh;background:var(--c-bg-alt)">
+                  <div style="height:100%;width:{float(c["replay_share"]) / SCALE * 100:.1f}%;background:var(--c-accent)"></div>
+                  <div style="position:absolute;top:-0.6vh;bottom:-0.6vh;left:{overall / SCALE * 100:.1f}%;width:2px;background:var(--c-fg)"></div>
+                </div>
+                <div class="body" style="font-weight:700;text-align:right;color:var(--c-fg)">{pct(float(c["replay_share"]))}</div>""" for c in cats)
+
+band_names = ["lightest 20%", "", "middle", "", "heaviest 20%"]
+TOP = 0.30
+band_cols = "".join(f"""
+                <div style="display:flex;flex-direction:column;align-items:center;justify-content:flex-end;gap:0.8vh;height:100%">
+                  <div class="body" style="font-weight:700;color:var(--c-fg)">{pct(float(r["top_share"]))}</div>
+                  <div style="width:70%;height:{float(r["top_share"]) / TOP * 100:.1f}%;background:{'var(--c-accent)' if i in (0, 4) else 'var(--c-fg-3)'}"></div>
+                  <div class="caption muted" style="text-align:center;line-height:1.3">~{round(float(r["videos_per_day"]))}/day<br>{band_names[i]}&nbsp;</div>
+                </div>""" for i, r in enumerate(bands))
+
+slide22 = f'''      <!-- ═══ 22 · PART 4 · WHAT THE DATA SAYS (Imad) ═══ -->
+      <section class="slide dark">
         <header class="slide-chrome">
-          <span class="broadside-num">Backup</span>
-          <span class="corner-label">Part 4 · What the viewing data says</span>
+          <span class="label muted">Part 4 · Video nutrition label</span>
+          <span class="label muted">22</span>
         </header>
-        <div class="slide-body" style="display:flex;flex-direction:column;justify-content:center;gap:5vh">
-          <h2 class="h2" style="color:#111">the label, run on {pop["n_users"]:,} real users</h2>
-          <div class="stats-grid">
-            <div class="stat-card">
-              <div class="stat-value">{pct(pop["replay_share_all_time"])}</div>
-              <div class="stat-label body">of all watch time is replays: seconds watched after a video already played once in full</div>
-              <div class="stat-note">The label's "added sugar" line</div>
+        <div class="slide-body" style="display:flex;flex-direction:column;justify-content:center;gap:4vh;min-height:0">
+          <div style="display:flex;justify-content:space-between;align-items:flex-end;gap:4vw">
+            <div>
+              <p class="kicker" data-anim="fade-in" data-delay="0">What the data says</p>
+              <div class="rule" data-anim="reveal-right" data-delay="1" style="margin: 1.5vh 0"></div>
+              <h2 class="h2" data-anim="fade-up" data-delay="1">what {pop["n_users"]:,} labels<br />tell us</h2>
             </div>
-            <div class="stat-card">
-              <div class="stat-value">{round(pop["longest_sitting"]["p50"])}</div>
-              <div class="stat-label body">videos in the median user's longest sitting without a 30-minute break</div>
-              <div class="stat-note">Logged videos only: the real number is higher</div>
+            <p class="lead muted" data-anim="fade-up" data-delay="2" style="max-width:40%">We computed the label for every user with a complete history and compared them.</p>
+          </div>
+          <div data-anim="fade-up" data-delay="2" style="display:grid;grid-template-columns:1.15fr 1fr;gap:5vw">
+            <div>
+              <div class="label" style="color:var(--c-accent);margin-bottom:0.6vh">01 · replays are everywhere</div>
+              <div class="h3" style="font-weight:800;margin-bottom:2.2vh">{pct(overall)} of all watch time is replays</div>
+              <div style="display:grid;grid-template-columns:auto 1fr 3.2vw;gap:1.2vh 1vw;align-items:center">{rep_rows}
+              </div>
+              <p class="caption muted" style="margin-top:1.6vh">Share of each category's watch time spent replaying a clip that already played once. 8 largest categories. White line = all videos ({pct(overall)}).</p>
             </div>
-            <div class="stat-card">
-              <div class="stat-value">no</div>
-              <div class="stat-label body">heavier users do not have a narrower diet (correlation {sp["top_share"]:+.2f}). They replay and skip less.</div>
-              <div class="stat-note">Spearman, videos/day vs. top-category share</div>
+            <div style="display:flex;flex-direction:column">
+              <div class="label" style="color:var(--c-accent);margin-bottom:0.6vh">02 · heavier users are not narrower</div>
+              <div class="h3" style="font-weight:800;margin-bottom:2.2vh">they watch more of everything</div>
+              <div style="display:grid;grid-template-columns:repeat(5,1fr);gap:0.8vw;height:30vh;border-bottom:1px solid var(--c-border)">{band_cols}
+              </div>
+              <p class="caption muted" style="margin-top:1.6vh">Median share of time in the user's top category, users split into 5 groups by videos per day.
+                Heavier users also watch more at night ({pct(float(bands[4]["night_share"]))} vs {pct(float(bands[0]["night_share"]))} of their time).</p>
             </div>
           </div>
-          <p class="lead" style="color:rgba(17,17,17,.8)">KuaiRec logs only part of each user's viewing, so the label relies on counts and shares, not minutes.</p>
         </div>
-        <footer class="slide-foot" style="border-color: rgba(17, 17, 17, 0.15)">
-          <span class="broadside-num" style="opacity: 0.55">KuaiRec big matrix, 28 days · test-set users excluded (incomplete history)</span>
-          <span class="broadside-num" style="opacity: 0.55">Presenter: {PRESENTER}</span>
+        <footer class="slide-foot">
+          <span class="label muted">KuaiRec big matrix, 28 days · {pop["n_users"]:,} users with a complete history · Spearman, videos/day vs top-category share: {sp["top_share"]:+.2f}</span>
+          <span class="label muted">Presenter: {PRESENTER}</span>
         </footer>
       </section>'''
 
 (OUT / "part4_sections_to_paste.html").write_text(
-    "<!-- Part 4 (Imad eddine Djehlane): replace the two sections marked 'SLOT IMAD 1' and 'SLOT IMAD 2' in the deck\n"
-    "     with the first two sections below. The third one is an optional backup slide for questions:\n"
-    "     put it after the 'questions?' slide, or leave it out. -->\n\n"
-    + slide21 + "\n\n" + slide22 + "\n\n" + backup + "\n", encoding="utf-8")
+    "<!-- Part 4 (Imad eddine Djehlane): three slides.\n"
+    "     Replace the section marked 'SLOT IMAD 1' with the first block (slide 21) and the section marked\n"
+    "     'SLOT IMAD 2' with the second AND third blocks (slides 22 and 23). The slides after Part 4 then\n"
+    "     move up by one: implementation cost 24, conclusions 25, end 26. -->\n\n"
+    + slide21 + "\n\n" + slide22 + "\n\n" + slide23 + "\n", encoding="utf-8")
 
 if len(sys.argv) > 1:
     deck = Path(sys.argv[1]).read_text(encoding="utf-8")
     pat = lambda tag: re.compile(r"      <!-- ═══ \d+ · SLOT IMAD " + tag + r".*?</section>", re.S)
     deck, n1 = pat("1").subn(lambda m: slide21, deck, count=1)
-    deck, n2 = pat("2").subn(lambda m: slide22, deck, count=1)
+    deck, n2 = pat("2").subn(lambda m: slide22 + "\n\n" + slide23, deck, count=1)
     assert n1 == n2 == 1, "Could not find the SLOT IMAD 1/2 sections in the deck."
-    deck = deck.replace("    </div>\n    <!-- /#deck -->", "\n" + backup + "\n\n    </div>\n    <!-- /#deck -->", 1)
+    # Lu's later slides move up by one (their numbers are written in the HTML).
+    for old, new in [("23", "24"), ("24", "25"), ("25", "26")][::-1]:
+        deck = re.sub(r"(<!-- ═══ )" + old + r"( · (?:SLOT · |END).*?)(>" + old + r"<)",
+                      lambda m: m.group(1) + new + m.group(2) + ">" + new + "<", deck, count=1, flags=re.S)
     (OUT / "deck_with_part4_filled.html").write_text(deck, encoding="utf-8")
     print("Wrote deck_with_part4_filled.html")
 print("Wrote part4_sections_to_paste.html")
